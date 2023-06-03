@@ -1,0 +1,54 @@
+GH_Debug_Category = {
+    MAN_Aoki = {
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Aoki"
+			MAN = {
+				set_politics = {
+					ruling_party = despotism
+				}
+			}
+		}
+	}
+	MAN_Puyi = {
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Puyi"
+			MAN = {
+				set_politics = {
+					ruling_party = paternalism
+				}
+			}
+		}
+	}
+	MAN_Zhenduo = {
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Zhenduo"
+			MAN = {
+				set_politics = {
+					ruling_party = fascism
+				}
+			}
+		}
+	}
+	MAN_Katakura = {
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Katakura"
+			MAN = {
+				set_politics = {
+					ruling_party = fascism
+				}
+			}
+		}
+	}
+}

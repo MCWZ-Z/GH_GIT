@@ -1,0 +1,272 @@
+characters = {
+	MAN_aisin_gioro_puyi = {
+		name = MAN_aisin_gioro_puyi
+		portraits = {
+			civilian = { large = "gfx/leaders/MAN/Portrait_MAN_Puyi.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_PUYI_DESC"
+			ideology = paternalism_oligarchy_subtype
+			traits = { affable_puppet }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+	MAN_ruan_zhenduo = {
+		name = MAN_ruan_zhenduo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Ruan_Zhenduo.dds"
+				small = "GFX_idea_MAN_Ruan_Zhenduo"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RUAN_ZHENDUO_DESC"
+			ideology = national_socialism_stratocratic_corporatism_subtype
+			#fascism_reform_bureaucracy_subtype
+			traits = { affable_puppet }
+			expire = "1999.1.1."
+			id = -1
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = MAN_Ruan_Zhenduo_for
+			allowed = { original_tag = MAN }
+			traits = {
+				foreign_minister
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	MAN_gu_ciheng = {
+		name = MAN_gu_ciheng
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Gu_Ciheng.dds"
+				small = "GFX_idea_MAN_Gu_Ciheng"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GU_CIHENG_DESC"
+			ideology = paternalism_oligarchy_subtype
+			traits = { }
+			expire = "1999.1.1."
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = MAN_Gu_Ciheng_hog
+			allowed = { original_tag = MAN }
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	MAN_katakura_tadashi = {
+		name = MAN_katakura_tadashi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Katakura_Tadashi.dds"
+				small = "GFX_idea_MAN_Katakura_Tadashi"
+			}
+			army = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Katakura_Tadashi.dds"
+				small = "GFX_idea_MAN_Katakura_Tadashi"
+			}
+		}
+		field_marshal = {
+			traits = { old_guard infantry_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 2202
+		}
+		country_leader = {
+			#desc = ""
+			ideology = ultranationalism_ultramilitarism_subtype
+			traits = { }
+			expire = "1999.1.1."
+			id = -1
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = MAN_Katakura_Tadashi_sec
+			allowed = { original_tag = MAN }
+			traits = {
+				security_minister
+				cruel_and_greedy
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAN_Katakura_Tadashi_army_chief
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_chief
+				army_infantry_2
+			}
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	MAN_hisato_ichimada = {
+		name = MAN_hisato_ichimada
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Hisato_Ichimada"
+				small = "GFX_idea_MAN_Hisato_Ichimada"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HISATO_ICHIMADA_DESC"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = {  }
+			expire = "1999.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = MAN_hisato_ichimada_eco
+			allowed = { original_tag = MAN }
+			traits = { 
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	MAN_masahiko_aoki = {
+		name = MAN_masahiko_aoki
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Masahiko_Aoki.dds"
+				small = "GFX_idea_MAN_Masahiko_Aoki"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MASAHIKO_AOKI_DESC"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = MAN_masahiko_aoki_eco
+			allowed = { original_tag = MAN }
+			traits = {
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	MAN_kim_ilsong = {
+		name = MAN_kim_ilsong
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_Kim_Ilsung.dds"
+				small = "GFX_idea_MAN_Kim_Ilsung"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KIM_ILSUNG_DESC"
+			ideology = communist_national_communism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+	MAN_sejima_ryuzo = {
+		name = MAN_sejima_ryuzo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_Sejima_Ryuzo.dds"
+				small = "GFX_idea_MAN_Sejima_Ryuzo"
+			}
+			army = {
+				large = "gfx/leaders/MAN/Portrait_Sejima_Ryuzo.dds"
+				small = "GFX_idea_MAN_Sejima_Ryuzo"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SEJIMA_RYUZO_DESC"
+			ideology = communist_national_communism_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+	MAN_paik_sun_yup = {
+		name = MAN_paik_sun_yup
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_Paik_Sun_Yup.dds"
+				small = "GFX_idea_MAN_Paik_Sun_Yup"
+			}
+			army = {
+				large = "gfx/leaders/MAN/Portrait_Paik_Sun_Yup.dds"
+				small = "GFX_idea_MAN_Paik_Sun_Yup"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	MAN_chung_il_kwon = {
+		name = MAN_chung_il_kwon
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_Chung_Il_Kwon.dds"
+				small = "GFX_idea_MAN_Chung_Il_Kwon"
+			}
+			army = {
+				large = "gfx/leaders/MAN/Portrait_Chung_Il_Kwon.dds"
+				small = "GFX_idea_MAN_Chung_Il_Kwon"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	MAN_choi_kyu_hah = {
+		name = MAN_choi_kyu_hah
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_Choi_Kyu_Hah.dds"
+				small = "GFX_idea_MAN_Choi_Kyu_Hah"
+			}
+		}
+	}
+}

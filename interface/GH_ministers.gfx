@@ -1,0 +1,36 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_MAN_Masahiko_Aoki"
+		texturefile = "gfx/interface/ideas/ministers/MAN/MAN_minister_Masahiko_Aoki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MAN_Hisato_Ichimada"
+		textureFile = "gfx/interface/ideas/ministers/MAN/MAN_minister_Hisato_Ichimada.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAN_Gu_Ciheng"
+		textureFile = "gfx/interface/ideas/ministers/MAN/MAN_minister_Gu_Ciheng.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAN_Sejima_Ryuzo"
+		textureFile = "gfx/interface/ideas/ministers/MAN/MAN_minister_Sejima_Ryuzo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAN_Paik_Sun_Yup"
+		textureFile = "gfx/interface/ideas/ministers/MAN/MAN_minister_Paik_Sun_Yup.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAN_Chung_Il_Kwon"
+		textureFile = "gfx/interface/ideas/ministers/MAN/MAN_minister_Chung_Il_Kwon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAN_Choi_Kyu_Hah"
+		textureFile = "gfx/interface/ideas/ministers/MAN/MAN_minister_Choi_Kyu_Hah.dds"
+	}
+}

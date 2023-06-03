@@ -1,0 +1,20 @@
+add_namespace = man
+
+country_event = {
+	id = man.1
+	title = man.1.t
+	desc = man.1.desc
+
+	picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.1"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.1.a
+	}
+}

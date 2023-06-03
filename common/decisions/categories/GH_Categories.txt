@@ -1,0 +1,11 @@
+GH_Debug_Category = {
+	icon = /
+	allowed = {
+        tag = MAN
+    }
+    visible = {
+        is_debug = yes
+        is_ai = no
+    }
+    visible_when_empty = yes
+}
