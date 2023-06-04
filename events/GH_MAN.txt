@@ -1,5 +1,4 @@
 add_namespace = man
-add_namespace = man
 country_event = {
 	id = man.1
 	title = man.1.t
