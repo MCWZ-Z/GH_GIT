@@ -1,7 +1,8 @@
+#这个文件定义了所有人的小头像
 spriteTypes = {
 	spriteType = {
-		name = "GFX_idea_MAN_GH_Masahiko_Aoki"
-		texturefile = "gfx/interface/ideas/ministers/MAN/MAN_GH_minister_Masahiko_Aoki.dds"
+		name = "GFX_idea_MAN_GH_Masahiko_Aoki" #这是在character中规定的GFX命名
+		texturefile = "gfx/interface/ideas/ministers/MAN/MAN_GH_minister_Masahiko_Aoki.dds" #这是GFX对应的文件，文件命名统一为“MAN_GH_minister_人名.dds”
 	}
 	
 	spriteType = {

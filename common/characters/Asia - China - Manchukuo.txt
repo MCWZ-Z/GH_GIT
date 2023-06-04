@@ -1,19 +1,62 @@
 characters = { 
-	MAN_aisin_gioro_puyi = {
-		name = MAN_aisin_gioro_puyi
+	MAN_GH_exempli = { #为了防止与原版文件冲突，GH Character命名一律以国家ID_GH_开头
+		name = MAN_GH_exempli #这是该Character的名字本地化，如无特殊情况要求与Character键值相同
+		portraits = { #这部分是人物的头像
+			civilian = { #civilian表示该Character的ledger为civilian时所使用的头像，通常为国家领袖、顾问等
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_exempli.dds" #可以看到文件路径，大头一律保存在“gfx/leaders/国家ID/”这一路径下，命名一律为“Portrait_国家ID_GH_名称.dds”
+				small = "GFX_idea_MAN_GH_exempli"  #GFX头像文件命名规则相同，一般为“GFX_idea_国家ID_GH_名称”，这部分在相对应的interface/文件夹下会提到
+			}
+			army = { #army表示该Character的ledger为army时所使用的头像，一般是将领、军事指挥官等
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_exempli.dds"
+				small = "GFX_idea_MAN_GH_exempli"
+			}
+		}
+		country_leader = { #这部分是该character作为国家领袖时的定义
+			desc = "POLITICS_EXEMPLI_DESC" #这部分是对应该character作为国家领袖时的描述的本地化，命名规则统一为“POLITICS_名称_DESC”
+			ideology = stalinism #这里应该给一个子意识形态，具体有哪些子意识形态可以在TNO汉化文件内用中文很容易地搜索到
+			traits = {
+				#这部分是人物特质，通常使用在common/country_leader/00_GH_traits.txt中定义的内容
+			}
+			expire = "1999.1.1" #该character什么时候失效，基本不用改，都用这个时间
+			id = -1 #也不用改
+		}
+		advisor = { #该部分是character作为顾问时的定义
+			slot = head_of_government #这部分用于定义顾问的类型（政府首脑、安全部长、外交部长、经济部长），注意，这一定义只会影响位置，不会在任何地方表现出来
+			idea_token = MAN_GH_exempli_hog #这是用于将该顾问具体分配的键值，也是本地化所使用的键值，命名规则为“国家ID_GH_名称_xx”，xx可以是“hog、for、eco、sec”，详见以下的character
+			allowed = { original_tag = MAN } #我们用限定初始国家ID的方法来保证它不会出现在别的地方
+			traits = { } #同样的特质
+			ledger = civilian #上面提到的ledger
+			cost = -1 #TNO中并不需要你自己招募，故这段代码抄就完了
+			can_be_fired = no #同上
+			ai_will_do = { factor = 0 } #同上，MTTH代码几乎不用管
+		}
+		field_marshal = { #这是作为将领的定义文件，field_marshall是元帅，还有其他的定义均可以在wiki上找到
+			traits = { old_guard infantry_leader } #这些traits也可以在wiki上找到，一般不需要自己定义
+			skill = 4 #将领技能
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 2200 #不必关心
+		}
+
+
+	}
+	MAN_GH_aisin_gioro_puyi = { #溥仪
+		name = MAN_GH_aisin_gioro_puyi
 		portraits = {
 			civilian = { large = "gfx/leaders/MAN/Portrait_MAN_GH_Puyi.dds" }
 		}
 		country_leader = {
 			desc = "POLITICS_PUYI_DESC"
 			ideology = paternalism_oligarchy_subtype
-			traits = { affable_puppet }
+			traits = { }
 			expire = "1999.1.1"
 			id = -1
 		}
 	}
-	MAN_ruan_zhenduo = {
-		name = MAN_ruan_zhenduo
+	MAN_GH_ruan_zhenduo = { #阮振铎
+		name = MAN_GH_ruan_zhenduo
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Ruan_Zhenduo.dds"
@@ -30,7 +73,7 @@ characters = {
 		}
 		advisor = {
 			slot = head_of_government
-			idea_token = MAN_Gu_Ciheng_hog
+			idea_token = MAN_GH_gu_ciheng_hog
 			allowed = { original_tag = MAN }
 			traits = {
 				opportunistic
@@ -42,8 +85,8 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
-	MAN_gu_ciheng = {
-		name = MAN_gu_ciheng
+	MAN_GH_gu_ciheng = { #谷次亨
+		name = MAN_GH_gu_ciheng
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Gu_Ciheng.dds"
@@ -59,7 +102,7 @@ characters = {
 		}
 		advisor = {
 			slot = foreign_minister
-			idea_token = MAN_Gu_Ciheng_for
+			idea_token = MAN_GH_gu_ciheng_for
 			allowed = { original_tag = MAN }
 			traits = {
 				sociability
@@ -71,8 +114,8 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
-	MAN_katakura_tadashi = {
-		name = MAN_katakura_tadashi
+	MAN_GH_katakura_tadashi = { #片仓衷
+		name = MAN_GH_katakura_tadashi
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Katakura_Tadashi.dds"
@@ -101,7 +144,7 @@ characters = {
 		}
 		advisor = {
 			slot = security_minister
-			idea_token = MAN_Katakura_Tadashi_sec
+			idea_token = MAN_GH_katakura_tadashi_sec
 			allowed = { original_tag = MAN }
 			traits = {
 				security_minister
@@ -114,7 +157,7 @@ characters = {
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = MAN_Katakura_Tadashi_army_chief
+			idea_token = MAN_GH_katakura_tadashi_army_chief
 			ledger = army
 			allowed = {
 				original_tag = MAN
@@ -128,8 +171,8 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
-	MAN_hisato_ichimada = {
-		name = MAN_hisato_ichimada
+	MAN_GH_hisato_ichimada = { #一万田尚登
+		name = MAN_GH_hisato_ichimada
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Hisato_Ichimada"
@@ -145,7 +188,7 @@ characters = {
 		}
 		advisor = {
 			slot = economy_minister
-			idea_token = MAN_hisato_ichimada_eco
+			idea_token = MAN_GH_hisato_ichimada_eco
 			allowed = { original_tag = MAN }
 			traits = {
 				mountainous_trade
@@ -157,11 +200,11 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
-	MAN_masahiko_aoki = {
-		name = MAN_masahiko_aoki
+	MAN_GH_masahiko_aoki = { #青木昌彦
+		name = MAN_GH_masahiko_aoki
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_GH_MAN_Masahiko_Aoki.dds"
+				large = "gfx/leaders/MAN/Portrait_GH_MAN_GH_masahiko_aoki.dds"
 				small = "GFX_idea_MAN_GH_Masahiko_Aoki"
 			}
 		}
@@ -174,7 +217,7 @@ characters = {
 		}
 		advisor = {
 			slot = economy_minister
-			idea_token = MAN_masahiko_aoki_eco
+			idea_token = MAN_GH_masahiko_aoki_eco
 			allowed = { original_tag = MAN }
 			traits = {
 				economy_minister
@@ -185,8 +228,8 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
-	MAN_kim_ilsong = {
-		name = MAN_kim_ilsong
+	MAN_GH_kim_ilsong = { #金日成
+		name = MAN_GH_kim_ilsong
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Kim_Ilsung.dds"
@@ -201,8 +244,8 @@ characters = {
 			id = -1
 		}
 	}
-	MAN_sejima_ryuzo = {
-		name = MAN_sejima_ryuzo
+	MAN_GH_sejima_ryuzo = { #濑岛龙三
+		name = MAN_GH_sejima_ryuzo
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Sejima_Ryuzo.dds"
@@ -220,7 +263,7 @@ characters = {
 			expire = "1999.1.1"
 			id = -1
 		}
-		corps_commander = {
+		corps_commander = { #还没有具体设定
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -228,8 +271,8 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	MAN_paik_sun_yup = {
-		name = MAN_paik_sun_yup
+	MAN_GH_paik_sun_yup = { #白善烨
+		name = MAN_GH_paik_sun_yup
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Paik_Sun_Yup.dds"
@@ -241,7 +284,7 @@ characters = {
 			}
 		}
 		
-		corps_commander = {
+		corps_commander = { #还没有具体设定
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -250,8 +293,8 @@ characters = {
 		}
 	}
 
-	MAN_chung_il_kwon = {
-		name = MAN_chung_il_kwon
+	MAN_GH_chung_il_kwon = { #丁一权
+		name = MAN_GH_chung_il_kwon
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Chung_Il_Kwon.dds"
@@ -262,7 +305,7 @@ characters = {
 				small = "GFX_idea_MAN_GH_Chung_Il_Kwon"
 			}
 		}
-		corps_commander = {
+		corps_commander = { #还没有具体设定
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -271,8 +314,8 @@ characters = {
 		}
 	}
 
-	MAN_choi_kyu_hah = {
-		name = MAN_choi_kyu_hah
+	MAN_GH_choi_kyu_hah  = { #崔圭夏，还没有具体设定
+		name = MAN_GH_choi_kyu_hah 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Choi_Kyu_Hah.dds"

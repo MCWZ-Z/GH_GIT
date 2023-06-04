@@ -1,6 +1,7 @@
 #############
 ### INDEX ###
 #############
+#与GH开发无关
 # Use your text editor's Find function using the following keys to jump between parts of the file
 
 # 1. Close_button - Text that appears in the close button

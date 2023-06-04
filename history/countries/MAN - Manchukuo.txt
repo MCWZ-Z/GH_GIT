@@ -5,7 +5,7 @@ capital = 328
 # recruit_character = MAN_Generic_Vacant
 
 ### History
-
+#oob部分还未涉及，暂时不管
 if = {
 	limit = {
 		NOT = {
@@ -25,16 +25,18 @@ set_stability = 0.9
 set_war_support = 0.5
 add_manpower = 1000000
 
-recruit_character = MAN_aisin_gioro_puyi
-recruit_character = MAN_ruan_zhenduo
-recruit_character = MAN_gu_ciheng
-recruit_character = MAN_katakura_tadashi
-recruit_character = MAN_hisato_ichimada
-recruit_character = MAN_kim_ilsong
-recruit_character = MAN_sejima_ryuzo
-recruit_character = MAN_paik_sun_yup
-recruit_character = MAN_chung_il_kwon
-recruit_character = MAN_choi_kyu_hah
+#在这一部分，你需要把自己写的character招募，注意加在最后
+recruit_character = MAN_GH_aisin_gioro_puyi
+recruit_character = MAN_GH_ruan_zhenduo
+recruit_character = MAN_GH_gu_ciheng
+recruit_character = MAN_GH_katakura_tadashi
+recruit_character = MAN_GH_hisato_ichimada
+recruit_character = MAN_GH_kim_ilsong
+recruit_character = MAN_GH_sejima_ryuzo
+recruit_character = MAN_GH_paik_sun_yup
+recruit_character = MAN_GH_chung_il_kwon
+recruit_character = MAN_GH_choi_kyu_hah 
+recruit_character = MAN_GH_masahiko_aoki
 
 set_politics = {
 	ruling_party = paternalism
@@ -299,27 +301,27 @@ set_country_flag = gui_alert_visible
 
 country_lock_all_division_template = yes
 
-add_ideas = {
+add_ideas = { #这里是开局国家精神以及顾问的设定
 	#Country#
 	Sphere_Core_Member
-	MAN_Inefficient_Administration
-	MAN_thorn_in_back
-	MAN_APDR_Continental_Strategy
-	MAN_Shield_of_Defense
-	MAN_Peeping_Eyes
-	MAN_Flower_in_May
+	MAN_GH_Inefficient_Administration
+	MAN_GH_thorn_in_back
+	MAN_GH_APDR_Continental_Strategy
+	MAN_GH_Shield_of_Defense
+	MAN_GH_Peeping_Eyes
+	MAN_GH_Flower_in_May
 
 	#Ministers
-	MAN_Gu_Ciheng_for
-	MAN_hisato_ichimada_eco
-	MAN_Gu_Ciheng_hog
-	MAN_Katakura_Tadashi_sec
+	MAN_GH_gu_ciheng_for
+	MAN_GH_hisato_ichimada_eco
+	MAN_GH_gu_ciheng_hog
+	MAN_GH_katakura_tadashi_sec
 
 	#High Command
-	MAN_Katakura_Tadashi_army_chief
+	MAN_GH_katakura_tadashi_army_chief
 	MAN_Matsumura_Tomokatsu_high_command
 	MAN_Kamata_Senichi_high_command
-	MAN_Sejima_Ryuzo_high_command
+	MAN_GH_sejima_ryuzo_high_command
 	MAN_Inomata_Jinya_theorist
 
 
@@ -378,6 +380,7 @@ add_ideas = {
 set_research_slots = 4
 
 ### Policy Effectiveness
+#可以不管
 
 set_country_flag = tno_defined_startup_effectiveness
 

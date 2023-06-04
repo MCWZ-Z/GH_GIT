@@ -1,10 +1,10 @@
-GH_Debug_Category = {
-    MAN_Aoki = {
-		cost = 0
-		fire_only_once = no
-		days_re_enable = 0
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Aoki"
+GH_MAN_Debug_Category = { #这个文件是具体的决议文件，使用GH_国名_决议内容.txt命名
+    MAN_Aoki = { #以这个为例，这是一个具体的可以点的决议
+		cost = 0 #这是决议花费的政治点
+		fire_only_once = no #这是保证可以多次点决议
+		days_re_enable = 0 #这是点了一次以后下一次能点的时间，由于是debug，故使用0
+		complete_effect = { #这是决议效果，具体可以在https://hoi4.paradoxwikis.com/Effect中找到
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Aoki" #规定每条决议都要写一条log帮助debug
 			MAN = {
 				set_politics = {
 					ruling_party = despotism
