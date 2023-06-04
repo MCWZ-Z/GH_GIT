@@ -35,7 +35,7 @@ recruit_character = MAN_GH_kim_ilsong
 recruit_character = MAN_GH_sejima_ryuzo
 recruit_character = MAN_GH_paik_sun_yup
 recruit_character = MAN_GH_chung_il_kwon
-recruit_character = MAN_GH_choi_kyu_hah 
+recruit_character = MAN_GH_choi_kyu_hah
 recruit_character = MAN_GH_masahiko_aoki
 
 set_politics = {

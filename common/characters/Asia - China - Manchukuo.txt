@@ -314,8 +314,8 @@ characters = {
 		}
 	}
 
-	MAN_GH_choi_kyu_hah  = { #崔圭夏，还没有具体设定
-		name = MAN_GH_choi_kyu_hah 
+	MAN_GH_choi_kyu_hah = { #崔圭夏，还没有具体设定
+		name = MAN_GH_choi_kyu_hah
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Choi_Kyu_Hah.dds"
