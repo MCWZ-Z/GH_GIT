@@ -1,8 +1,8 @@
-characters = {
+characters = { 
 	MAN_aisin_gioro_puyi = {
 		name = MAN_aisin_gioro_puyi
 		portraits = {
-			civilian = { large = "gfx/leaders/MAN/Portrait_MAN_Puyi.dds" }
+			civilian = { large = "gfx/leaders/MAN/Portrait_MAN_GH_Puyi.dds" }
 		}
 		country_leader = {
 			desc = "POLITICS_PUYI_DESC"
@@ -16,8 +16,8 @@ characters = {
 		name = MAN_ruan_zhenduo
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_MAN_Ruan_Zhenduo.dds"
-				small = "GFX_idea_MAN_Ruan_Zhenduo"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Ruan_Zhenduo.dds"
+				small = "GFX_idea_MAN_GH_Ruan_Zhenduo"
 			}
 		}
 		country_leader = {
@@ -29,11 +29,12 @@ characters = {
 			id = -1
 		}
 		advisor = {
-			slot = foreign_minister
-			idea_token = MAN_Ruan_Zhenduo_for
+			slot = head_of_government
+			idea_token = MAN_Gu_Ciheng_hog
 			allowed = { original_tag = MAN }
 			traits = {
-				foreign_minister
+				opportunistic
+				head_of_government
 			}
 			ledger = civilian
 			cost = -1
@@ -45,8 +46,8 @@ characters = {
 		name = MAN_gu_ciheng
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_MAN_Gu_Ciheng.dds"
-				small = "GFX_idea_MAN_Gu_Ciheng"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Gu_Ciheng.dds"
+				small = "GFX_idea_MAN_GH_Gu_Ciheng"
 			}
 		}
 		country_leader = {
@@ -57,11 +58,12 @@ characters = {
 			id = -1
 		}
 		advisor = {
-			slot = head_of_government
-			idea_token = MAN_Gu_Ciheng_hog
+			slot = foreign_minister
+			idea_token = MAN_Gu_Ciheng_for
 			allowed = { original_tag = MAN }
 			traits = {
-				head_of_government
+				sociability
+				foreign_minister
 			}
 			ledger = civilian
 			cost = -1
@@ -73,12 +75,12 @@ characters = {
 		name = MAN_katakura_tadashi
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_MAN_Katakura_Tadashi.dds"
-				small = "GFX_idea_MAN_Katakura_Tadashi"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Katakura_Tadashi.dds"
+				small = "GFX_idea_MAN_GH_Katakura_Tadashi"
 			}
 			army = {
-				large = "gfx/leaders/MAN/Portrait_MAN_Katakura_Tadashi.dds"
-				small = "GFX_idea_MAN_Katakura_Tadashi"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Katakura_Tadashi.dds"
+				small = "GFX_idea_MAN_GH_Katakura_Tadashi"
 			}
 		}
 		field_marshal = {
@@ -130,8 +132,8 @@ characters = {
 		name = MAN_hisato_ichimada
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_MAN_Hisato_Ichimada"
-				small = "GFX_idea_MAN_Hisato_Ichimada"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Hisato_Ichimada"
+				small = "GFX_idea_MAN_GH_Hisato_Ichimada"
 			}
 		}
 		country_leader = {
@@ -145,7 +147,8 @@ characters = {
 			slot = economy_minister
 			idea_token = MAN_hisato_ichimada_eco
 			allowed = { original_tag = MAN }
-			traits = { 
+			traits = {
+				mountainous_trade
 				economy_minister
 			}
 			ledger = civilian
@@ -158,8 +161,8 @@ characters = {
 		name = MAN_masahiko_aoki
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_MAN_Masahiko_Aoki.dds"
-				small = "GFX_idea_MAN_Masahiko_Aoki"
+				large = "gfx/leaders/MAN/Portrait_GH_MAN_Masahiko_Aoki.dds"
+				small = "GFX_idea_MAN_GH_Masahiko_Aoki"
 			}
 		}
 		country_leader = {
@@ -186,7 +189,7 @@ characters = {
 		name = MAN_kim_ilsong
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_Kim_Ilsung.dds"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Kim_Ilsung.dds"
 				small = "GFX_idea_MAN_Kim_Ilsung"
 			}
 		}
@@ -202,12 +205,12 @@ characters = {
 		name = MAN_sejima_ryuzo
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_Sejima_Ryuzo.dds"
-				small = "GFX_idea_MAN_Sejima_Ryuzo"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Sejima_Ryuzo.dds"
+				small = "GFX_idea_MAN_GH_Sejima_Ryuzo"
 			}
 			army = {
-				large = "gfx/leaders/MAN/Portrait_Sejima_Ryuzo.dds"
-				small = "GFX_idea_MAN_Sejima_Ryuzo"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Sejima_Ryuzo.dds"
+				small = "GFX_idea_MAN_GH_Sejima_Ryuzo"
 			}
 		}
 		country_leader = {
@@ -217,19 +220,27 @@ characters = {
 			expire = "1999.1.1"
 			id = -1
 		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
 	}
 	MAN_paik_sun_yup = {
 		name = MAN_paik_sun_yup
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_Paik_Sun_Yup.dds"
-				small = "GFX_idea_MAN_Paik_Sun_Yup"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Paik_Sun_Yup.dds"
+				small = "GFX_idea_MAN_GH_Paik_Sun_Yup"
 			}
 			army = {
-				large = "gfx/leaders/MAN/Portrait_Paik_Sun_Yup.dds"
-				small = "GFX_idea_MAN_Paik_Sun_Yup"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Paik_Sun_Yup.dds"
+				small = "GFX_idea_MAN_GH_Paik_Sun_Yup"
 			}
 		}
+		
 		corps_commander = {
 			skill = 1
 			attack_skill = 1
@@ -243,12 +254,12 @@ characters = {
 		name = MAN_chung_il_kwon
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_Chung_Il_Kwon.dds"
-				small = "GFX_idea_MAN_Chung_Il_Kwon"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Chung_Il_Kwon.dds"
+				small = "GFX_idea_MAN_GH_Chung_Il_Kwon"
 			}
 			army = {
-				large = "gfx/leaders/MAN/Portrait_Chung_Il_Kwon.dds"
-				small = "GFX_idea_MAN_Chung_Il_Kwon"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Chung_Il_Kwon.dds"
+				small = "GFX_idea_MAN_GH_Chung_Il_Kwon"
 			}
 		}
 		corps_commander = {
@@ -264,8 +275,8 @@ characters = {
 		name = MAN_choi_kyu_hah
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_Choi_Kyu_Hah.dds"
-				small = "GFX_idea_MAN_Choi_Kyu_Hah"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Choi_Kyu_Hah.dds"
+				small = "GFX_idea_MAN_GH_Choi_Kyu_Hah"
 			}
 		}
 	}

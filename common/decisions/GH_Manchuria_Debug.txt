@@ -46,7 +46,7 @@ GH_Debug_Category = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Katakura"
 			MAN = {
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = ultranationalism
 				}
 			}
 		}

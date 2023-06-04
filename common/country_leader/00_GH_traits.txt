@@ -11,10 +11,7 @@ leader_traits = {
 
 	mountainous_trade = {
 		random = no
-		hidden_modifier = {
-			gdp_growth_modifier = 0.005
-		}
-		custom_modifier_tooltip = mountainous_trade_tt
+		gdp_growth_modifier = 0.05
 		political_power_gain = 0.2
 	}
 

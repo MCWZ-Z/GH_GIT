@@ -310,9 +310,9 @@ add_ideas = {
 	MAN_Flower_in_May
 
 	#Ministers
-	MAN_Gu_Ciheng_hog
+	MAN_Gu_Ciheng_for
 	MAN_hisato_ichimada_eco
-	MAN_Ruan_Zhenduo_for
+	MAN_Gu_Ciheng_hog
 	MAN_Katakura_Tadashi_sec
 
 	#High Command
