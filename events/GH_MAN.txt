@@ -1,11 +1,11 @@
 add_namespace = man
-
+add_namespace = man
 country_event = {
 	id = man.1
 	title = man.1.t
 	desc = man.1.desc
 
-	picture = /
+	# picture = /
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event man.1"
@@ -16,5 +16,106 @@ country_event = {
 
 	option = {
 		name = man.1.a
+	}
+}
+country_event = {
+	id = man.2
+	title = man.2.t
+	desc = man.2.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.2"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.2.a
+	}
+}
+country_event = {
+	id = man.3
+	title = man.3.t
+	desc = man.3.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.3"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.3.a
+		# 触发事件“来自东京的调查”
+		country_event = {
+			id = man.4
+			days = 5
+		}
+	}
+}
+country_event = {
+	id = man.4
+	title = man.4.t
+	desc = man.4.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.4"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.4.a
+		# 启用“实业防波堤”决议
+	}
+}
+country_event = {
+	id = man.5
+	title = man.5.t
+	desc = man.5.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.5"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.5.a
+		# 满洲重工业开发株式会社的帮助会让我们喘上一口气，但这还远远不够，必须继续推行计划才行。
+
+		# 将1.03B加入流动准备金中，我们的年增长率增加0.05，满业的话语权被加强了。
+
+	}
+}
+country_event = {
+	id = man.6
+	title = man.6.t
+	desc = man.6.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.3"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.6.a
+		#触发事件“他乡异客”
 	}
 }
