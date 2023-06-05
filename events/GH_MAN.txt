@@ -96,10 +96,14 @@ country_event = {
 
 	option = {
 		name = man.5.a
+		custom_effect_tooltip = man_5_a_tt
+		set_temp_variable = { gdp_growth_temp = 0.05 } 
+		econ_gdp_growth_change = yes
+		add_to_variable = {
+			money_reserves = 1.03
+		}
 		# 满洲重工业开发株式会社的帮助会让我们喘上一口气，但这还远远不够，必须继续推行计划才行。
-
 		# 将1.03B加入流动准备金中，我们的年增长率增加0.05，满业的话语权被加强了。
-
 	}
 }
 country_event = {
