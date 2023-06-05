@@ -1,20 +1,23 @@
-add_namespace = man
-country_event = {
-	id = man.1
-	title = man.1.t
-	desc = man.1.desc
+#可以看到，事件文件的命名方式为“GH_国家ID.txt”
+add_namespace = man #添加命名域
 
-	# picture = /
+country_event = { #这是一个具体的事件
+	id = man.1 #这是事件ID，统一为“国家ID小写.编号”
+	title = man.1.t #这是事件标题的本地化键值，统一为“事件ID.t”
+	desc = man.1.desc #这是事件内容的本地化键值，统一为“事件ID.desc”
 
-	immediate = {
+	# picture = / #这是事件配图
+
+	immediate = { #这是便于debug的日志
 		log = "[GetDateText]: [Root.GetName]: event man.1"
 	}
 
-	fire_only_once = no
-	is_triggered_only = yes
+	fire_only_once = no #这是事件是否能反复触发的开关
+	is_triggered_only = yes #基本上都是yes，防止事件自己跳出
 
-	option = {
-		name = man.1.a
+	option = { #这是事件选项
+		name = man.1.a #这是事件选项的本地化键值，统一为“事件ID.a/b/c”
+		#后面可以跟这个选项的效果以及自定义tooltips等
 	}
 }
 country_event = {

@@ -1,0 +1,8 @@
+#这是国策图标定义的文件，所有国策图标均在此处定义
+spriteTypes = {
+	##MAN_Preparing 要注明是哪一个国策树的
+	SpriteType = {
+		name = "GH_MAN_hotline_talk"
+		textureFile = "gfx/interface/goals/MAN/GH_MAN_hotline_talk.dds" #统一放在“gfx/interface/goals/国家ID”文件夹内，命名为“国策ID.dds”
+	}
+}

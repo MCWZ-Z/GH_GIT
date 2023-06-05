@@ -1,6 +1,13 @@
 leader_traits = {
+ 
+	exempli = {
+		random = no #防止随机分配
+		#接下来是modifier，与国家精神的modifier通用，大部分可以在https://hoi4.paradoxwikis.com/Modifiers以及https://hoi4.paradoxwikis.com/List_of_modifiers中找到
 
-	cruel_and_greedy = {
+		ai_will_do = { factor = 1 } #这部分是MTTH代码，在TNO中基本不生效
+	}
+
+	cruel_and_greedy = { #片仓衷 - “鸱视狼顾”
 		random = no
 		army_attack_factor = 0.1
 		stability_factor = -0.1
@@ -9,19 +16,19 @@ leader_traits = {
 		ai_will_do = { factor = 1 }
 	}
 
-	mountainous_trade = {
+	mountainous_trade = { #一万田尚登 - 贸如此山
 		random = no
 		gdp_growth_modifier = 0.05
 		political_power_gain = 0.2
 	}
 
-	opportunistic = {
+	opportunistic = { #阮振铎 - “偶变投隙”
 		random = no
 		opinion_gain_monthly = 0.2
 		stability_factor = -0.05
 		custom_modifier_tooltip = opportunistic_tt
 	}	
-	sociability = {
+	sociability = { #谷次亨 - 长袖善舞
 		random = no
 		opinion_gain_monthly_same_ideology_factor  = 0.1
 		opinion_gain_monthly = 2

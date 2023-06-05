@@ -1,0 +1,30 @@
+#这是国策定义文件，如无必要一个国家只建立一个文件，规定名称为“GH_国家名称.txt”
+focus_tree = {
+	id = GH_MAN_Preparing #这是国策树的ID，规定命名为GH_国家ID_国策树内容
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			tag = MAN #主要在于这个限定tag，别的没啥
+		}
+	}
+	focus = {
+		id = GH_MAN_hotline_talk   #热线会谈，这是一个具体的国策ID，命名规定为“GH_国家ID_国策名称”，也是国策标题的本地化键值
+		icon = GH_MAN_hotline_talk #这是国策图标，规定名称与ID相同，具体在GFX文件中定义
+		x = 0
+		y = 0 #这里是国策的位置
+		cost = 1 #这是国策花费的政治点
+		ai_will_do = { #MTTH代码，照抄
+			factor = 10
+		}
+		available = { #这是用来判断国策是否可用的，与之前在决议中提到的相同
+		}
+		bypass = { #这是用来判断国策是否会被跳过，与上面的代码块可以写的相同
+		}
+		cancel_if_invalid = yes #这是判断是否在不可用时取消国策的
+		continue_if_invalid = no #这是判断是否在不可用时继续点国策的，与上面重复了
+		available_if_capitulated = no #这个基本没有关系
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+}
