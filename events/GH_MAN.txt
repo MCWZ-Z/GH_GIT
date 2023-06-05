@@ -86,7 +86,7 @@ country_event = {
 	desc = man.5.desc
 
 	# picture = /
-
+   
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event man.5"
 	}
