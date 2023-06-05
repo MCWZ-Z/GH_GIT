@@ -1,0 +1,44 @@
+ideas = { #这是定义国家精神的文件，命名统一为GH_国名.txt
+	country = { #这是表示在country作用域内
+		MAN_GH_exempli_idea = { #命名统一为“国家ID_GH_精神名称”
+			allowed = { always = no} #与决议中一样
+			picture = no #具体图标在GFX文件中定义
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		# Starting Ideas
+		MAN_GH_Inefficient_Administration = { #低效的行政机关
+			allowed = { always = no }
+			picture = WIP
+			removal_cost = -1
+		}
+		MAN_GH_thorn_in_back = { #如芒在背
+			allowed = { always = no }
+			picture = WIP
+			removal_cost = -1
+		}
+		MAN_GH_APDR_Continental_Strategy = { #环亚太防卫圈-大陆战略
+			allowed = { always = no }
+			picture = WIP
+			removal_cost = -1
+		}
+		MAN_GH_Shield_of_Defense = { #防卫之盾
+			allowed = { always = no }
+			picture = WIP
+			removal_cost = -1
+		}
+		MAN_GH_Peeping_Eyes = { #窥视之眼
+			allowed = { always = no }
+			picture = WIP
+			removal_cost = -1
+		}
+
+		MAN_GH_Flower_in_May = { #五月鲜花
+			allowed = { always = no }
+			removal_cost = -1
+			picture = WIP
+		}
+	}
+}
