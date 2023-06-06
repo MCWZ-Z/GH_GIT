@@ -114,7 +114,7 @@ country_event = {
 	# picture = /
 
 	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event man.3"
+		log = "[GetDateText]: [Root.GetName]: event man.6"
 	}
 
 	fire_only_once = no
@@ -123,5 +123,100 @@ country_event = {
 	option = {
 		name = man.6.a
 		#触发事件“他乡异客”
+	}
+}
+country_event = {
+	id = man.7
+	title = man.7.t
+	desc = man.7.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.7"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.7.a
+		custom_effect_tooltip = man_7_a_tt
+	}
+}
+country_event = {
+	id = man.8
+	title = man.8.t
+	desc = man.8.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.8"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.8.a
+		custom_effect_tooltip = man_8_a_tt
+	}
+}
+country_event = {
+	id = man.9
+	title = man.9.t
+	desc = man.9.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.9"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.9.a
+
+	}
+}
+country_event = {
+	id = man.10
+	title = man.10.t
+	desc = man.10.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.10"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.10.a
+
+	}
+}
+country_event = {
+	id = man.11
+	title = man.11.t
+	desc = man.11.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.11"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.11.a
+
 	}
 }
