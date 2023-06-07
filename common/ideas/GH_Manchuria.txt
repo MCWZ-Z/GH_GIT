@@ -11,34 +11,34 @@ ideas = { #这是定义国家精神的文件，命名统一为GH_国名.txt
 		# Starting Ideas
 		MAN_GH_Inefficient_Administration = { #低效的行政机关
 			allowed = { always = no }
-			picture = WIP
+			picture = MAN_GH_Inefficient_Administration
 			removal_cost = -1
 		}
 		MAN_GH_thorn_in_back = { #如芒在背
 			allowed = { always = no }
-			picture = WIP
+			picture = MAN_GH_thorn_in_back
 			removal_cost = -1
 		}
 		MAN_GH_APDR_Continental_Strategy = { #环亚太防卫圈-大陆战略
 			allowed = { always = no }
-			picture = WIP
+			picture = MAN_GH_APDR_Continental_Strategy
 			removal_cost = -1
 		}
 		MAN_GH_Shield_of_Defense = { #防卫之盾
 			allowed = { always = no }
-			picture = WIP
+			picture = MAN_GH_Shield_of_Defense
 			removal_cost = -1
 		}
 		MAN_GH_Peeping_Eyes = { #窥视之眼
 			allowed = { always = no }
-			picture = WIP
+			picture = MAN_GH_Peeping_Eyes
 			removal_cost = -1
 		}
 
 		MAN_GH_Flower_in_May = { #五月鲜花
 			allowed = { always = no }
 			removal_cost = -1
-			picture = WIP
+			picture = MAN_GH_Flower_in_May
 		}
 	}
 }

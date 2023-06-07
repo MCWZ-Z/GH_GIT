@@ -1,0 +1,34 @@
+#这个文件定义了所有人的小头像
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_MAN_GH_APDR_Continental_Strategy" #这是在character中规定的GFX命名
+		texturefile = "gfx/interface/ideas/national_spirits/MAN/MAN_GH_APDR_Continental_Strategy.dds" #这是GFX对应的文件，文件命名统一为“MAN_GH_minister_人名.dds”
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MAN_GH_Flower_in_May"
+		textureFile = "gfx/interface/ideas/national_spirits/MAN/MAN_GH_Flower_in_May.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAN_GH_Inefficient_Administration"
+		textureFile = "gfx/interface/ideas/national_spirits/MAN/MAN_GH_Inefficient_Administration.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAN_GH_Peeping_Eyes"
+		textureFile = "gfx/interface/ideas/national_spirits/MAN/MAN_GH_Peeping_Eyes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAN_GH_Shield_of_Defense"
+		textureFile = "gfx/interface/ideas/national_spirits/MAN/MAN_GH_Shield_of_Defense.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAN_GH_thorn_in_back"
+		textureFile = "gfx/interface/ideas/national_spirits/MAN/MAN_GH_thorn_in_back.dds"
+	}
+
+	
+}
