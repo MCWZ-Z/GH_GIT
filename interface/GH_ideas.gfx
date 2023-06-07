@@ -1,4 +1,4 @@
-#这个文件定义了所有人的小头像
+#这个文件定义了所有国家精神图标
 spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_MAN_GH_APDR_Continental_Strategy" #这是在character中规定的GFX命名
