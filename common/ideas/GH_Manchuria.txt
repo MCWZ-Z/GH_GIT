@@ -40,5 +40,18 @@ ideas = { #这是定义国家精神的文件，命名统一为GH_国名.txt
 			removal_cost = -1
 			picture = WIP
 		}
+		
+		MAN_Chained_To_Rising_Sun = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_Chained_To_Rising_Sun"}
+
+			allowed = { always = no }
+			picture = MAN_Chained_To_The_Rising_Sun
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				stability_factor = 0.15
+			}
+		}
 	}
 }
