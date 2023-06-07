@@ -310,6 +310,7 @@ add_ideas = { #这里是开局国家精神以及顾问的设定
 	MAN_GH_Shield_of_Defense
 	MAN_GH_Peeping_Eyes
 	MAN_GH_Flower_in_May
+	MAN_Chained_To_Rising_Sun
 
 	#Ministers
 	MAN_GH_gu_ciheng_for
