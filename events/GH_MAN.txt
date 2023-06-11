@@ -123,6 +123,10 @@ country_event = {
 	option = {
 		name = man.6.a
 		#触发事件“他乡异客”
+		country_event = {
+			id = man.20
+			days = 7
+		}
 	}
 }
 country_event = {
@@ -275,5 +279,119 @@ country_event = {
 	option = {
 		name = man.14.a
 		custom_effect_tooltip = man_14_tt
+	}
+}
+country_event = {
+	id = man.15
+	title = man.15.t
+	desc = man.15.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.15"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.15.a
+		custom_effect_tooltip = man_15_tt
+	}
+}
+country_event = {
+	id = man.16
+	title = man.16.t
+	desc = man.16.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.16"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.16.a
+		# custom_effect_tooltip = man_14_tt
+	}
+}
+country_event = {
+	id = man.17
+	title = man.17.t
+	desc = man.17.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.17"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.17.a
+		# custom_effect_tooltip = man_14_tt
+	}
+}
+country_event = {
+	id = man.18
+	title = man.18.t
+	desc = man.18.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.18"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.18.a
+		# custom_effect_tooltip = man_14_tt
+	}
+}
+country_event = {
+	id = man.19
+	title = man.19.t
+	desc = man.19.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.19"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.19.a
+		# custom_effect_tooltip = man_14_tt
+	}
+}
+country_event = {
+	id = man.20
+	title = man.20.t
+	desc = man.20.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.20"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.20.a
+		# custom_effect_tooltip = man_14_tt
 	}
 }
