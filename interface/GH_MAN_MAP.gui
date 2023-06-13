@@ -1,0 +1,23 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GH_MAN_Map_AccessButton"
+		size = { width = 220 height = 120 }
+		position = { x = 0 y = 289}
+
+		buttonType = {
+			name = "GH_MAN_Map_OpenButton"
+			quadTextureSprite = "GFX_GH_MAN_Open_Map"
+			scale = 0.68
+			position = { x = 238 y = 36 }
+			#pdx_tooltip = GH_MAN_Map_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=189 y=-16 }
+		}
+	}
+}

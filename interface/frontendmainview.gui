@@ -64,7 +64,7 @@ guiTypes = {
 		iconType = {
 			name ="frontend_tno_logo"
 			spriteType = "GFX_frontend_tno_logo"
-			scale = 0.4
+			scale = 0.3
 			position = { x = -300 y = 40 }
 			pdx_tooltip = TNO_ugly_american_icon_tt
 			pdx_tooltip_delayed = TNO_ugly_american_icon_tt_delayed

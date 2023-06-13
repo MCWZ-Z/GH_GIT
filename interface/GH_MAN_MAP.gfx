@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_GH_MAN_Open_Map
+		texturefile = "gfx/interface/GUI/Orchid_Badge.gfx"
+	}
+}
