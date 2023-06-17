@@ -18,5 +18,6 @@ GH_MAN_East_Asia_Defense_Council = { #这部分是决议类，用debug决议作�
         # is_debug = yes
         # is_ai = no
     }
+    priority = 500
     visible_when_empty = yes #这是保证在没有决议的情况下，该决议类仍能被看到，在写GUI时尤为重要
 }

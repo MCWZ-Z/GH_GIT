@@ -1,0 +1,61 @@
+MAN_add_action_points = {
+	#添加行动力
+	add_to_variable = {
+		var = MAN_action_points
+		value = MAN_action_points_temp
+		tooltip = MAN_add_action_points_tt
+	}
+}
+MAN_add_action_points_requirement = {
+	#添加行动力需求
+	add_to_variable = {
+		var = MAN_action_points_requirement
+		value = MAN_action_points_requirement_temp
+		tooltip = MAN_action_points_requirement_tt
+	}
+}
+MAN_add_budget = {
+	#添加资金预算
+	add_to_variable = {
+		var = MAN_budget_var
+		value = MAN_budget_var_temp
+		tooltip = MAN_budget_var_tt
+	}
+}
+GH_MAN_econ_money_reserves_change_raw_money = {
+	#Uses Temp Vars to make it a lot simpler + no mass tooltip spam, value of parameter in billions
+	add_to_variable = {
+		money_reserves = money_reserves_temp
+	}
+	if = {
+		limit = {
+			is_ai = yes
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = money_reserves
+					value = national_debt
+					compare = less_than_or_equals
+				}
+			}
+			subtract_from_variable = {
+				national_debt = money_reserves
+			}
+			set_variable = {
+				money_reserves = 0
+			}
+		}
+		else = {
+			subtract_from_variable = {
+				money_reserves = national_debt
+			}
+			set_variable = {
+				national_debt = 0
+			}
+		}
+		update_economy_tab = yes
+	}
+	custom_effect_tooltip = GH_MAN_econ_money_reserves_increase_tt
+	calculate_display_variables = yes
+}

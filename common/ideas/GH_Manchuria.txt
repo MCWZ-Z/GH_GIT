@@ -53,5 +53,23 @@ ideas = { #这是定义国家精神的文件，命名统一为GH_国名.txt
 				stability_factor = 0.15
 			}
 		}
+
+		MAN_GH_Peeping_Eyes_far_east = { #窥视之眼-远东
+			allowed = { always = no }
+			removal_cost = -1
+			picture = MAN_GH_Peeping_Eyes
+			modifier = {
+				# 效果为对远东其他军阀具有+5%攻防修正
+			}
+		}
+		MAN_GH_Peeping_Eyes_INS = { #窥视之眼-印尼
+			allowed = { always = no }
+			removal_cost = -1
+			picture = MAN_GH_Peeping_Eyes
+			modifier = {
+				stability_weekly_factor = 0.02
+				# 效果为每日稳定度+0.20
+			}
+		}
 	}
 }
