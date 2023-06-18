@@ -16,12 +16,23 @@ GH_MAN_East_Asia_Defense_Council = {
 	# }
 	##考核时间到来 365天
 	MAN_annual_assessment_coming = {
-
-		fire_only_once = no
-		days_re_enable = 0
-		complete_effect = {
+		activation = {
+			always = no
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		days_mission_timeout = 365
+		allowed = {
+			tag = MAN
+		}
+		timeout_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_annual_assessment_coming"			#规定每条决议都要写一条log帮助debug
-			set_country_flag = MAN_show_far_east_affairs_flag
+
+			activate_mission = MAN_annual_assessment_coming
+			
 		}
 	}
 	##展开预算应用选项
@@ -193,7 +204,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	#与远东白色势力领导人会晤 3M
 	MAN_meeting_with_far_east_white_leader = {
-
 		fire_only_once = no
 		days_re_enable = 60
 		visible = {
@@ -274,6 +284,7 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_ask_for_more_budget"			#规定每条决议都要写一条log帮助debug
+			
 			set_temp_variable = {
 				MAN_action_points_requirement_temp = 0.05
 			}
@@ -401,6 +412,10 @@ GH_MAN_East_Asia_Defense_Council = {
 				}
 				set_country_flag = MAN_gathering_roc_intelligence_first
 			}
+			swap_ideas = {
+				remove_idea = MAN_GH_Peeping_Eyes
+				add_idea = MAN_GH_Peeping_Eyes_roc
+			}
 			# 满洲获得一张20%工业研究加成卡，
 			# 第一次获得2%研究加成（增加在窥视之眼民族精神上）及
 			# 9%行动力度
@@ -449,7 +464,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	# hide
 	MAN_hide_MAG_affairs_decisions = {
-
 		fire_only_once = no
 		days_re_enable = 0
 		visible = {
@@ -477,11 +491,22 @@ GH_MAN_East_Asia_Defense_Council = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_sell_gun_to_MAG"			#规定每条决议都要写一条log帮助debug
 			# 从库存中扣除100老式枪支，对应国家+100枪支，获得0.01B加入流动准备金
 			# CD：30天
+			hidden_effect = {
+				add_command_power = -5
+			}
+			set_temp_variable = {
+				MAN_action_points_temp = 0.03
+			}
+			MAN_add_action_points = yes
 			set_temp_variable = {
 				money_reserves_temp = 0.01
 			}
 			GH_MAN_econ_money_reserves_change_raw_money = yes
-			# 获得3M，加入流动准备金之中，满洲获得50PP及3%行动力度
+
+
+			MAG = {
+				
+			}
 		}
 	}
 	# 商讨开发马加丹港事宜
@@ -505,6 +530,10 @@ GH_MAN_East_Asia_Defense_Council = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_development_of_Magadan_Port_discussion"			#规定每条决议都要写一条log帮助debug
 			set_country_flag = MAN_Magadan_Port_selected
+			set_temp_variable = {
+				MAN_action_points_temp = 0.05
+			}
+			MAN_add_action_points = yes
 			# 30天后结算，，
 			# 锁住外贝加尔商讨开采事宜，
 			# 完成“与马加丹人谈谈”国策
@@ -522,6 +551,10 @@ GH_MAN_East_Asia_Defense_Council = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_loans_to_MAG"			#规定每条决议都要写一条log帮助debug
 			add_political_power = 100
+			set_temp_variable = {
+				MAN_action_points_temp = 0.03
+			}
+			MAN_add_action_points = yes
 			MAG = {
 				# 
 				set_temp_variable = {
@@ -544,13 +577,21 @@ GH_MAN_East_Asia_Defense_Council = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_sell_equipment_to_MAG"			#规定每条决议都要写一条log帮助debug
 			# 获得0.1B加入流动准备金，马加丹获得科技25%科研卡1
-
+			set_temp_variable = {
+				MAN_action_points_temp = 0.05
+			}
+			MAN_add_action_points = yes
 			set_temp_variable = {
 				money_reserves_temp = 0.01
 			}
 			GH_MAN_econ_money_reserves_change_raw_money = yes
 			MAG = {
-
+				add_tech_bonus = {
+					name = industry
+					bonus = 0.25
+					uses = 1
+					category = industry
+				}
 			}
 		}
 	}
@@ -600,6 +641,13 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_sell_gun_to_AMR"			#规定每条决议都要写一条log帮助debug
+			hidden_effect = {
+				add_command_power = -5
+			}
+			set_temp_variable = {
+				MAN_action_points_temp = 0.03
+			}
+			MAN_add_action_points = yes
 			set_temp_variable = {
 				money_reserves_temp = 0.01
 			}
@@ -609,7 +657,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	# 雇佣阿穆尔部队镇压抵抗组织  25CP
 	MAN_hire_AMR_army = {
-
 		fire_only_once = no
 		days_re_enable = 30
 		custom_cost_trigger = {
@@ -624,12 +671,20 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_hire_AMR_army"			#规定每条决议都要写一条log帮助debug
+			hidden_effect = {
+				add_command_power = -25
+			}
+			set_temp_variable = {
+				MAN_action_points_temp = 0.03
+			}
+			MAN_add_action_points = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.04 }
+			econ_spend_money_once_effect_raw_money = yes
 			# 增加0.04B债务，抵抗度（北满洲的阴影决议相关）下降5%
 		}
 	}
 	# 训练阿穆尔部队 50cp
 	MAN_train_AMR_army = {
-
 		fire_only_once = no
 		custom_cost_trigger = {
 			command_power > 49.99
@@ -643,7 +698,14 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_train_AMR_army"			#规定每条决议都要写一条log帮助debug
+			hidden_effect = {
+				add_command_power = -50
+			}
 			add_political_power = 100
+			set_temp_variable = {
+				MAN_action_points_temp = 0.1
+			}
+			MAN_add_action_points = yes
 			AMR = {
 				# 
 			}
@@ -662,8 +724,17 @@ GH_MAN_East_Asia_Defense_Council = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_tech_support_to_AMR"			#规定每条决议都要写一条log帮助debug
 			add_political_power = 50
+			set_temp_variable = {
+				MAN_action_points_temp = 0.1
+			}
+			MAN_add_action_points = yes
 			AMR = {
-				# 
+				add_tech_bonus = {
+					name = industry
+					bonus = 0.25
+					uses = 1
+					category = industry
+				}
 			}
 			# 向阿穆尔提供技术支持：获得50PP，阿穆尔获得科技25%科研卡1
 		}
@@ -701,7 +772,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	# 向外贝加尔出售枪支 5CP
 	MAN_sell_gun_to_CHT = {
-
 		fire_only_once = no
 		days_re_enable = 30
 		custom_cost_trigger = {
@@ -714,6 +784,13 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_sell_gun_to_CHT"			#规定每条决议都要写一条log帮助debug
+			hidden_effect = {
+				add_command_power = -5
+			}
+			set_temp_variable = {
+				MAN_action_points_temp = 0.03
+			}
+			MAN_add_action_points = yes
 			set_temp_variable = {
 				money_reserves_temp = 0.01
 			}
@@ -742,6 +819,11 @@ GH_MAN_East_Asia_Defense_Council = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_CHT_resource_extraction_discussion"			#规定每条决议都要写一条log帮助debug
 			set_country_flag = MAN_CHT_resource_selected
+			
+			set_temp_variable = {
+				MAN_action_points_temp = 0.05
+			}
+			MAN_add_action_points = yes
 			# 30天后结算，外贝加尔方面同意开发外贝加尔资源，
 			# 锁住外贝加尔商讨开采事宜，
 			
@@ -763,6 +845,11 @@ GH_MAN_East_Asia_Defense_Council = {
 				money_reserves_temp = 0.05
 			}
 			GH_MAN_econ_money_reserves_change_raw_money = yes
+			set_temp_variable = {
+				MAN_action_points_temp = 0.1
+			}
+			MAN_add_action_points = yes
+			TNO_worsen_army_professionalism_low = yes
 			# 社会发展-军队职业度开始缓慢恶化，获得50PP，获得0.05B加入流动准备金
 		}
 	}
@@ -779,14 +866,18 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 		days_remove = 30
 		remove_effect = {
+			# 如果接受
+			TNO_worsen_admin_efficiency_low = yes
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_SMR_invest_in_CHT"			#规定每条决议都要写一条log帮助debug
 			set_temp_variable = {
-				money_reserves_temp = 0.1
+				MAN_action_points_temp = 0.1
 			}
-			GH_MAN_econ_money_reserves_change_raw_money = yes
-			# 获得0.1B加入流动准备金，马加丹获得科技25%科研卡1
+			MAN_add_action_points = yes
+			# 30天后结算，75%概率接受，
+			# 若接受，则满铁不满度大幅下降（股肱之臣决议相关）
+			# 社会发展-行政效率开始缓慢发展
 		}
 	}
 }

@@ -210,6 +210,8 @@
 
 
  ##decision misc
+ GH_MAN_East_Asia_Defense_Council_symbol:0 "点击此处显示/关闭远东事务决议"
+ GH_MAN_East_Asia_Defense_Council_info:0 "有特高课（褐色）支持的§G东亚防卫安理会§!同时兼备稳定地区局势和刺探情报等功能。同时东亚防卫安理会是日本最前沿的官方性安全组织之一，在维和、区域镇暴、安全行动上都有所参与，作为先锋，满洲扮演着日本的黑手套，参与进共荣圈及其周边的大小事务之中，因此，行动力度也被视为主要目标，无论成功与否。但需要注意的是，资金是有限的，且需要兼顾年度与季度预算，如果透支使用，则将会在很长一段时间内无事可做，向日本索要资金效果甚微，且会一定程度上损害满洲在日本眼中的地位。"
  MAN_action_points:0 "行动力"
  MAN_add_action_points_tt:0 "增加§G$RIGHT|%$§!行动力度。\n"
  MAN_action_points_requirement:0 "年度力度所需"
