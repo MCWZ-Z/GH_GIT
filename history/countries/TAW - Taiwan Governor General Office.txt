@@ -7,10 +7,12 @@
 
 oob = ""
 
-recruit_character = TAW_Kichisaburo_Nomura
-recruit_character = TAW_Ihara_Mitsugu
-recruit_character = TAW_Nadao_Hirohiki
-recruit_character = TAW_Sugie_Ichizou
+recruit_character = TAW_Kanjiro_Ono
+recruit_character = TAW_Masaharu_Gotoda
+recruit_character = TAW_Jiang_Weichuan
+recruit_character = TAW_Jian_ji
+recruit_character = TAW_Wu_Sanlian
+recruit_character = TAW_Shi_Mingde
 
 set_stability = 1.2
 set_war_support = 0.7
@@ -115,24 +117,19 @@ set_technology = {
 
 set_politics = {
      ruling_party = despotism
-	last_election = "1934.3.26"
+	last_election = "1962.1.1"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-    communist = 2
-    socialist = 0
-    progressivism = 3
-    liberalism = 0
-    liberal_conservatism = 0
-    conservatism = 10
-    paternalism = 0
-    despotism = 65
-    ultranationalism = 0
-    fascism = 20
-    national_socialism = 0
-    esoteric_nazism = 0
+    despotism = 60
+    fascism = 35
+    conservatism = 2
+    communist = 1
+    progressivism = 1
+    liberalism = 1
+    
     
 }
 
