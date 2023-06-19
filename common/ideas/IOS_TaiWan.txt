@@ -1,0 +1,52 @@
+ideas = {
+    head_of_government = {
+            TAW_Kichisaburo_Nomura_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TAW_Kichisaburo_Nomura_hog"}
+			picture = "TAW_Kichisaburo_Nomura"
+			allowed = {
+				original_tag = TAW
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+	        TAW_Ihara_Mitsugu_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TAW_Ihara_Mitsugu_for"}
+			picture = "TAW_Ihara_Mitsugu"
+			allowed = {
+				original_tag = TAW
+			}
+			traits = {
+				foreign_minister
+			}
+		}
+	}
+    economy_minister = {
+            TAW_Nadao_Hirohiki_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TAW_Nadao_Hirohiki_eco"}
+			picture = "TAW_Nadao_Hirohiki"
+			allowed = {
+				original_tag = TAW
+			}
+			traits = {
+				economy_minister
+			}
+		}
+	}
+	security_minister = {
+	        TAW_Sugie_Ichizou_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TAW_Sugie_Ichizou_sec"}
+			picture = "TAW_Sugie_Ichizou"
+			allowed = {
+				original_tag = TAW
+			}
+			traits = {
+				security_minister
+			}
+		}
+	}
+}

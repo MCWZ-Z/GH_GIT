@@ -1,22 +1,32 @@
 characters = {
-    TAW_Kichisaburo_Nomura = {
-		name = TAW_Kichisaburo_Nomura
+    TAW_Kanjiro_Ono = {
+		name = TAW_Kanjiro_Ono
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/TAW/Portrait_TAW_Kichisaburo_Nomura.dds"
-				small = "GFX_TAW_Kichisaburo_Nomura"
+				large = "gfx/leaders/TAW/Portrait_TAW_Kanjiro_Ono.dds"
+				small = "GFX_TAW_Kanjiro_Ono"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_TAW_Kichisaburo_Nomura_DESC"
+			desc = "POLITICS_TAW_Kanjiro_Ono_DESC"
 			ideology = despotism_civilian_dictatorship_subtype
 			traits = { old_politician }
 			expire = "1999.1.1.1"
 			id = -1
 		}
+
+
+    TAW_Yasuhiro_Nakasone = {
+		name = TAW_Yasuhiro_Nakasone
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAW/Portrait_TAW_Yasuhiro_Nakasone.dds"
+				small = "GFX_TAW_Yasuhiro_Nakasone"
+			}
+		}
         advisor = {
 			slot = head_of_government
-			idea_token = TAW_Kichisaburo_Nomura_hog
+			idea_token = TAW_Yasuhiro_Nakasone_for
 			allowed = { original_tag = TAW }
 			traits = {
 				head_of_government
@@ -28,17 +38,39 @@ characters = {
 		}
     }
 
-    TAW_Ihara_Mitsugu = {
-		name = TAW_Ihara_Mitsugu
+    TAW_Daikichi_Aoki = {
+		name = TAW_Daikichi_Aoki
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/TAW/Portrait_TAW_Ihara_Mitsugu.dds"
-				small = "GFX_TAW_Ihara_Mitsugu"
+				large = "gfx/leaders/TAW/Portrait_TAW_Daikichi_Aoki.dds"
+				small = "GFX_TAW_Nadao_Hirohiki"
+			}
+		}
+        advisor = {
+			slot = economy_minister
+			idea_token = TAW_Daikichi_Aoki_eco
+			allowed = { original_tag = TAW }
+			traits = {
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+    }
+    
+    TAW_Masaharu_Gotoda = {
+		name = TAW_Masaharu_Gotoda
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAW/Portrait_TAW_Masaharu_Gotoda.dds"
+				small = "GFX_TAW_Masaharu_Gotoda"
 			}
 		}
         advisor = {
 			slot = foreign_minister
-			idea_token = TAW_Ihara_Mitsugu_for
+			idea_token = TAW_Masaharu_Gotoda_for
 			allowed = { original_tag = TAW }
 			traits = {
 				foreign_minister
@@ -50,39 +82,17 @@ characters = {
 		}
     }
 
-    TAW_Nadao_Hirohiki = {
-		name = TAW_Nadao_Hirohiki
+    TAW_Ichiro_Yokoyama = {
+		name = TAW_Ichiro_Yokoyama
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/TAW/Portrait_TAW_Nadao_Hirohiki.dds"
-				small = "GFX_TAW_Nadao_Hirohiki"
-			}
-		}
-        advisor = {
-			slot = economy_minister
-			idea_token = TAW_Nadao_Hirohiki_eco
-			allowed = { original_tag = TAW }
-			traits = {
-				economy_minister
-			}
-			ledger = civilian
-			cost = -1
-			removal_cost = -1
-			ai_will_do = { factor = 0 }
-		}
-    }
-
-    TAW_Sugie_Ichizou = {
-		name = TAW_Sugie_Ichizou
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/TAW/Portrait_TAW_Sugie_Ichizou.dds"
+				large = "gfx/leaders/TAW/Portrait_TAW_Ichiro_Yokoyama.dds"
 				small = "GFX_TAW_Sugie_Ichizou"
 			}
 		}
         advisor = {
 			slot = security_minister
-			idea_token = TAW_Sugie_Ichizou_sec
+			idea_token = TAW_Ichiro_Yokoyama_sec
 			allowed = { original_tag = TAW }
 			traits = {
 				security_minister
