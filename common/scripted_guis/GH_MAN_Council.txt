@@ -1,0 +1,27 @@
+scripted_gui = {
+	GH_MAN_East_Asia_Defense_Council_ui = {
+		window_name = "GH_MAN_East_Asia_Defense_Council_ui"
+		context_type = decision_category
+		# parent_window_token = politics_tab
+		visible = {
+			tag = MAN
+		}
+		effects = {
+			GH_MAN_asia_council_logo_click = {
+				if = {
+					limit = {
+						has_country_flag = MAN_show_far_east_affairs_flag
+					}
+					clr_country_flag = MAN_show_far_east_affairs_flag
+				}
+				else = {
+					set_country_flag = MAN_show_far_east_affairs_flag
+				}
+			}
+		}
+		triggers = {
+
+			
+		}
+	}
+}

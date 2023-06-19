@@ -15,6 +15,61 @@ GH_MAN_East_Asia_Defense_Council = {
 	# 	}
 	# }
 	##考核时间到来 365天
+	debug_man_action_points = {
+		fire_only_once = no 
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			set_temp_variable = {
+				MAN_action_points_temp = 0.05
+			}
+			MAN_add_action_points = yes
+		}
+	}
+	debug_man_action_requirement = {
+		fire_only_once = no
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			set_temp_variable = {
+				MAN_action_points_requirement_temp = 0.05
+			}
+			MAN_add_action_points_requirement = yes
+		}
+	}
+	debug_man_budget = {
+		fire_only_once = no
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			set_temp_variable = {
+				MAN_budget_var_temp = 0.05
+			}
+			MAN_add_budget = yes
+		}
+	}
+	debug_man_far_east_lock = {
+		fire_only_once = no
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = MAN_show_far_east_affairs_flag
+				}
+				clr_country_flag = MAN_show_far_east_affairs_flag
+			}
+			else = {
+				set_country_flag = MAN_show_far_east_affairs_flag
+			}
+			
+		}
+	}
+
 	MAN_annual_assessment_coming = {
 		activation = {
 			always = no
@@ -264,7 +319,20 @@ GH_MAN_East_Asia_Defense_Council = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_building_embassies_in_ROC"			#规定每条决议都要写一条log帮助debug
 			# 90天后，中华民国对我们的评价小幅上升（10）
 			# 少量减少下一次收集中华民国现代化信息所需PP（减少10PP），
-			# 满洲获得7%行动力度		
+			# 满洲获得7%行动力度
+			reverse_add_opinion_modifier  = {
+				target = CHI
+				modifier = MAN_building_embassies_in_ROC
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = MAN_building_embassies_in_ROC_flag
+					}
+				}
+				set_country_flag = MAN_building_embassies_in_ROC_flag	
+			}
+			
 			set_temp_variable = {
 				MAN_action_points_temp = 0.07
 			}
@@ -387,6 +455,10 @@ GH_MAN_East_Asia_Defense_Council = {
 	# 收集中华民国现代化信息 
 	MAN_gathering_roc_intelligence = {
 		cost = 25
+		custom_cost_trigger = {
+			command_power > 4.99
+		}
+		custom_cost_text = decision_cost_5_cp
 		fire_only_once = no
 		days_re_enable = 120
 		visible = {
@@ -402,6 +474,13 @@ GH_MAN_East_Asia_Defense_Council = {
 			}
 			set_temp_variable = {
 				MAN_action_points_temp = 0.09
+			}
+			if = {
+				limit = {
+					has_country_flag = MAN_building_embassies_in_ROC_flag
+				}
+				add_political_power = 10
+				clr_country_flag = MAN_building_embassies_in_ROC_flag
 			}
 			MAN_add_action_points = yes
 			if = {

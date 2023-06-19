@@ -217,9 +217,17 @@
  MAN_action_points_requirement:0 "年度力度所需"
  MAN_action_points_requirement_tt:0 "年度行动力度需求上涨§G$RIGHT|%$§!"
  GH_MAN_econ_money_reserves_increase_tt:0 "获得§Y[GetCurrency][?money_reserves_temp]B§!,加入§m流动准备金§!之中。"
+ MAN_budget_var_tt:0 "预算增加§G$RIGHT|%$§!"
  MAN_offer_budget_to_AMR_flag:0 "向阿穆尔提供资金"
  MAN_offer_budget_to_CHT_flag:0 "向外贝加尔提供资金"
  MAN_offer_budget_to_MAG_flag:0 "向马加丹提供资金"
+
+ MAN_action_points_txt:0 "对外行动力度：[?MAN_action_points|%]"
+ MAN_action_points_req_txt:0 "年度力度所需：[?MAN_action_points_requirement|%]"
+ 
+ MAN_annual_budget_txt:0 "年度预算：100M"
+ MAN_quarterly_budget_txt:0 "季度预算：25M"
+ MAN_current_budget_txt:0 "当前预算：[?MAN_budget_var]M"
 
  ##events
  man.1.t:0 "笼中对"

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_GH_MAN_asia_council_logo
+		texturefile = "gfx/interface/GUI/council/MAN_asia_council_logo.dds"
+	}
+}
