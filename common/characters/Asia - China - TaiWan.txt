@@ -1,0 +1,96 @@
+characters = {
+    TAW_Kichisaburo_Nomura = {
+		name = TAW_Kichisaburo_Nomura
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAW/Portrait_TAW_Kichisaburo_Nomura.dds"
+				small = "GFX_TAW_Kichisaburo_Nomura"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TAW_Kichisaburo_Nomura_DESC"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = { old_politician }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+        advisor = {
+			slot = head_of_government
+			idea_token = TAW_Kichisaburo_Nomura_hog
+			allowed = { original_tag = TAW }
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+    }
+
+    TAW_Ihara_Mitsugu = {
+		name = TAW_Ihara_Mitsugu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAW/Portrait_TAW_Ihara_Mitsugu.dds"
+				small = "GFX_TAW_Ihara_Mitsugu"
+			}
+		}
+        advisor = {
+			slot = foreign_minister
+			idea_token = TAW_Ihara_Mitsugu_for
+			allowed = { original_tag = TAW }
+			traits = {
+				foreign_minister
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+    }
+
+    TAW_Nadao_Hirohiki = {
+		name = TAW_Nadao_Hirohiki
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAW/Portrait_TAW_Nadao_Hirohiki.dds"
+				small = "GFX_TAW_Nadao_Hirohiki"
+			}
+		}
+        advisor = {
+			slot = economy_minister
+			idea_token = TAW_Nadao_Hirohiki_eco
+			allowed = { original_tag = TAW }
+			traits = {
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+    }
+
+    TAW_Sugie_Ichizou = {
+		name = TAW_Sugie_Ichizou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAW/Portrait_TAW_Sugie_Ichizou.dds"
+				small = "GFX_TAW_Sugie_Ichizou"
+			}
+		}
+        advisor = {
+			slot = security_minister
+			idea_token = TAW_Sugie_Ichizou_sec
+			allowed = { original_tag = TAW }
+			traits = {
+				security_minister
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+    }
+}
