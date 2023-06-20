@@ -1,0 +1,74 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GH_MAN_East_Asia_Defense_Council_ui"
+		size = { width = 500 height = 400 }
+		position = { x = -100 y = -379 }
+		# orientation = lower_right
+		orientation = center
+		buttonType = {
+			name = "GH_MAN_asia_council_logo"
+			spriteType = "GFX_GH_MAN_asia_council_logo"
+			position = { x = 150 y = 0 }
+			#pdx_tooltip = GH_MAN_Map_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		instantTextBoxType={
+			name = "MAN_action_points_txt"
+			position = {x = 320 y = 250 }
+			font = "aldrich_20_outline"
+			maxWidth = 460
+			maxHeight = 32
+			text = "MAN_action_points_txt"
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType={
+			name = "MAN_action_points_req_txt"
+			position = {x = 320 y = 300 }
+			font = "aldrich_20_outline"
+			maxWidth = 460
+			maxHeight = 32
+			text = "MAN_action_points_req_txt"
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType={
+			name = "MAN_annual_budget_txt"
+			position = {x = 80 y = 250 }
+			font = "aldrich_20_outline"
+			maxWidth = 460
+			maxHeight = 32
+			text = "MAN_annual_budget_txt"
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType={
+			name = "MAN_quarterly_budget_txt"
+			position = {x = 80 y = 300 }
+			font = "aldrich_20_outline"
+			maxWidth = 460
+			maxHeight = 32
+			text = "MAN_quarterly_budget_txt"
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType={
+			name = "MAN_current_budget_txt"
+			position = {x = 80 y = 350 }
+			font = "aldrich_20_outline"
+			maxWidth = 460
+			maxHeight = 32
+			text = "MAN_current_budget_txt"
+			format = left
+			fixedsize = yes
+		}
+		iconType = {
+			name = "Info"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 394 y = -63 }
+			pdx_tooltip = GH_MAN_East_Asia_Defense_Council_info
+		}
+
+	}
+}
