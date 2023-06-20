@@ -71,7 +71,7 @@ set_technology = {
      fighter_1945 = 1
      CAS_1945 = 1
      
-##HEAVY AIR##
+     ##HEAVY AIR##
      tac_bomber1 = 1
      tac_air_1945 = 1
      strategic_bomber1 = 1

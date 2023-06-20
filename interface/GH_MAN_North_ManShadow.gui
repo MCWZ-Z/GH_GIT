@@ -3,7 +3,7 @@ guiTypes = {
          name = "GH_MAN_North_ManShadow_ui"
          size = { width = 482 height = 620 }
          
-    instanttextboxtype = {
+        instanttextboxtype = {
 			name = "GH_MAN_Shadow_textbox"
 			position = { x = 11 y = -10 }
 			font = "aldrich_32_outline"
@@ -49,9 +49,9 @@ guiTypes = {
         containerWindowType = {
             name = "GNG_CRR_Progbar_layers_container"
             position = { x = 5 y = 4 }
+        }
 
 
-
-
+    }
 
 }
