@@ -63,12 +63,31 @@ guiTypes = {
 			format = left
 			fixedsize = yes
 		}
+		buttonType = {
+			name = "MAN_current_budget_minus"
+			spriteType = "GFX_GH_MAN_button_minus"
+			position = { x = 60 y = 350 }
+			#pdx_tooltip = GH_MAN_Map_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}		
+		buttonType = {
+			name = "MAN_current_budget_plus"
+			spriteType = "GFX_GH_MAN_button_plus"
+			position = { x = 120 y = 350 }
+			#pdx_tooltip = GH_MAN_Map_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}		
+
+
 		iconType = {
 			name = "Info"
 			spriteType = "GFX_Burgundy_GUI_Info_Button"
 			position = { x = 394 y = -63 }
 			pdx_tooltip = GH_MAN_East_Asia_Defense_Council_info
 		}
+
 
 	}
 }

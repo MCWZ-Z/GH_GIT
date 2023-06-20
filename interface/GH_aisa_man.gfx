@@ -3,4 +3,12 @@ spriteTypes = {
 		name = GFX_GH_MAN_asia_council_logo
 		texturefile = "gfx/interface/GUI/council/MAN_asia_council_logo.dds"
 	}
+	spriteType = {
+		name = GFX_GH_MAN_button_minus
+		texturefile = "gfx/interface/GUI/council/MAN_button_minus.dds"
+	}
+	spriteType = {
+		name = GFX_GH_MAN_button_plus
+		texturefile = "gfx/interface/GUI/council/MAN_button_plus.dds"
+	}
 }

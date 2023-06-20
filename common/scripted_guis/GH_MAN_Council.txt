@@ -18,6 +18,12 @@ scripted_gui = {
 					set_country_flag = MAN_show_far_east_affairs_flag
 				}
 			}
+			MAN_current_budget_plus_click = {
+
+			}
+			MAN_current_budget_minus_click = {
+
+			}
 		}
 		triggers = {
 
