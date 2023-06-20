@@ -2,33 +2,33 @@ state=
 {
 	id=524
 	name="STATE_524"
-	manpower = 8252537
-
-	state_category = city
+	manpower = 1903361
+	
+	resources = {
+		power = 4
+	}
+	
+	state_category = large_town
 	history=
 	{
 		owner = TAW
 		add_core_of = TAW
-
+		
+		
 		buildings = {
-			infrastructure = 5
-			radar_station = 2
-			air_base = 6
+			infrastructure = 6
+			radar_station = 3
 			schools = 1
-			barracks = 1
-			hospitals = 1
-			12068 = {
-				naval_base = 10
-			}
-			7186 = {
-				naval_base = 1
+			offices = 1
+			15887 = {
+				naval_base = 6
 			}
 		}
+		victory_points = { 15887 25 }
 		victory_points = { 7186 10 }
-		victory_points = { 12068 10 }
-		victory_points = { 11959 10 }
+		victory_points = { 15888 1 }
 	}
 	provinces={
-		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
+		15887 7186 15888
 		}
 }
