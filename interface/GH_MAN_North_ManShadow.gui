@@ -1,0 +1,57 @@
+guiTypes = {
+    containerWindowType = {
+         name = "GH_MAN_North_ManShadow_ui"
+         size = { width = 482 height = 620 }
+         
+    instanttextboxtype = {
+			name = "GH_MAN_Shadow_textbox"
+			position = { x = 11 y = -10 }
+			font = "aldrich_32_outline"
+			#maxwidth = 440
+			maxwidth = 482
+			text = "MAN_Shadow_textbox"
+			format = center
+		}
+        iconType = {
+			name = "GH_MAN_infor"
+			position = { x = 394 y = -63 }
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			pdx_tooltip = GH_MAN_infor_tooltip
+			pdx_tooltip_delayed = GH_MAN_infor_tooltip_delayed
+		}
+        instanttextboxtype = {
+			name = "GH_MAN_Shadow_second_textbox"
+			position = { x = 11 y = 40 } 
+			font = "aldrich_32_outline"
+			#maxwidth = 440
+			maxwidth = 482
+			text = "MAN_Shadow_second_textbox"
+			format = center
+		}
+        iconType = {
+            name = "GH_MAN_Shadow_NCJUA"
+            position = { x = 0 y = 0 }
+            spriteType = "GFX_GH_MAN_Shadow_NCJUA"
+            pdx_tooltip = GH_MAN_Shadow_NCJUA_tt
+        }
+        iconType = {
+            name = "GH_MAN_Shadow_refugee"
+            position = { x = 165 y = 0 }
+            spriteType = "GFX_GH_MAN_Shadow_refugee"
+            pdx_tooltip = GH_MAN_Shadow_refugee_tt
+        } 
+        iconType = {
+            name = "GH_MAN_Shadow_whitearmy"
+            position = { x = 330 y = 0 }
+            spriteType = "GFX_GH_MAN_Shadow_whitearmy"
+            pdx_tooltip = GH_MAN_Shadow_whitearmy_tt
+        }
+        containerWindowType = {
+            name = "GNG_CRR_Progbar_layers_container"
+            position = { x = 5 y = 4 }
+
+
+
+
+
+}

@@ -22,3 +22,16 @@ GH_MAN_East_Asia_Defense_Council = { #这部分是决议类，用debug决议作�
     priority = 500
     visible_when_empty = yes #这是保证在没有决议的情况下，该决议类仍能被看到，在写GUI时尤为重要
 }
+
+GH_MAN_North_ManShadow_Category = {
+    # icon = / #这是该决议类的图标，由GFX文件定义
+    allowed = { #这是决定哪个国家可以使用该决议类
+        tag = MAN
+    }
+    visible = { #这是决定在什么条件下可以使用该决议类，这个和上面的代码块中的内容都可以在https://hoi4.paradoxwikis.com/Conditions中找到
+        # is_ai = no
+    }
+    scripted_gui = GH_MAN_North_ManShadow_ui
+    priority = 500
+    visible_when_empty = yes #这是保证在没有决议的情况下，该决议类仍能被看到，在写GUI时尤为重要
+}
