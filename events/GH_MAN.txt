@@ -395,3 +395,27 @@ country_event = {
 		# custom_effect_tooltip = man_14_tt
 	}
 }
+
+##########################################################
+##########################################################
+###################THE END OF THE WORLD###################
+##########################################################
+##########################################################
+country_event = {
+	id = man.666
+	title = man.666.t
+	desc = man.666.desc
+
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.666"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.666.a
+	}
+}
