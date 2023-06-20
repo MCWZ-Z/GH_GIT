@@ -3,7 +3,15 @@ MAN_add_action_points = {
 	add_to_variable = {
 		var = MAN_action_points
 		value = MAN_action_points_temp
-		tooltip = MAN_add_action_points_tt
+		# tooltip = MAN_add_action_points_tt
+	}
+	if = {
+		limit = { check_variable = { MAN_action_points_temp < 0 } }
+		multiply_temp_variable = { MAN_action_points_temp = -1 }
+		custom_effect_tooltip = MAN_action_points_decrease_tt
+	} 
+	else = {
+		custom_effect_tooltip = MAN_action_points_increase_tt
 	}
 }
 MAN_add_action_points_requirement = {
@@ -11,7 +19,15 @@ MAN_add_action_points_requirement = {
 	add_to_variable = {
 		var = MAN_action_points_requirement
 		value = MAN_action_points_requirement_temp
-		tooltip = MAN_action_points_requirement_tt
+		# tooltip = MAN_action_points_requirement_tt
+	}
+	if = {
+		limit = { check_variable = { MAN_action_points_requirement_temp < 0 } }
+		multiply_temp_variable = { MAN_action_points_requirement_temp = -1 }
+		custom_effect_tooltip = MAN_action_points_requirement_decrease_tt
+	} 
+	else = {
+		custom_effect_tooltip = MAN_action_points_requirement_increase_tt
 	}
 }
 MAN_add_budget = {
@@ -19,9 +35,42 @@ MAN_add_budget = {
 	add_to_variable = {
 		var = MAN_budget_var
 		value = MAN_budget_var_temp
-		tooltip = MAN_budget_var_tt
+		# tooltip = MAN_budget_var_tt
+	}
+	set_variable = {
+		MAN_budget_var_per_M = MAN_budget_var
+	}
+	multiply_variable = {
+		MAN_budget_var_per_M = 1000
+	}
+	if = {
+		limit = { check_variable = { MAN_budget_var_temp < 0 } }
+		multiply_temp_variable = { MAN_budget_var_temp = -1 }
+		custom_effect_tooltip = MAN_add_budget_decrease_tt
+	} 
+	else = {
+		custom_effect_tooltip = MAN_add_budget_increase_tt
 	}
 }
+MAN_add_to_debt = {
+	#添加到债务
+	add_to_variable = {
+		var = national_debt
+		value = MAN_debt_var_temp
+		# tooltip = MAN_budget_var_tt
+	}
+	if = {
+		limit = { check_variable = { MAN_debt_var_temp < 0 } }
+		multiply_temp_variable = { MAN_debt_var_temp = -1 }
+		custom_effect_tooltip = MAN_debt_var_temp_decrease_tt
+	} 
+	else = {
+		custom_effect_tooltip = MAN_debt_var_temp_increase_tt
+	}
+	update_economy_tab = yes
+	clear_variable = MAN_debt_var_temp
+}
+
 GH_MAN_econ_money_reserves_change_raw_money = {
 	#Uses Temp Vars to make it a lot simpler + no mass tooltip spam, value of parameter in billions
 	add_to_variable = {

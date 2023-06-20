@@ -66,7 +66,7 @@ guiTypes = {
 		buttonType = {
 			name = "MAN_current_budget_minus"
 			spriteType = "GFX_GH_MAN_button_minus"
-			position = { x = 60 y = 350 }
+			position = { x = 25 y = 340 }
 			#pdx_tooltip = GH_MAN_Map_tt
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -74,13 +74,12 @@ guiTypes = {
 		buttonType = {
 			name = "MAN_current_budget_plus"
 			spriteType = "GFX_GH_MAN_button_plus"
-			position = { x = 120 y = 350 }
+			position = { x = 220 y = 340 }
 			#pdx_tooltip = GH_MAN_Map_tt
 			clicksound = click_default
 			oversound = ui_menu_over
-		}		
-
-
+		}
+		
 		iconType = {
 			name = "Info"
 			spriteType = "GFX_Burgundy_GUI_Info_Button"

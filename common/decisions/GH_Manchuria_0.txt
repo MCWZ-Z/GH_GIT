@@ -125,7 +125,7 @@ GH_MAN_East_Asia_Defense_Council = {
 		days_re_enable = 60
 		custom_cost_trigger = {
 			check_variable = {
-				GDP > 0
+				MAN_budget_var > 0.003
 			}
 		}
 		custom_cost_text = GH_decision_cost_3_million
@@ -138,6 +138,9 @@ GH_MAN_East_Asia_Defense_Council = {
 			}
 			NOT = {
 				has_country_flag = MAN_offer_budget_to_MAG_flag
+			}
+			check_variable = {
+				MAN_budget_var > 0.003
 			}
 		}
 		remove_effect = {
@@ -162,6 +165,10 @@ GH_MAN_East_Asia_Defense_Council = {
 				days = 60
 				value = 1
 			}
+			set_temp_variable = {
+				MAN_budget_var_temp = -0.003
+			}
+			MAN_add_budget = yes
 			# 阿穆尔/外贝加尔/马加丹获得3M，加入流动准备金之中，满洲获得50PP及3%行动力度
 		}
 	}
@@ -172,7 +179,7 @@ GH_MAN_East_Asia_Defense_Council = {
 		days_re_enable = 60
 		custom_cost_trigger = {
 			check_variable = {
-				GDP > 0
+				MAN_budget_var > 0.003
 			}
 		}
 		custom_cost_text = GH_decision_cost_3_million
@@ -185,6 +192,9 @@ GH_MAN_East_Asia_Defense_Council = {
 			}
 			NOT = {
 				has_country_flag = MAN_offer_budget_to_MAG_flag
+			}
+			check_variable = {
+				MAN_budget_var > 0.003
 			}
 		}
 		remove_effect = {
@@ -209,6 +219,10 @@ GH_MAN_East_Asia_Defense_Council = {
 				days = 60
 				value = 1
 			}
+			set_temp_variable = {
+				MAN_budget_var_temp = -0.003
+			}
+			MAN_add_budget = yes
 		}
 	}
 	#向马加丹提供资金 3M
@@ -218,7 +232,7 @@ GH_MAN_East_Asia_Defense_Council = {
 		days_re_enable = 60
 		custom_cost_trigger = {
 			check_variable = {
-				GDP > 0
+				MAN_budget_var > 0.003
 			}
 		}
 		custom_cost_text = GH_decision_cost_3_million
@@ -228,6 +242,9 @@ GH_MAN_East_Asia_Defense_Council = {
 			}
 			NOT = {
 				has_country_flag = MAN_offer_budget_to_CHT_flag
+			}
+			check_variable = {
+				MAN_budget_var > 0.003
 			}
 		}
 		visible = {
@@ -255,6 +272,10 @@ GH_MAN_East_Asia_Defense_Council = {
 				days = 60
 				value = 1
 			}
+			set_temp_variable = {
+				MAN_budget_var_temp = -0.003
+			}
+			MAN_add_budget = yes
 		}
 	}
 	#与远东白色势力领导人会晤 3M
@@ -266,7 +287,12 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 		custom_cost_trigger = {
 			check_variable = {
-				GDP > 0
+				MAN_budget_var > 0.003
+			}
+		}
+		available = {
+			check_variable = {
+				MAN_budget_var > 0.003
 			}
 		}
 		custom_cost_text = GH_decision_cost_3_million
@@ -274,6 +300,10 @@ GH_MAN_East_Asia_Defense_Council = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_meeting_with_far_east_white_leader"			#规定每条决议都要写一条log帮助debug
 			# 阿穆尔/外贝加尔/马加丹中的随机一个获得100PP，满洲获得50PP及3%行动力度
+			set_temp_variable = {
+				MAN_budget_var_temp = -0.003
+			}
+			MAN_add_budget = yes
 			MAN = {
 				add_political_power = 50
 				set_temp_variable = {
@@ -308,12 +338,17 @@ GH_MAN_East_Asia_Defense_Council = {
 		days_remove = 90
 		custom_cost_trigger = {
 			check_variable = {
-				GDP > 0
+				MAN_budget_var > 0.01
 			}
 		}
 		custom_cost_text = GH_decision_cost_10_million
 		visible = {
 			has_country_flag = MAN_show_budget_plan_flag
+		}
+		visible = {
+			check_variable = {
+				MAN_budget_var > 0.01
+			}
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_building_embassies_in_ROC"			#规定每条决议都要写一条log帮助debug
@@ -332,7 +367,10 @@ GH_MAN_East_Asia_Defense_Council = {
 				}
 				set_country_flag = MAN_building_embassies_in_ROC_flag	
 			}
-			
+			set_temp_variable = {
+				MAN_budget_var_temp = -0.01
+			}
+			MAN_add_budget = yes
 			set_temp_variable = {
 				MAN_action_points_temp = 0.07
 			}

@@ -211,23 +211,31 @@
 
  ##decision misc
  GH_MAN_East_Asia_Defense_Council_symbol:0 "点击此处显示/关闭远东事务决议"
- GH_MAN_East_Asia_Defense_Council_info:0 "有特高课（褐色）支持的§G东亚防卫安理会§!同时兼备稳定地区局势和刺探情报等功能。同时东亚防卫安理会是日本最前沿的官方性安全组织之一，在维和、区域镇暴、安全行动上都有所参与，作为先锋，满洲扮演着日本的黑手套，参与进共荣圈及其周边的大小事务之中，因此，行动力度也被视为主要目标，无论成功与否。但需要注意的是，资金是有限的，且需要兼顾年度与季度预算，如果透支使用，则将会在很长一段时间内无事可做，向日本索要资金效果甚微，且会一定程度上损害满洲在日本眼中的地位。"
+ GH_MAN_East_Asia_Defense_Council_info:0 "有§o特高课§!支持的§G东亚防卫安理会§!同时兼备稳定地区局势和刺探情报等功能。同时东亚防卫安理会是日本最前沿的官方性安全组织之一，在维和、区域镇暴、安全行动上都有所参与，作为先锋，满洲扮演着日本的黑手套，参与进共荣圈及其周边的大小事务之中，因此，行动力度也被视为主要目标，无论成功与否。但需要注意的是，资金是有限的，且需要兼顾年度与季度预算，如果透支使用，则将会在很长一段时间内无事可做，向日本索要资金效果甚微，且会一定程度上损害满洲在日本眼中的地位。"
  MAN_action_points:0 "行动力"
  MAN_add_action_points_tt:0 "增加§G$RIGHT|%$§!行动力度。\n"
+ MAN_action_points_decrease_tt:0 "减少§R[?MAN_action_points_temp|%]§!行动力度。\n"
+ MAN_action_points_increase_tt:0 "增加§G[?MAN_action_points_temp|%]§!行动力度。\n"
  MAN_action_points_requirement:0 "年度力度所需"
- MAN_action_points_requirement_tt:0 "年度行动力度需求上涨§G$RIGHT|%$§!"
+ MAN_action_points_requirement_decrease_tt:0 "年度行动力度需求下降§R[?MAN_action_points_requirement_temp|%]§!"
+ MAN_action_points_requirement_increase_tt:0 "年度行动力度需求上涨§G[?MAN_action_points_requirement_temp|%]§!"
  GH_MAN_econ_money_reserves_increase_tt:0 "获得§Y[GetCurrency][?money_reserves_temp]B§!,加入§m流动准备金§!之中。"
  MAN_budget_var_tt:0 "预算增加§G$RIGHT|%$§!"
+ MAN_add_budget_decrease_tt:0 "预算减少§R[?MAN_budget_var_temp]B§!"
+ MAN_add_budget_increase_tt:0 "预算增加§G[?MAN_budget_var_temp]B§!"
  MAN_offer_budget_to_AMR_flag:0 "向阿穆尔提供资金"
  MAN_offer_budget_to_CHT_flag:0 "向外贝加尔提供资金"
  MAN_offer_budget_to_MAG_flag:0 "向马加丹提供资金"
 
+ 
+ MAN_debt_var_temp_increase_tt:0 "添加§G[?MAN_debt_var_temp]B§!到§R国家债务§!中。"
+#  TNO_add_to_debt_only
  MAN_action_points_txt:0 "对外行动力度：[?MAN_action_points|%]"
  MAN_action_points_req_txt:0 "年度力度所需：[?MAN_action_points_requirement|%]"
  
  MAN_annual_budget_txt:0 "年度预算：100M"
  MAN_quarterly_budget_txt:0 "季度预算：25M"
- MAN_current_budget_txt:0 "当前预算：[?MAN_budget_var]M"
+ MAN_current_budget_txt:0 "当前预算：[?MAN_budget_var_per_M]M"
 
  ##events
  man.1.t:0 "笼中对"

@@ -20,15 +20,20 @@ scripted_gui = {
 			}
 			MAN_current_budget_plus_click = {
 				set_temp_variable = {
-					MAN_action_points_temp = 0.005
+					MAN_budget_var_temp = 0.005
 				}
-				MAN_add_action_points = yes
+				MAN_add_budget = yes
+				set_temp_variable = {
+					MAN_debt_var_temp = 0.005
+				}
+				MAN_add_to_debt = yes
+
 			}
 			MAN_current_budget_minus_click = {
 				set_temp_variable = {
-					MAN_action_points_temp = -0.005
+					MAN_budget_var_temp = -0.005
 				}
-				MAN_add_action_points = yes
+				MAN_add_budget = yes
 			}
 		}
 		triggers = {
