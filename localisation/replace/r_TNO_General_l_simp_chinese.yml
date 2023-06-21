@@ -19,15 +19,15 @@
  LOAD_GFX_PDXMAP_TREES:0 "§B鸡毛满地……§!"
  LOAD_GFX:0 "§B扶植远东代理人……§!"
 
- PRECALC_NAVAL_DIST:0 "§B开启外交后门……§!"
+ PRECALC_NAVAL_DIST:0 "§B盛世倒计时……§!"
 
  LOADING_MAIN_MENU:0 "§B我不要制作周期，我只要七月发布……§!"
 
  EXITING_TO_FRONTEND:0 "§B金樽共饮……§!"
 
  LOAD_INIT:0 "§B清剿抗联……§!"
- PROC_FLAGS:0 "§B寄出兵役登记卡……§!"
- EXECUTE_HISTORY:0 "§B反制敌方间谍……§!"
+ PROC_FLAGS:0 "§B骗了无涯过客……§!"
+ EXECUTE_HISTORY:0 "§B安理会在行动……§!"
 
  LOADING_SAVEGAME:0 "§B重塑$NAME$历史……§!"
  LOADING_SAVEGAME_NO_NAME:0 "§B重塑历史……§!"
