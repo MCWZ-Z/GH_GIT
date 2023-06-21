@@ -8,8 +8,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GH_MAN_crisis_coming   #危机已至
-		icon = GH_MAN_crisis_coming 
+		id = GH_MAN_Crisis_coming   #危机已至
+		icon = GH_MAN_Crisis_coming 
 		x = 10
 		y = 0
 		cost = 1 #这是国策花费的政治点
@@ -27,12 +27,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GH_MAN_count_the_gold   #清点剩余储备
-		icon = GH_MAN_count_the_gold 
+		id = GH_MAN_Count_the_gold   #清点剩余储备
+		icon = GH_MAN_Count_the_gold 
 		x = 10
 		y = 2
 		cost = 1 #这是国策花费的政治点
-		prerequisite = { GH_MAN_crisis_coming }
+		prerequisite = { GH_MAN_Crisis_coming }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -47,12 +47,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GH_MAN_use_breakwater   #利用防波堤
-		icon = GH_MAN_use_breakwater 
+		id = GH_MAN_Use_breakwater   #利用防波堤
+		icon = GH_MAN_Use_breakwater 
 		x = 8
 		y = 2
 		cost = 1 #这是国策花费的政治点
-		prerequisite = { GH_MAN_crisis_coming }
+		prerequisite = { GH_MAN_Crisis_coming }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -72,8 +72,8 @@ focus_tree = {
 		x = 8
 		y = 4
 		cost = 1 #这是国策花费的政治点
-		prerequisite = { GH_MAN_use_breakwater }
-		mutually_exclusive = { focus = GH_MAN_flow_center }
+		prerequisite = { GH_MAN_Use_breakwater }
+		mutually_exclusive = { focus = GH_MAN_Flow_center }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -88,13 +88,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GH_MAN_flow_center   #越缺钱，越投资
-		icon = GH_MAN_flow_center 
+		id = GH_MAN_Flow_center   #向中央流动
+		icon = GH_MAN_Flow_center 
 		x = 6
 		y = 4
 		cost = 1 #这是国策花费的政治点
-		prerequisite = { GH_MAN_use_breakwater }
-		mutually_exclusive = { focus = GH_MAN_lessmoney_moreuse }
+		prerequisite = { GH_MAN_Use_breakwater }
+		mutually_exclusive = { focus = GH_MAN_Lessmoney_moreuse }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -108,5 +108,347 @@ focus_tree = {
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
 		}
 	}
+	focus = {
+		id = GH_MAN_Guaranteed_credit   #保证信用
+		icon = GH_MAN_Guaranteed_credit 
+		x = 7
+		y = 6
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { 
+			GH_MAN_Flow_center
+			GH_MAN_Lessmoney_moreuse
+			}
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Industry_Act   #振兴实业方案
+		icon = GH_MAN_Industry_Act 
+		x = 7
+		y = 8
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { GH_MAN_Guaranteed_credit }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Workfoce_and_money   #劳动力与金钱
+		icon = GH_MAN_Workfoce_and_money 
+		x = 6
+		y = 10
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { GH_MAN_Industry_Act }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Reform   #开放刺激消费
+		icon = GH_MAN_Reform 
+		x = 8
+		y = 10
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { GH_MAN_Industry_Act }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_New_workeract   #新劳工法案
+		icon = GH_MAN_New_workeract 
+		x = 7
+		y = 12
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { 
+			GH_MAN_Workfoce_and_money
+			GH_MAN_Reform
+		 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_More_post   #更多的岗位
+		icon = GH_MAN_More_post 
+		x = 6
+		y = 14
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { 
+			GH_MAN_New_workeract
+		 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Every_at_work   #人人有工作
+		icon = GH_MAN_Every_at_work 
+		x = 8
+		y = 14
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { 
+			GH_MAN_New_workeract
+		 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Resource_exploration_act   #资源勘探方案
+		icon = GH_MAN_Resource_exploration_act 
+		x = 7
+		y = 16
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { 
+			GH_MAN_Every_at_work
+            GH_MAN_More_post
+		 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_lower_tariff   #降低壁垒
+		icon = GH_MAN_lower_tariff
+		x = 6
+		y = 18
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { 
+			GH_MAN_Resource_exploration_act
+		 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Survival_of_the_fittest   #适者生存
+		icon = GH_MAN_Survival_of_the_fittest
+		x = 8
+		y = 18
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { 
+			GH_MAN_Resource_exploration_act
+		 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_fairplay_memorandum   #工业合理竞争备忘录
+		icon = GH_MAN_fairplay_memorandum
+		x = 7
+		y = 20
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { 
+			GH_MAN_Survival_of_the_fittest
+			GH_MAN_lower_tariff
+		 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Input_gap   #投入缺口
+		icon = GH_MAN_Input_gap 
+		x = 10
+		y = 4
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { GH_MAN_Count_the_gold }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Slow_down_the_crash   #减缓崩溃
+		icon = GH_MAN_Slow_down_the_crash 
+		x = 10
+		y = 10
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { GH_MAN_Input_gap }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Responding_to_riots   #应对骚乱
+		icon = GH_MAN_Responding_to_riots 
+		x = 10
+		y = 14
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { GH_MAN_Slow_down_the_crash }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Mobilization_of_gendarmerie   #调动宪兵队
+		icon = GH_MAN_Mobilization_of_gendarmerie 
+		x = 10
+		y = 16
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { GH_MAN_Responding_to_riots }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_Strengthen_police_presence   #强化地区警力
+		icon = GH_MAN_Strengthen_police_presence 
+		x = 10
+		y = 18
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { GH_MAN_Mobilization_of_gendarmerie }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+
+
 
 }
