@@ -1,0 +1,11 @@
+on_actions = { #与GH开发无关
+	on_startup = {
+		effect = {
+			MAN = {
+				set_variable = {
+					MAN_Shadow_loading = 30
+				}
+			}
+		}
+	}
+}

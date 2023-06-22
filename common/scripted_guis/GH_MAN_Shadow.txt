@@ -1,17 +1,24 @@
 scripted_gui = {
 	GH_MAN_North_ManShadow_ui = {
-	window_name = "GH_MAN_North_ManShadow_ui"
+		window_name = "GH_MAN_North_ManShadow_ui"
 		context_type = decision_category
 		dirty = GH_MAN_Shadow_dirty_variable
 		visible = {
 			tag = MAN
 		}
-		
 		properties = {
-		     GH_MAN_Shadow_resist = { frame = MAN_Shadow_loading } #进度条
-		     GH_MAN_Shadow_NCJUA = { frame  = MAN_Shadow_NCJUA } #抗联
-		     GH_MAN_Shadow_whitearmy = { frame = MAN_Shadow_whitearmy } #白匪
-		     GH_MAN_Shadow_refugee = { frame = MAN_Shadow_refugee } #难民
+			GH_MAN_shadowloading_full = {
+				frame = MAN_Shadow_loading
+			}			#进度条
+			# GH_MAN_Shadow_NCJUA = {
+			# 	frame = MAN_Shadow_NCJUA
+			# }			#抗联
+			# GH_MAN_Shadow_whitearmy = {
+			# 	frame = MAN_Shadow_whitearmy
+			# }			#白匪
+			# GH_MAN_Shadow_refugee = {
+			# 	frame = MAN_Shadow_refugee
+			# }			#难民
 		}
-		}
+	}
 }

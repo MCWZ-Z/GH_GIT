@@ -132,7 +132,7 @@
 
 
 
- ##decision
+ ##decision -1 
  GH_MAN_East_Asia_Defense_Council:0 "东亚防卫安理会"
  MAN_annual_assessment_coming:0 "考核时间到来"
  MAN_annual_assessment_coming_desc:0 ""
@@ -229,13 +229,25 @@
 
  
  MAN_debt_var_temp_increase_tt:0 "添加§G[?MAN_debt_var_temp]B§!到§R国家债务§!中。"
-#  TNO_add_to_debt_only
+ #  TNO_add_to_debt_only
  MAN_action_points_txt:0 "对外行动力度：[?MAN_action_points|%]"
  MAN_action_points_req_txt:0 "年度力度所需：[?MAN_action_points_requirement|%]"
  
  MAN_annual_budget_txt:0 "年度预算：100M"
  MAN_quarterly_budget_txt:0 "季度预算：25M"
  MAN_current_budget_txt:0 "当前预算：[?MAN_budget_var_per_M]M"
+
+
+
+
+ #  decision - 2
+ GH_MAN_North_ManShadow_Category:0 "北满洲的阴影"
+ GH_MAN_North_ManShadow_infor_tooltip:0 "北满洲，这片荒芜贫瘠的土地上，阴影正在悄然降临，大攻势没有彻底击溃他们，相反的，我们正在被这股漩涡逐渐卷入更深的麻烦之中，尝试用武力、金钱和人力来解决问题，至少要让他们不再破坏帝国的稳定，保持足够的投入度，能有效遏止抵抗度的增长，但请注意，不要长期维持过高的投入度，这会让经济压力变的巨大；也不要长期维持过低的投入度，这会让抵抗度增长效率变高。如果不能解决这个问题，就及时止损，但如果这样做，就会使我们的威信大打折扣，投入越多，贸然退出的损失越大。"
+ GH_MAN_Shadow_NCJUA_tt:0 "这些潜伏在阴影之中的复仇者们，终有一日会卷土重来，他们在无人支持的情况下仍然作祟了数十年，或许他们很快就会在北满洲的贫瘠之地中自我消亡，但我们仍然不能掉以轻心，必须解决他们才能给我们带来长久的和平与安宁。"
+ GH_MAN_Shadow_refugee_tt:0 "来自于远东、中西伯利亚的前苏联难民给此地带来了极大的动荡与不安，他们是不在帝国名册上的黑户，是不属于混乱之地的孤儿，他们贪婪、狡诈，将无序传播到这片贫瘠之地，安抚或是镇压他们，总之，让他们不要再闹事就好。"
+ GH_MAN_Shadow_whitearmy_tt:0 "生长于外东北的俄族人中有共产党，也有白卫军，这些顽固的，仍然做着春秋大梦的白色恐怖分子试图窃取并占据这片贫瘠之地的话语权，对于他们，我们要以大棒和胡萝卜并存，让他们乖乖被驯服为土狗，而不是成为一只为了肉就露出獠牙的野狗。"
+ GH_MAN_shadowloading_empty_tooltip:0 "当前抵抗度：[?MAN_Shadow_loading]%\n效果：每三个月稳定度-3%，每日政治点数获取-0.13\n抗联抵抗追加效果：每日指挥点数获取-0.4\n难民抵抗追加效果：每三个月添加1M到债务之中\n俄罗斯合作者抵抗追加效果：陆军经验每周扣除5点"
+ GH_MAN_Shadow_putinto_txt:0 "投入度：[]% []"
 
  ##events
  man.1.t:0 "笼中对"
