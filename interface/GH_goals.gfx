@@ -6,3 +6,87 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/MAN/GH_MAN_hotline_talk.dds" #统一放在“gfx/interface/goals/国家ID”文件夹内，命名为“国策ID.dds”
 	}
 }
+
+spriteTypes = {
+	##MAN_original
+	SpriteType = {
+		name = "GH_MAN_Debilitating_giants"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Debilitating_giants.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Get_out_of_thewoods"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Get_out_of_thewoods.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Economists_responses"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Economists_responses.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_A_shot_in_thearm"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_A_shot_in_thearm.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Promote_employment"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Promote_employment.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Offer_jobs"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Offer_jobs.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Invest_in_infrastructure"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Invest_in_infrastructure.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Turn_to_the_Far_East"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Turn_to_the_Far_East.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Sell_materials"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Sell_materials.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Find_business_opportunities"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Find_business_opportunities.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Smarmy"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Smarmy.dds"
+	}
+	SpriteType = {
+		name = "GH_Opinion_of_the_office"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_Opinion_of_the_office.dds"
+	}
+	SpriteType = {
+		name = "GH_Introduction_of_new_taxes"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_Introduction_of_new_taxes.dds"
+	}
+	SpriteType = {
+		name = "GH_Fill_the_loopholes"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_Fill_the_loopholes.dds"
+	}
+	SpriteType = {
+		name = "GH_End_the_transaction"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_End_the_transaction.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Small_profits"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Small_profits.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Report_financials"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Report_financials.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Rob_one"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Rob_one.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_Additional_revenue_generation"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_Additional_revenue_generation.dds"
+	}
+	SpriteType = {
+		name = "GH_MAN_eventful_period"
+		textureFile = "gfx/interface/goals/GH_MAN_original/GH_MAN_eventful_period.dds"
+	}
+}
