@@ -970,7 +970,7 @@ GH_MAN_East_Asia_Defense_Council = {
 			# 社会发展-军队职业度开始缓慢恶化，获得50PP，获得0.05B加入流动准备金
 		}
 	}
-	# 说服外贝加尔接受满铁投资
+	# 说服外贝加尔接受满业投资
 	MAN_SMR_invest_in_CHT = {
 		cost = 25
 		fire_only_once = no
@@ -993,7 +993,7 @@ GH_MAN_East_Asia_Defense_Council = {
 			}
 			MAN_add_action_points = yes
 			# 30天后结算，75%概率接受，
-			# 若接受，则满铁不满度大幅下降（股肱之臣决议相关）
+			# 若接受，则满业不满度大幅下降（利维坦决议相关）
 			# 社会发展-行政效率开始缓慢发展
 		}
 	}

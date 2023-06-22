@@ -120,8 +120,10 @@
  ##focuses
  GH_MAN_hotline_talk:0 "热线会谈"
  GH_MAN_hotline_talk_desc:0 ""
-
-
+ 
+ #初始国策
+ GH_MAN_Debilitating_giants:0 "巨人之衰"
+ GH_MAN_Get_out_of_thewoods:0 "走出困境"
 
 
 
@@ -159,11 +161,11 @@
  MAN_hide_intelligence_decisions_desc:0 ""
  MAN_sharing_intelligence_with_tokko:0 "与日本本土特高课共享情报"
  MAN_sharing_intelligence_with_tokko_desc:0 ""
- MAN_gathering_far_east_intelligence:0 "收集远东局势信息"
+ MAN_gathering_far_east_intelligence:0 "向远东派出情报特工"
  MAN_gathering_far_east_intelligence_desc:0 ""
- MAN_gathering_roc_intelligence:0 "收集中华民国现代化信息"
+ MAN_gathering_roc_intelligence:0 "在民国立法院中安插间谍"
  MAN_gathering_roc_intelligence_desc:0 ""
- MAN_gathering_INS_intelligence:0 "收集印尼国内局势信息"
+ MAN_gathering_INS_intelligence:0 "帮助印尼甄别自由派分子"
  MAN_gathering_INS_intelligence_desc:0 ""
 
  MAN_show_MAG_affairs_decisions:0 "展开马加丹斡旋选项"
@@ -174,7 +176,7 @@
  MAN_sell_gun_to_MAG_desc:0 ""
  MAN_development_of_Magadan_Port_discussion:0 "商讨开发马加丹港事宜"
  MAN_development_of_Magadan_Port_discussion_desc:0 ""
- MAN_loans_to_MAG:0 "热线从亚洲防卫战略理事会中拨出贷款会谈"
+ MAN_loans_to_MAG:0 "从亚洲防卫战略理事会中拨出贷款"
  MAN_loans_to_MAG_desc:0 ""
  MAN_sell_equipment_to_MAG:0 "向马加丹出售制造器械"
  MAN_sell_equipment_to_MAG_desc:0 ""
@@ -205,7 +207,7 @@
  MAN_CHT_resource_extraction_discussion_desc:0 ""
  MAN_offer_instructor_to_CHT:0 "向外贝加尔提供教官"
  MAN_offer_instructor_to_CHT_desc:0 ""
- MAN_SMR_invest_in_CHT:0 "说服外贝加尔接受满铁投资"
+ MAN_SMR_invest_in_CHT:0 "说服外贝加尔接受满业投资"
  MAN_SMR_invest_in_CHT_desc:0 ""
 
 
