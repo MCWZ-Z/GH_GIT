@@ -1,1 +1,32 @@
 #占位符
+spriteTypes = {
+	spriteType = {
+		name = GFX_GH_MAN_shadow_full
+		texturefile = "gfx/interface/GUI/shadow/MAN_shadow_full.dds"
+	}
+	spriteType = {
+		name = GFX_GH_MAN_shadow_loading_empty
+		texturefile = "gfx/interface/GUI/shadow/MAN_shadow_loading_empty.dds"
+	}
+	spriteType = {
+		name = GFX_GH_MAN_shadow_NCJUA
+		texturefile = "gfx/interface/GUI/shadow/MAN_shadow_NCJUA.dds"
+	}
+	spriteType = {
+		name = GFX_GH_MAN_shadow_refugee
+		texturefile = "gfx/interface/GUI/shadow/MAN_shadow_refugee.dds"
+	}
+	spriteType = {
+		name = GFX_GH_MAN_shadow_whiteArmy
+		texturefile = "gfx/interface/GUI/shadow/MAN_shadow_whiteArmy.dds"
+	}
+	progressbartype = {
+		name = "GFX_GH_MAN_shadow_loading"
+		textureFile1 = "gfx/interface/GUI/shadow/MAN_shadow_full.dds"
+		textureFile2 = "gfx/interface/GUI/shadow/MAN_shadow_full_empty.dds"
+		size = { x = 451 y = 34 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+}
