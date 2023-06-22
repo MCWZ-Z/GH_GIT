@@ -209,4 +209,204 @@ focus_tree = {
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
 		}
 	}
+    focus = {
+		id = GH_MAN_Smarmy   #虚与委蛇
+		icon = GH_MAN_Smarmy 
+		x = 1
+		y = 4
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_MAN_Get_out_of_thewoods }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+    focus = {
+		id = GH_Opinion_of_the_office   #总务厅的意见
+		icon = GH_Opinion_of_the_office 
+		x = 1
+		y = 6
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_MAN_GH_MAN_Smarmy }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+    focus = {
+		id = GH_Introduction_of_new_taxes   #征收新税
+		icon = GH_Introduction_of_new_taxes 
+		x = 1
+		y = 8
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_Opinion_of_the_office }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+    focus = {
+		id = GH_Fill_the_loopholes   #堵上缺口
+		icon = GH_Fill_the_loopholes 
+		x = 1
+		y = 10
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_Introduction_of_new_taxes }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+    focus = {
+		id = GH_End_the_transaction   #告一段落
+		icon = GH_Fill_the_loopholes 
+		x = 1
+		y = 12
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_Fill_the_loopholes }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+    focus = {
+		id = GH_MAN_Small_profits   #蝇头小利
+		icon = GH_MAN_Small_profits 
+		x = 9
+		y = 4
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_MAN_Get_out_of_thewoods }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+    focus = {
+		id = GH_MAN_Report_financials   #上报真实财报
+		icon = GH_MAN_Report_financials 
+		x = 9
+		y = 6
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_MAN_Small_profits }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+    focus = {
+		id = GH_MAN_Rob_one   #拆东补西
+		icon = GH_MAN_Rob_one 
+		x = 9
+		y = 8
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_MAN_Report_financials }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+    focus = {
+		id = GH_MAN_Additional_revenue_generation   #额外创收
+		icon = GH_MAN_Additional_revenue_generation 
+		x = 9
+		y = 10
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_MAN_Rob_one }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+    focus = {
+		id = GH_MAN_eventful_period   #多事之秋
+		icon = GH_MAN_eventful_period 
+		x = 9
+		y = 12
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { GH_MAN_Additional_revenue_generation }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
 }    
