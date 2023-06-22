@@ -13,6 +13,9 @@ focus_tree = {
 		x = 10
 		y = 0
 		cost = 1 #这是国策花费的政治点
+		allow_branch = {
+	   	has_country_flag = Yasuda_crisis
+		}
 		ai_will_do = { 
 			factor = 10
 		}
