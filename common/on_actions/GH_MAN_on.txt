@@ -5,6 +5,9 @@ on_actions = { #与GH开发无关
 				set_variable = {
 					MAN_Shadow_loading = 30
 				}
+				set_variable = {
+					GH_MAN_Shadow_putinto_var = 30
+				}
 			}
 		}
 	}
