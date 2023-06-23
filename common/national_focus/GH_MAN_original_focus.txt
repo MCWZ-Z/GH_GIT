@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 5
+			add = 40
 			tag = MAN
 		}
 	}
@@ -32,7 +32,7 @@ focus_tree = {
 		x = 5
 		y = 2
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Debilitating_giants }
+        prerequisite = { focus = GH_MAN_Debilitating_giants }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 		x = 5
 		y = 4
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Get_out_of_thewoods }
+        prerequisite = { focus = GH_MAN_Get_out_of_thewoods }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -72,7 +72,7 @@ focus_tree = {
 		x = 5
 		y = 6
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Economists_responses }
+        prerequisite = { focus = GH_MAN_Economists_responses }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -92,7 +92,7 @@ focus_tree = {
 		x = 3
 		y = 8
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_A_shot_in_thearm }
+        prerequisite = { focus = GH_MAN_A_shot_in_thearm }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -112,7 +112,7 @@ focus_tree = {
 		x = 7
 		y = 8
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_A_shot_in_thearm }
+        prerequisite = { focus = GH_MAN_A_shot_in_thearm }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -132,7 +132,7 @@ focus_tree = {
 		x = 3
 		y = 10
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Promote_employment }
+        prerequisite = { focus = GH_MAN_Promote_employment }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -152,7 +152,7 @@ focus_tree = {
 		x = 3
 		y = 12
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Invest_in_infrastructure }
+        prerequisite = { focus = GH_MAN_Invest_in_infrastructure }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -172,7 +172,7 @@ focus_tree = {
 		x = 7
 		y = 10
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_GH_MAN_Offer_jobs }
+        prerequisite = { focus = GH_MAN_Offer_jobs }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -192,7 +192,7 @@ focus_tree = {
 		x = 7
 		y = 12
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Sell_materials }
+        prerequisite = { focus = GH_MAN_Sell_materials }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -212,7 +212,7 @@ focus_tree = {
 		x = 1
 		y = 4
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Get_out_of_thewoods }
+        prerequisite = { focus = GH_MAN_Get_out_of_thewoods }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -232,7 +232,7 @@ focus_tree = {
 		x = 1
 		y = 6
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_GH_MAN_Smarmy }
+        prerequisite = { focus = GH_MAN_Smarmy }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -252,7 +252,7 @@ focus_tree = {
 		x = 1
 		y = 8
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_Opinion_of_the_office }
+        prerequisite = { focus = GH_Opinion_of_the_office }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -272,7 +272,7 @@ focus_tree = {
 		x = 1
 		y = 10
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_Introduction_of_new_taxes }
+        prerequisite = { focus = GH_Introduction_of_new_taxes }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -292,7 +292,7 @@ focus_tree = {
 		x = 1
 		y = 12
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_Fill_the_loopholes }
+        prerequisite = { focus = GH_Fill_the_loopholes }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -312,7 +312,7 @@ focus_tree = {
 		x = 9
 		y = 4
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Get_out_of_thewoods }
+        prerequisite = { focus = GH_MAN_Get_out_of_thewoods }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -332,7 +332,7 @@ focus_tree = {
 		x = 9
 		y = 6
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Small_profits }
+        prerequisite = { focus = GH_MAN_Small_profits }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -352,7 +352,7 @@ focus_tree = {
 		x = 9
 		y = 8
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Report_financials }
+        prerequisite = { focus = GH_MAN_Report_financials }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -372,7 +372,7 @@ focus_tree = {
 		x = 9
 		y = 10
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Rob_one }
+        prerequisite = { focus = GH_MAN_Rob_one }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -392,7 +392,7 @@ focus_tree = {
 		x = 9
 		y = 12
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { GH_MAN_Additional_revenue_generation }
+        prerequisite = { focus = GH_MAN_Additional_revenue_generation }
 		ai_will_do = { 
 			factor = 10
 		}

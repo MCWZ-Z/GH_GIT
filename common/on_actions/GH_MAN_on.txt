@@ -1,4 +1,4 @@
-on_actions = { #与GH开发无关
+on_actions = { #
 	on_startup = {
 		effect = {
 			MAN = {
