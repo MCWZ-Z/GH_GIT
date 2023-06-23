@@ -13,9 +13,6 @@ focus_tree = {
 		x = 5
 		y = 0
 		cost = 1 #这是国策花费的政治点
-        allow_branch = {
-	   	has_country_flag = original_focus_already
-		}
 		ai_will_do = { 
 			factor = 10
 		}
