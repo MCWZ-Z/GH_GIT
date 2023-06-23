@@ -1,7 +1,7 @@
 guiTypes = {
     containerWindowType = {
         name = "GH_MAN_North_ManShadow_ui"
-        size = { width = 482 height = 620 }
+        size = { width = 482 height = 500 }
          
     
         iconType = {
@@ -32,7 +32,7 @@ guiTypes = {
         }
         containerWindowType = {
             name = "GH_MAN_shadowloadingbar"
-            position = { x = 10 y = 300 }
+            position = { x = 20 y = 260 }
             iconType = {
                 name = "GH_MAN_shadowloading_full"
                 position = { x = 5 y = 4 }

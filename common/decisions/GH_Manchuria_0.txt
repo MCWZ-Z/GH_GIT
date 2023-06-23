@@ -16,7 +16,7 @@ GH_MAN_East_Asia_Defense_Council = {
 	# }
 	##考核时间到来 365天
 	debug_man_action_points = {
-		fire_only_once = no 
+		fire_only_once = no
 		visible = {
 			is_debug = yes
 		}
@@ -66,10 +66,8 @@ GH_MAN_East_Asia_Defense_Council = {
 			else = {
 				set_country_flag = MAN_show_far_east_affairs_flag
 			}
-			
 		}
 	}
-
 	MAN_annual_assessment_coming = {
 		activation = {
 			always = no
@@ -85,14 +83,11 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 		timeout_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_annual_assessment_coming"			#规定每条决议都要写一条log帮助debug
-
 			activate_mission = MAN_annual_assessment_coming
-			
 		}
 	}
 	##展开预算应用选项
 	MAN_show_budget_plan_decisions = {
-
 		fire_only_once = no
 		days_re_enable = 0
 		visible = {
@@ -107,7 +102,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	##收缩预算应用选项
 	MAN_hide_budget_plan_decisions = {
-
 		fire_only_once = no
 		days_re_enable = 0
 		visible = {
@@ -332,7 +326,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	#在中华民国城市修筑大使馆 10M
 	MAN_building_embassies_in_ROC = {
-
 		fire_only_once = no
 		days_re_enable = 180
 		days_remove = 90
@@ -355,7 +348,7 @@ GH_MAN_East_Asia_Defense_Council = {
 			# 90天后，中华民国对我们的评价小幅上升（10）
 			# 少量减少下一次收集中华民国现代化信息所需PP（减少10PP），
 			# 满洲获得7%行动力度
-			reverse_add_opinion_modifier  = {
+			reverse_add_opinion_modifier = {
 				target = CHI
 				modifier = MAN_building_embassies_in_ROC
 			}
@@ -365,7 +358,7 @@ GH_MAN_East_Asia_Defense_Council = {
 						has_country_flag = MAN_building_embassies_in_ROC_flag
 					}
 				}
-				set_country_flag = MAN_building_embassies_in_ROC_flag	
+				set_country_flag = MAN_building_embassies_in_ROC_flag
 			}
 			set_temp_variable = {
 				MAN_budget_var_temp = -0.01
@@ -390,7 +383,6 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_ask_for_more_budget"			#规定每条决议都要写一条log帮助debug
-			
 			set_temp_variable = {
 				MAN_action_points_requirement_temp = 0.05
 			}
@@ -402,7 +394,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	###情报获取选项 SHOW/HIDE
 	MAN_show_intelligence_decisions = {
-
 		fire_only_once = no
 		# days_re_enable = 180
 		visible = {
@@ -416,7 +407,6 @@ GH_MAN_East_Asia_Defense_Council = {
 		}
 	}
 	MAN_hide_intelligence_decisions = {
-
 		fire_only_once = no
 		# days_re_enable = 180
 		visible = {
@@ -565,7 +555,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	# 马加丹show/hide
 	##show
 	MAN_show_MAG_affairs_decisions = {
-
 		fire_only_once = no
 		days_re_enable = 0
 		visible = {
@@ -619,10 +608,7 @@ GH_MAN_East_Asia_Defense_Council = {
 				money_reserves_temp = 0.01
 			}
 			GH_MAN_econ_money_reserves_change_raw_money = yes
-
-
 			MAG = {
-				
 			}
 		}
 	}
@@ -715,7 +701,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	# 阿穆尔show/hide
 	##show
 	MAN_show_AMR_affairs_decisions = {
-
 		fire_only_once = no
 		days_re_enable = 0
 		visible = {
@@ -731,7 +716,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	# hide
 	MAN_hide_AMR_affairs_decisions = {
-
 		fire_only_once = no
 		days_re_enable = 0
 		visible = {
@@ -745,7 +729,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	# 向阿穆尔出售枪支 5CP
 	MAN_sell_gun_to_AMR = {
-
 		fire_only_once = no
 		days_re_enable = 30
 		custom_cost_trigger = {
@@ -795,7 +778,9 @@ GH_MAN_East_Asia_Defense_Council = {
 				MAN_action_points_temp = 0.03
 			}
 			MAN_add_action_points = yes
-			set_temp_variable = { temp_econ_spending_amount = 0.04 }
+			set_temp_variable = {
+				temp_econ_spending_amount = 0.04
+			}
 			econ_spend_money_once_effect_raw_money = yes
 			# 增加0.04B债务，抵抗度（北满洲的阴影决议相关）下降5%
 		}
@@ -859,7 +844,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	# 外贝加尔show/hide
 	##show
 	MAN_show_CHT_affairs_decisions = {
-
 		fire_only_once = no
 		days_re_enable = 0
 		visible = {
@@ -875,7 +859,6 @@ GH_MAN_East_Asia_Defense_Council = {
 	}
 	# hide
 	MAN_hide_CHT_affairs_decisions = {
-
 		fire_only_once = no
 		days_re_enable = 0
 		visible = {
@@ -936,14 +919,12 @@ GH_MAN_East_Asia_Defense_Council = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_CHT_resource_extraction_discussion"			#规定每条决议都要写一条log帮助debug
 			set_country_flag = MAN_CHT_resource_selected
-			
 			set_temp_variable = {
 				MAN_action_points_temp = 0.05
 			}
 			MAN_add_action_points = yes
 			# 30天后结算，外贝加尔方面同意开发外贝加尔资源，
 			# 锁住外贝加尔商讨开采事宜，
-			
 		}
 	}
 	# 向外贝加尔提供教官
@@ -995,6 +976,213 @@ GH_MAN_East_Asia_Defense_Council = {
 			# 30天后结算，75%概率接受，
 			# 若接受，则满业不满度大幅下降（利维坦决议相关）
 			# 社会发展-行政效率开始缓慢发展
+		}
+	}
+}
+
+GH_MAN_North_ManShadow_Category = {
+	####通用
+	# increase investment
+	# expand the scope of action
+	# deploy more staff
+	# Resistance continues to grow
+	MAN_Shadow_putinto_more = {
+		fire_only_once = no
+		days_re_enable = 0
+		cost = 50
+		visible = {
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 立即获得10%投入度
+			# CD：90天
+		}
+	}
+	MAN_Shadow_expand_action = {
+		fire_only_once = no
+		days_re_enable = 0
+		cost = 25
+		visible = {
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			#立即获得7%投入度
+			# CD：75天
+		}
+	}
+	MAN_Shadow_more_staff = {
+		fire_only_once = no
+		days_re_enable = 0
+		cost = 10
+		visible = {
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			#立即获得5%投入度
+			# CD：60天
+		}
+	}
+	MAN_Shadow_resistance_growing = {
+		fire_only_once = no
+		days_re_enable = 0
+		visible = {
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 结算一次抵抗度带来的负面影响（只结算月度部分）
+			# 90天
+		}
+	}
+	####抗联
+	MAN_Shadow_police_in_city = {
+		fire_only_once = no
+		days_re_enable = 45
+		# 5%投入度 50CP 
+		visible = {
+			has_country_flag = GH_MAN_Shadow_NCJUA_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 			抵抗度立即减少3%
+		}
+	}
+	MAN_Shadow_sweep_in_countryside = {
+		fire_only_once = no
+		days_re_enable = 60
+		# 5%投入度 50CP 
+		visible = {
+			has_country_flag = GH_MAN_Shadow_NCJUA_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少5%，稳定度-2%
+			
+		}
+	}
+	MAN_Shadow_curfew = {
+		fire_only_once = no
+		days_re_enable = 60
+		# 5%投入度 50PP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_NCJUA_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少2%，稳定度+3%
+		}
+	}
+	MAN_Shadow_investigate_NCJUC = {
+		fire_only_once = no
+		days_re_enable = 75
+		days_remove = 30
+		# 3%投入度 50PP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_NCJUA_selected
+		}
+		remove_effect = {
+
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 30天后，抵抗度减少2%，下个月抗联的负面追加影响将不生效
+		}
+	}
+	####难民
+	MAN_Shadow_police_suppress_rioters = {
+		fire_only_once = no
+		days_re_enable = 45
+		# 3%投入度 25CP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_refugee_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少3%
+		}
+	}
+	MAN_Shadow_gendarmerie_to_maintain_order = {
+		fire_only_once = no
+		days_re_enable = 45
+		# 3%投入度 25CP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_refugee_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少3%,稳定度-2%
+		}
+	}
+	MAN_Shadow_identifying_criminals = {
+		fire_only_once = no
+		days_re_enable = 60
+		# 5%投入度  75PP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_refugee_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少5%，并添加10M到债务中
+		}
+	}
+	MAN_Shadow_seize_underground_trading = {
+		fire_only_once = no
+		days_re_enable = 75
+		# 5%投入度 75CP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_refugee_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少5%
+		}
+	}
+	####俄罗斯合作者
+	MAN_Shadow_assault_russian_hideouts = {
+		fire_only_once = no
+		days_re_enable = 45
+		# 5%投入度 50CP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_whitearmy_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少5%，稳定度-2%
+		}
+	}
+	MAN_Shadow_confiscate_russian_armory = {
+		fire_only_once = no
+		days_re_enable = 45
+		# 5%投入度 50CP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_whitearmy_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少2%，添加150支俄罗斯产早期步枪进入仓储中
+		}
+	}
+	MAN_Shadow_money_with_collaborators = {
+		fire_only_once = no
+		days_re_enable = 60
+		# 3%投入度 50PP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_whitearmy_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少5%，并添加10M到债务中
+		}
+	}
+	MAN_Shadow_negotiations_with_russian_collaborators = {
+		fire_only_once = no
+		days_re_enable = 75
+		# 3%投入度 50PP
+		visible = {
+			has_country_flag = GH_MAN_Shadow_whitearmy_selected
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			# 抵抗度立即减少5%
 		}
 	}
 }

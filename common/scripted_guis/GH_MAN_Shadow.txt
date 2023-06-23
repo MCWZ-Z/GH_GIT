@@ -6,10 +6,53 @@ scripted_gui = {
 		visible = {
 			tag = MAN
 		}
+		effects = {
+			GH_MAN_Shadow_NCJUA_click = {
+				if = {
+					limit = {
+						has_country_flag = GH_MAN_Shadow_NCJUA_selected
+					}
+					clr_country_flag = GH_MAN_Shadow_NCJUA_selected
+				}
+				else = {
+					set_country_flag = GH_MAN_Shadow_NCJUA_selected
+					clr_country_flag = GH_MAN_Shadow_refugee_selected
+					clr_country_flag = GH_MAN_Shadow_whitearmy_selected
+				}
+			}
+			GH_MAN_Shadow_refugee_click = {
+				if = {
+					limit = {
+						has_country_flag = GH_MAN_Shadow_refugee_selected
+					}
+					clr_country_flag = GH_MAN_Shadow_refugee_selected
+				}
+				else = {
+					set_country_flag = GH_MAN_Shadow_refugee_selected
+					clr_country_flag = GH_MAN_Shadow_NCJUA_selected
+					clr_country_flag = GH_MAN_Shadow_whitearmy_selected
+				}
+			}
+			GH_MAN_Shadow_whitearmy_click = {
+				if = {
+					limit = {
+						has_country_flag = GH_MAN_Shadow_whitearmy_selected
+					}
+					clr_country_flag = GH_MAN_Shadow_whitearmy_selected
+				}
+				else = {
+					set_country_flag = GH_MAN_Shadow_whitearmy_selected
+					clr_country_flag = GH_MAN_Shadow_refugee_selected
+					clr_country_flag = GH_MAN_Shadow_NCJUA_selected
+				}
+
+			}
+		}
 		properties = {
 			GH_MAN_shadowloading_full = {
 				frame = MAN_Shadow_loading
-			}			#进度条
+			}
+			#进度条
 			# GH_MAN_Shadow_NCJUA = {
 			# 	frame = MAN_Shadow_NCJUA
 			# }			#抗联
