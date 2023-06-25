@@ -395,7 +395,28 @@ country_event = {
 		# custom_effect_tooltip = man_14_tt
 	}
 }
+#NEW-------------
+country_event = {
+	id = man.109
+	title = man.109.t
+	desc = man.109.desc
+	#开始事件
+	# picture = /
 
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.109"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.109.a
+		set_country_flag = MAN_Industry_levee_activated
+		set_variable = { MAN_industrial_levee_strength = 3 }
+	}
+}
+#NEW-------------
 ##########################################################
 ##########################################################
 ###################THE END OF THE WORLD###################

@@ -35,3 +35,18 @@ GH_MAN_North_ManShadow_Category = {
     priority = 501
     visible_when_empty = yes #这是保证在没有决议的情况下，该决议类仍能被看到，在写GUI时尤为重要
 }
+
+GH_MAN_Industry_levee_Category={
+	icon = GFX_decision_category_generic_political_actions
+	allowed={
+		original_tag=MAN
+	}
+	visible = {
+		has_country_flag = MAN_Industry_levee_activated
+		NOT = {
+			has_variable=MAN_Anda_Crisis_solved
+		}
+	}
+	scripted_gui = GH_MAN_Industry_levee_GUI
+	visible_when_empty = yes
+}

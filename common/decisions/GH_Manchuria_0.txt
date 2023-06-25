@@ -1186,3 +1186,165 @@ GH_MAN_North_ManShadow_Category = {
 		}
 	}
 }
+
+GH_MAN_Industry_levee_Category={
+	GH_MAN_Investigation_Status={
+		cost=50
+		fire_only_once=no
+		days_re_enable=120
+		days_remove = 60
+		fixed_random_seed = no
+		#效果：调查满业的经营状况
+		remove_effect={
+			random_list = {
+				50 = {
+					add_to_variable = { MAN_industrial_levee_strength = 9 }
+				}
+				50 = {
+					add_to_variable = { MAN_industrial_levee_strength = 5 }
+				}
+			}
+			set_temp_variable = { temp_econ_spending_amount = 0.09 }
+			econ_spend_money_once_effect_raw_money = yes
+			set_temp_variable = { gdp_growth_temp = 0.3 }
+			econ_gdp_growth_change = yes
+		}
+	}
+
+	GH_MAN_Lead_Investment={
+		cost=100
+		fire_only_once=no
+		days_re_enable=120
+		days_remove = 60
+		fixed_random_seed = no
+		#由新京银行牵头投资
+		remove_effect={
+			random_list = {
+				75 = {
+					add_to_variable = { MAN_industrial_levee_strength = 9 }
+				}
+				25 = {
+					add_to_variable = { MAN_industrial_levee_strength = 5 }
+				}
+			}
+			set_temp_variable = { gdp_growth_temp = 0.3 }
+			econ_gdp_growth_change = yes
+			TNO_improve_trade_laws_policy_effectiveness_low = yes
+		}
+	}
+
+	GH_MAN_Deal_Bad_Debts={
+		cost=50
+		fire_only_once=no
+		days_re_enable=90
+		#处理坏账
+		days_remove = 30
+		fixed_random_seed = no
+		remove_effect = {
+			random_list = {
+				75 = {
+					add_to_variable = { MAN_industrial_levee_strength = 5 }
+				}
+				25 = {
+					add_to_variable = { MAN_industrial_levee_strength = -5 }
+					random_list = {
+						10 = {
+							#country_event = my_event.1满纸谎言
+						}
+						10 = {
+							#country_event = my_event.1空头支票
+						}
+						10 = {
+							#country_event = my_event.1债务问题
+						}
+					}
+				}
+			}
+		}
+	}
+
+	GH_MAN_Increase_Limit={
+		cost=100
+		fire_only_once=no 
+		days_re_enable=120
+		days_remove = 60
+		fixed_random_seed = no
+		#增加重工业出口额度
+		remove_effect={
+			random = {
+				chance = 75
+				add_to_variable = { MAN_industrial_levee_strength = 9 }
+			}
+			set_temp_variable = { temp_econ_spending_amount = 0.1 }
+			econ_spend_money_once_effect_raw_money = yes
+			TNO_improve_poverty_low = yes
+		}
+	}
+
+	GH_MAN_Redeuce_Stress={
+		cost=100
+		fire_only_once=no
+		days_re_enable=240
+		days_remove = 60
+		fixed_random_seed = no
+		#减轻企业贸易差压力
+		remove_effect={
+			random_list = {
+				50 = {
+					add_to_variable = { MAN_industrial_levee_strength = 15 }
+				}
+				50 = {
+					add_to_variable = { MAN_industrial_levee_strength = 9 }
+				}
+			}
+			set_temp_variable = { temp_econ_spending_amount = 0.7 }
+			econ_spend_money_once_effect_raw_money = yes
+		}
+	}
+
+	GH_MAN_Acquiring_Enterprise={
+		cost=100
+		fire_only_once=no
+		days_re_enable=240
+		days_remove = 60
+		fixed_random_seed = no
+		#收购破产的中小企业
+		remove_effect={
+			
+		}
+	}
+
+	GH_MAN_Gudong_Negotiation={
+		cost=50
+		fire_only_once=no
+		days_re_enable=240
+		days_remove = 60
+		fixed_random_seed = no
+		#与广东谈判
+		remove_effect={
+			random_list = {
+				10 = {
+					#country_event = my_event.1一次会晤
+				}
+				10 = {
+					#country_event = my_event.1毫无进展
+				}
+				10 = {
+					#country_event = my_event.1不欢而散
+				}
+			}
+		}
+	}
+
+	GH_SANLANG_Transaction={
+		cost=50
+		fire_only_once=no
+		days_re_enable=90
+		days_remove = 60
+		#与濑岛三郎做交易
+		remove_effect={
+			add_to_variable = { MAN_industrial_levee_strength = 15 }
+			TNO_worsen_admin_efficiency_high = yes
+		}
+	}
+}
