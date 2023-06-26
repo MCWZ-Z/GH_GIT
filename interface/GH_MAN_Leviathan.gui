@@ -1,15 +1,15 @@
 guiTypes = {
 	containerWindowType = {
-		name = "GH_MAN_Map_AccessButton"
+		name = "GH_MAN_Leviathan_AccessButton"
 		size = { width = 220 height = 120 }
 		position = { x = 0 y = 289}
 
 		buttonType = {
-			name = "GH_MAN_Map_OpenButton"
-			quadTextureSprite = "GFX_GH_MAN_Open_Map"
+			name = "GH_MAN_Leviathan_OpenButton"
+			quadTextureSprite = "GFX_GH_MAN_Open_Leviathan"
 			scale = 0.68
 			position = { x = 238 y = 36 }
-			#pdx_tooltip = GH_MAN_Map_tt
+			#pdx_tooltip = GH_MAN_Leviathan_tt
 			clicksound = click_default
 			oversound = ui_menu_over
 		}

@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-		name = GFX_GH_MAN_Open_Map
+		name = GFX_GH_MAN_Open_Leviathan
 		texturefile = "gfx/interface/GUI/Orchid_Badge.gfx"
 	}
 }
