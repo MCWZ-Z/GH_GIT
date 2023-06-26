@@ -124,12 +124,24 @@
  #初始国策
  GH_MAN_Debilitating_giants:0 "巨人之衰"
  GH_MAN_Get_out_of_thewoods:0 "走出困境"
-
-
-
-
-
-
+ GH_MAN_Economists_responses:0 "一万田的对策"
+ GH_MAN_A_shot_in_thearm:0 "一剂强心针"
+ GH_MAN_Promote_employment:0 "促进就业"
+ GH_MAN_Offer_jobs:0 "提供岗位"
+ GH_MAN_Invest_in_infrastructure:0 "投资基础设施"
+ GH_MAN_Turn_to_the_Far_East:0 "转向远东"
+ GH_MAN_Sell_materials:0 "出售原材料"
+ GH_MAN_Find_business_opportunities:0 "寻找商机"
+ GH_MAN_Smarmy:0 "虚与委蛇"
+ GH_Opinion_of_the_office:0 "总务厅的意见"
+ GH_Introduction_of_new_taxes:0 "征收新税"
+ GH_Fill_the_loopholes:0 "堵上缺口"
+ GH_End_the_transaction:0 "告一段落"
+ GH_MAN_Small_profits:0 "蝇头小利"
+ GH_MAN_Report_financials:0 "上报“真实”财报"
+ GH_MAN_Rob_one:0 "拆东补西"
+ GH_MAN_Additional_revenue_generation:0 "额外创收"
+ GH_MAN_eventful_period:0 "多事之秋"
 
 
 
