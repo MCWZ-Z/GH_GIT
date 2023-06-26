@@ -417,6 +417,27 @@ country_event = {
 	}
 }
 #NEW-------------
+country_event = {
+	id = man.333
+	title = man.333.t
+	desc = man.109.desc
+	#开始事件
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.333"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.333.a
+		set_country_flag = MAN_Industry_levee_activated
+		set_variable = { MAN_industrial_levee_strength = 3 }
+	}
+}
+#NEW-------------
 ##########################################################
 ##########################################################
 ###################THE END OF THE WORLD###################
