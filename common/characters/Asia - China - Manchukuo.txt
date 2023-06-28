@@ -200,6 +200,22 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	MAN_GH_saionji_fuji = { #西园寺不二男
+		name = MAN_GH_saionji_fuji
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_saionji_fuji.dds"
+				small = "GFX_idea_MAN_GH_saionji_fuji"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SAIONJI_FUJI_DESC"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = { }
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
 	MAN_GH_masahiko_aoki = { #青木昌彦
 		name = MAN_GH_masahiko_aoki
 		portraits = {
@@ -228,8 +244,8 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
-	MAN_GH_kim_ilsong = { #金日成
-		name = MAN_GH_kim_ilsong
+	MAN_GH_nobody_noname = { #无名战士
+		name = MAN_GH_nobody_noname
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MAN/Portrait_MAN_GH_Kim_Ilsung.dds"
