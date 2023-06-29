@@ -1348,3 +1348,244 @@ GH_MAN_Industry_levee_Category={
 		}
 	}
 }
+
+GH_MAN_Utilizing_Breakwaters_Category = {
+	GH_MAN_levee_strength_down = {
+		icon = GFX_decision_generic_political_action
+		allowed = {
+			original_tag = CHI
+		}
+
+		visible = {
+
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+
+		activation = {
+			
+		}
+
+		days_mission_timeout = 60
+
+		priority = 100
+
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: GH_MAN_levee_strength_down mission timer elapsed"
+			hidden_effect = {
+				add_to_variable = { MAN_industrial_levee_strength = -5 }
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GH_MAN_levee_strength_down"
+		}
+	}
+	GH_MAN_people_jittery = {
+		icon = GFX_decision_generic_political_action
+		allowed = {
+			original_tag = CHI
+		}
+
+		visible = {
+
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+
+		activation = {
+			
+		}
+
+		is_good = yes
+
+		days_mission_timeout = 90
+
+		priority = 100
+
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: GH_MAN_people_jittery mission timer elapsed"
+			hidden_effect = {
+				add_to_variable = { MAN_industrial_levee_strength = -10 }
+			}
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GH_MAN_people_jittery"
+		}
+	}
+	GH_MAN_sacrifice_interests_of_small_and_medium_enterprises = {    #
+		icon = GFX_decision_generic_industry
+
+		available = {
+			tag = MAN
+		}
+		visible = {
+			
+		}
+		ai_will_do = {
+			
+		}
+		cost = 25
+
+		fire_only_once = no
+
+		days_re_enable = 45
+		days_remove = 30
+		
+		complete_effect = {
+			add_to_variable = { MAN_industrial_levee_strength = -5 }
+		}
+
+		remove_effect={
+			add_to_variable = { MAN_anda_crisis_damage = -12.5 }
+		}
+	}
+	GH_MAN_guiding_mergers_and_acquisitions = {    #
+		icon = GFX_decision_generic_industry
+
+		available = {
+			tag = MAN
+		}
+		visible = {
+			
+		}
+		ai_will_do = {
+			
+		}
+		cost = 25
+
+		fire_only_once = no
+
+		days_re_enable = 60
+		days_remove = 15
+		
+		complete_effect = {
+			add_to_variable = { MAN_industrial_levee_strength = -10 }
+		}
+
+		remove_effect={
+			add_to_variable = { MAN_anda_crisis_damage = -25 }
+		}
+	}
+	GH_MAN_issuing_short_term_loans = {    #
+		icon = GFX_decision_generic_industry
+
+		available = {
+			tag = MAN
+		}
+		visible = {
+			
+		}
+		ai_will_do = {
+			
+		}
+		cost = 25
+
+		fire_only_once = no
+
+		days_re_enable = 45
+		days_remove = 30
+		
+		complete_effect = {
+			add_to_variable = { MAN_industrial_levee_strength = +10 }
+		}
+
+		remove_effect={
+			add_to_variable = { MAN_anda_crisis_damage = -12.5 }
+		}
+	}
+	GH_MAN_introducing_trust_investment = {    #
+		icon = GFX_decision_generic_industry
+
+		available = {
+			tag = MAN
+		}
+		visible = {
+			
+		}
+		ai_will_do = {
+			
+		}
+		cost = 25
+
+		fire_only_once = no
+
+		days_re_enable = 60
+		days_remove = 15
+		
+		complete_effect = {
+			add_to_variable = { MAN_industrial_levee_strength = +10 }
+			set_temp_variable = {
+				money_reserves_temp = 0.15
+			}
+			GH_MAN_econ_money_reserves_change_raw_money = yes
+		}
+
+		remove_effect={
+			add_to_variable = { MAN_anda_crisis_damage = -12.5 }
+		}
+	}
+	GH_MAN_order_some_enterprises_bankrupt_protection = {    #
+		icon = GFX_decision_generic_industry
+
+		available = {
+			tag = MAN
+		}
+		visible = {
+			
+		}
+		ai_will_do = {
+			
+		}
+		cost = 25
+
+		fire_only_once = no
+
+		days_re_enable = 45
+		days_remove = 30
+		
+		complete_effect = {
+			add_to_variable = { MAN_industrial_levee_strength = -15 }
+		}
+
+		remove_effect={
+			add_to_variable = { MAN_anda_crisis_damage = -50 }
+		}
+	}
+	GH_MAN_maintain_government_credit = {    #
+		icon = GFX_decision_generic_industry
+
+		available = {
+			tag = MAN
+		}
+		visible = {
+			
+		}
+		ai_will_do = {
+			
+		}
+		cost = 25
+
+		fire_only_once = no
+
+		days_re_enable = 60
+		days_remove = 15
+		
+		complete_effect = {
+			add_to_variable = { MAN_industrial_levee_strength = -10 }
+		}
+
+		remove_effect={
+			add_to_variable = { MAN_anda_crisis_damage = -12.5 }
+		}
+	}
+}

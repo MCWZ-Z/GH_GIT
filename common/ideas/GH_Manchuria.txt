@@ -81,5 +81,38 @@ ideas = { #这是定义国家精神的文件，命名统一为GH_国名.txt
 				# 效果为每日稳定度+0.20
 			}
 		}
+		MAN_GH_Damage_of_Anda_Crisis_1 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = MAN_GH_Peeping_Eyes
+			modifier = {
+				political_power_factor = -0.3
+				interest_rate_modifier = 0.05
+				inflation_rate_modifier = 0.01
+				gdp_growth_modifier = -0.02
+			}
+		}
+		MAN_GH_Damage_of_Anda_Crisis_2 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = MAN_GH_Peeping_Eyes
+			modifier = {
+				political_power_factor = -0.6
+				interest_rate_modifier = 0.1
+				inflation_rate_modifier = 0.03
+				gdp_growth_modifier = -0.04
+			}
+		}
+		MAN_GH_Damage_of_Anda_Crisis_3 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = MAN_GH_Peeping_Eyes
+			modifier = {
+				political_power_factor = -0.9
+				interest_rate_modifier = 0.15
+				inflation_rate_modifier = 0.05
+				gdp_growth_modifier = -0.06
+			}
+		}
 	}
 }
