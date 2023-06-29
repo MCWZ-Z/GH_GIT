@@ -1,0 +1,29 @@
+# possible - filters out achivements on game start so we dont have to check everything all the
+#time
+## happened - checks if achivement happened
+
+
+unique_id = GH_MAN_achievements
+
+##### MANCHUKUO #####
+GH_MAN_Splendid_into_ashes = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = MAN
+	}
+
+	happened = {
+		has_country_flag = MAN_splendid_into_ashes_first
+	}
+}
+
+GH_MAN_Toyota_ambition = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = MAN
+	}
+
+	happened = {
+		has_country_flag = MAN_toyota_produce_prefect
+	}
+}
