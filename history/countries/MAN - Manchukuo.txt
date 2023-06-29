@@ -38,6 +38,7 @@ recruit_character = MAN_GH_paik_sun_yup
 recruit_character = MAN_GH_chung_il_kwon
 recruit_character = MAN_GH_choi_kyu_hah
 recruit_character = MAN_GH_masahiko_aoki
+recruit_character = MAN_GH_hisato_ichimada
 
 set_politics = {
 	ruling_party = paternalism
