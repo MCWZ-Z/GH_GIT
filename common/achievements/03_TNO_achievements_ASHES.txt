@@ -13,7 +13,7 @@ GH_MAN_Splendid_into_ashes = {
 	}
 
 	happened = {
-		has_country_flag = MAN_splendid_into_ashes_first
+		has_country_flag = GH_MAN_Splendid_into_ashes_trigger
 	}
 }
 
@@ -24,6 +24,6 @@ GH_MAN_Toyota_ambition = {
 	}
 
 	happened = {
-		has_country_flag = MAN_toyota_produce_prefect
+		has_country_flag = GH_MAN_Toyota_ambition_trigger
 	}
 }
