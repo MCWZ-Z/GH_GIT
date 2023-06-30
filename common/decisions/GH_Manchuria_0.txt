@@ -338,7 +338,7 @@ GH_MAN_East_Asia_Defense_Council = {
 		visible = {
 			has_country_flag = MAN_show_budget_plan_flag
 		}
-		visible = {
+		available = {
 			check_variable = {
 				MAN_budget_var > 0.01
 			}
