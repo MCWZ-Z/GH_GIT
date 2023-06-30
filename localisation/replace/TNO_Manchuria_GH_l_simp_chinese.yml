@@ -1,4 +1,7 @@
 ﻿l_simp_chinese:
+
  GH_decision_cost_3_million: "£dollar_sign §Y3M§!"
+ GH_decision_cost_3_million_blocked: "£dollar_sign §Y3M§!"
  GH_decision_cost_10_million: "£dollar_sign §Y10M§!"
+ GH_decision_cost_10_million_blocked: "£dollar_sign §Y10M§!"
 
