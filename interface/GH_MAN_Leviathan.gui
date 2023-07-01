@@ -20,4 +20,19 @@ guiTypes = {
 			position = { x=189 y=-16 }
 		}
 	}
+
+	containerWindowType = {
+		name = "GH_MAN_Leviathan_GUI"
+		size = { height = 1188 width = 802 }
+		position = { x = 538 y = 77 }
+		show_sound = open_sub_window
+		moveable = yes
+		clipping = no
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+		}
+		
+	}
 }

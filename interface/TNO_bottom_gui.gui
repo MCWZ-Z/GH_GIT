@@ -146,11 +146,11 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "GH_manchuria_Map_crt_icon"
-			spriteType = "GFX_GH_MAN_Map_crt_icon"
+			name = "GH_manchuria_crt_icon"
+			spriteType = "GFX_GH_MAN_crt_icon"
 			position = { x = 48 y = 48 }
 			centerposition = yes
-			pdx_tooltip = "scripted_gui_open_tt_GH_MAN_Map"
+			pdx_tooltip = "scripted_gui_open_tt_GH_MAN"
 		}
 	}
 

@@ -1,11 +1,11 @@
 scripted_gui = {
-	GH_MAN_Map_OpenButtonContainer = {
+	GH_MAN_Leviathan_AccessButton = {
 		window_name = "GH_MAN_leviathan_AccessButton"
 		context_type = player_context
 		parent_window_token = politics_tab
 	
 		visible = {
-			tag = MAN
+			original_tag = MAN
 		}
 	
 		effects = {
@@ -16,7 +16,7 @@ scripted_gui = {
 				}
 				else_if = {
 					limit = { has_country_flag = GH_MAN_leviathan_GUI_Open }
-					clr_country_flag = GH_MAN_Map_GUI_Open
+					clr_country_flag = GH_MAN_leviathan_GUI_Open
 				}
 				clr_country_flag = gui_alert_visible
 			}
@@ -26,6 +26,15 @@ scripted_gui = {
 			gui_alert_visible = {
 				has_country_flag = gui_alert_visible
 			}
+		}
+	}
+
+	GH_MAN_Leviathan_GUI = {
+		context_type = player_context
+		window_name = "GH_MAN_Leviathan_GUI"
+
+		visible = {
+			has_country_flag = GH_MAN_Leviathan_GUI_Open
 		}
 	}
 }

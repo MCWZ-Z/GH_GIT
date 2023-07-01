@@ -126,8 +126,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_GH_MAN_Map_crt_icon"
-		textureFile = "gfx/interface/GUI/GH_MAN_GUI_Map_crt_icon.dds"
+		name = "GFX_GH_MAN_crt_icon"
+		textureFile = "gfx/interface/GUI/GH_MAN_GUI_crt_icon.dds"
 		noOfFrames = 2
 	}
 }
