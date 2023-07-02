@@ -27,3 +27,14 @@ GH_MAN_Toyota_ambition = {
 		has_country_flag = GH_MAN_Toyota_ambition_trigger
 	}
 }
+
+GH_MAN_Moral_valley = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = MAN
+	}
+
+	happened = {
+		has_country_flag = GH_MAN_Moral_valley_trigger
+	}
+}
