@@ -355,8 +355,8 @@ AKT = {
 }
 
 BLZ = {
-	color = rgb { 154 22 66 }
-	color_ui = rgb { 154 22 66 }
+	color = rgb { 179 55 74 }
+	color_ui = rgb { 179 55 74 }
 }
 
 BLR = {
@@ -688,11 +688,6 @@ IRE = {
 	color_ui = rgb { 36 75 39 }
 }
 
-#FIR = {
-#	color = rgb { 204 227 141 }
-#	color_ui = rgb { 204 227 141 }
-#}
-
 HUN = {
 	color = rgb { 199 108 76 }
 	color_ui = rgb { 199 108 76 }
@@ -769,8 +764,8 @@ CLD = {
 }
 
 COS = {
-	color = rgb { 226 140 140 }
-	color_ui = rgb { 226 140 140 }
+	color = rgb { 148 69 82 }
+	color_ui = rgb { 148 69 82 }
 }
 
 ECU = {
@@ -784,13 +779,13 @@ GAX = {
 }
 
 ELS = {
-	color = rgb { 176 77 77 }
-	color_ui = rgb { 176 77 77 }
+	color = rgb { 145 58 54 }
+	color_ui = rgb { 145 58 54 }
 }
 
 HON = {
-	color = rgb { 147 196 192 }
-	color_ui = rgb { 147 196 192 }
+	color = rgb { 115 89 46 }
+	color_ui = rgb { 115 89 46 }
 }
 
 IRQ = {
@@ -819,8 +814,8 @@ NEP = {
 }
 
 NIC = {
-	color = rgb { 220 218 185 }
-	color_ui = rgb { 220 218 185 }
+	color = rgb { 76 138 72 }
+	color_ui = rgb { 76 138 72 }
 }
 
 NZL = {
@@ -829,8 +824,8 @@ NZL = {
 }
 
 PAN = {
-	color = rgb { 83 68 179 }
-	color_ui = rgb { 83 68 179 }
+	color = rgb { 125 119 163 }
+	color_ui = rgb { 125 119 163 }
 }
 
 PER = {
@@ -1349,8 +1344,8 @@ SIC = {
 }
 
 GUA = {
-	color = rgb { 61 63 100 }
-	color_ui = rgb { 61 63 100 }
+	color = rgb { 176 176 116 }
+	color_ui = rgb { 176 176 116 }
 }
 
 FEN = {
@@ -1865,10 +1860,6 @@ SRK = {
 BRU = {
 	color = rgb { 198 131 13 }
 	color_ui = rgb { 198 131 13 }
-}
-GOT = {
-	color = rgb { 74 76 97 }
-	color_ui = rgb { 74 76 97 }
 }
 SRT = {
 	color = rgb { 202 52 51 }
