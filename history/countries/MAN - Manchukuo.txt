@@ -29,6 +29,7 @@ set_country_flag = country_has_gui
 #在这一部分，你需要把自己写的character招募，注意加在最后
 recruit_character = MAN_GH_aisin_gioro_puyi
 recruit_character = MAN_GH_ruan_zhenduo
+recruit_character = MAN_GH_etsusaburo_shiina
 recruit_character = MAN_GH_Toshio_kimura
 recruit_character = MAN_GH_katakura_tadashi
 recruit_character = MAN_GH_Goto_liter
