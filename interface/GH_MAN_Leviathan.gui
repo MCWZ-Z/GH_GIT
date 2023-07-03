@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "GH_MAN_Leviathan_AccessButton"
 		size = { width = 220 height = 120 }
-		position = { x = 0 y = 289}
+		position = { x = 0 y = 289 }
 
 		buttonType = {
 			name = "GH_MAN_Leviathan_OpenButton"
@@ -17,13 +17,13 @@ guiTypes = {
 		iconType = {
 			name = "gui_alert"
 			spriteType = "GFX_gui_alert"
-			position = { x=189 y=-16 }
+			position = { x = 189 y = -16 }
 		}
 	}
 
 	containerWindowType = {
 		name = "GH_MAN_Leviathan_GUI"
-		size = { height = 1188 width = 802 }
+		size = { height = 600 width = 1500 }
 		position = { x = 538 y = 77 }
 		show_sound = open_sub_window
 		moveable = yes
@@ -33,6 +33,12 @@ guiTypes = {
 			name = "Background"
 			spriteType = "GFX_tiled_window_1b_no_border"
 		}
-		
+		iconType = {
+                name = "GH_MAN_Leviathan_background"
+                position = { x = 538 y = 77 }
+                spriteType = "GFX_GH_MAN_Leviathan_background"
+                pdx_tooltip = GH_GH_MAN_Leviathan_background_tooltip
+                pdx_tooltip_delayed = GH_MAN_GH_MAN_Leviathan_background_tooltip_delayed
+            } 
 	}
 }
