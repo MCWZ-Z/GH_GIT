@@ -315,9 +315,9 @@ add_ideas = { #这里是开局国家精神以及顾问的设定
 	MAN_Chained_To_Rising_Sun
 
 	#Ministers
-	MAN_GH_gu_ciheng_for
+	MAN_GH_Toshio_kimura_for
 	MAN_GH_hisato_ichimada_eco
-	MAN_GH_gu_ciheng_hog
+	MAN_GH_ruan_zhenduo_hog
 	MAN_GH_katakura_tadashi_sec
 
 	#High Command
