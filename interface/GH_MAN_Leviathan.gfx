@@ -3,4 +3,8 @@ spriteTypes = {
 		name = GFX_GH_MAN_Open_Leviathan
 		texturefile = "gfx/interface/GUI/Orchid_Badge.dds"
 	}
+	spriteType = {
+		name = GFX_GH_MAN_Leviathan_background
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Leviathan_background.dds"
+	}
 }
