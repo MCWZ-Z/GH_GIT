@@ -65,7 +65,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_RUAN_ZHENDUO_DESC"
-			ideology = national_socialism_stratocratic_corporatism_subtype
+			ideology = fascism_corporatism_subtype
 			#fascism_reform_bureaucracy_subtype
 			traits = { affable_puppet }
 			expire = "1999.1.1."
@@ -83,6 +83,23 @@ characters = {
 			cost = -1
 			can_be_fired = no
 			ai_will_do = { factor = 0 }
+		}
+	}
+	MAN_GH_etsusaburo_shiina = { #椎名悦三郎
+		name = MAN_GH_etsusaburo_shiina
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_etsusaburo_shiina.dds"
+				small = "GFX_idea_MAN_GH_etsusaburo_shiina"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ETSUSABURO_SHIINA_DESC"
+			ideology = national_socialism_subtype
+			#fascism_reform_bureaucracy_subtype
+			traits = {  }
+			expire = "1999.1.1."
+			id = -1
 		}
 	}
 	MAN_GH_Toshio_kimura = { #木村俊夫

@@ -44,4 +44,9 @@ spriteTypes = {
 		name = "GFX_idea_MAN_GH_Katakura_Tadashi"
 		textureFile = "gfx/interface/ideas/ministers/MAN/MAN_GH_minister_Katakura_Tadashi.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_MAN_GH_Toshio_kimura"
+		textureFile = "gfx/interface/ideas/ministers/MAN/MAN_GH_minister_Toshio_kimura.dds"
+	}
 }
