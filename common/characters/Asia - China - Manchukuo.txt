@@ -73,7 +73,7 @@ characters = {
 		}
 		advisor = {
 			slot = head_of_government
-			idea_token = MAN_GH_gu_ciheng_hog
+			idea_token = MAN_GH_ruan_zhenduo_hog
 			allowed = { original_tag = MAN }
 			traits = {
 				opportunistic

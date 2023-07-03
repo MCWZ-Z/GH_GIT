@@ -288,7 +288,7 @@ focus_tree = {
 	}
     focus = {
 		id = GH_End_the_transaction   #告一段落
-		icon = GH_Fill_the_loopholes 
+		icon = GH_End_the_transaction 
 		x = 1
 		y = 12
 		cost = 1 #这是国策花费的政治点
