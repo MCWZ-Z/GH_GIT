@@ -85,16 +85,16 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
-	MAN_GH_gu_ciheng = { #谷次亨
-		name = MAN_GH_gu_ciheng
+	MAN_GH_Toshio_kimura = { #木村俊夫
+		name = MAN_GH_Toshio_kimura
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_MAN_GH_Gu_Ciheng.dds"
-				small = "GFX_idea_MAN_GH_Gu_Ciheng"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Toshio_kimura.dds"
+				small = "GFX_idea_MAN_GH_Toshio_kimura"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_GU_CIHENG_DESC"
+			desc = "POLITICS_Toshio_kimura_DESC"
 			ideology = paternalism_oligarchy_subtype
 			traits = { }
 			expire = "1999.1.1."
@@ -102,7 +102,7 @@ characters = {
 		}
 		advisor = {
 			slot = foreign_minister
-			idea_token = MAN_GH_gu_ciheng_for
+			idea_token = MAN_GH_Toshio_kimura_for
 			allowed = { original_tag = MAN }
 			traits = {
 				sociability
@@ -200,16 +200,16 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
-	MAN_GH_saionji_fuji = { #西园寺不二男
-		name = MAN_GH_saionji_fuji
+	MAN_GH_Goto_liter = { #五岛升
+		name = MAN_GH_Goto_liter
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MAN/Portrait_MAN_GH_saionji_fuji.dds"
-				small = "GFX_idea_MAN_GH_saionji_fuji"
+				large = "gfx/leaders/MAN/Portrait_MAN_GH_Goto_liter.dds"
+				small = "GFX_idea_MAN_GH_Goto_liter"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_SAIONJI_FUJI_DESC"
+			desc = "POLITICS_Goto_liter_DESC"
 			ideology = despotism_civilian_dictatorship_subtype
 			traits = { }
 			expire = "1999.1.1"
