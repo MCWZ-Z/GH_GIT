@@ -7,4 +7,32 @@ spriteTypes = {
 		name = GFX_GH_MAN_Leviathan_background
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Leviathan_background.dds"
 	}
+                spriteType = {
+		name = GFX_GH_MAN_Nissan
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Nissan.dds"
+	}
+                spriteType = {
+		name = GFX_GH_MAN_Man_industry
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Man_industry.dds"
+	}
+                spriteType = {
+		name = GFX_GH_MAN_Royal
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Royal.dds"
+	}
+                spriteType = {
+		name = GFX_GH_MAN_GAD
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_GAD.dds"
+	}
+                spriteType = {
+		name = GFX_GH_MAN_Concordia
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Concordia.dds"
+	}
+                spriteType = {
+		name = GFX_GH_MAN_Manchu_gang
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Manchu_gang.dds"
+	}
+                spriteType = {
+		name = GFX_GH_MAN_Kwantung_army
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Kwantung_army.dds"
+	}
 }

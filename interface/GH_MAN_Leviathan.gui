@@ -23,8 +23,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "GH_MAN_Leviathan_GUI"
-		size = { height = 600 width = 1500 }
-		position = { x = 538 y = 77 }
+		size = { height = 630 width = 1520 }
+		position = { x = 238 y = 220 }
 		show_sound = open_sub_window
 		moveable = yes
 		clipping = no
@@ -35,10 +35,66 @@ guiTypes = {
 		}
 		iconType = {
                 name = "GH_MAN_Leviathan_background"
-                position = { x = 538 y = 77 }
+                position = { x = 10 y = 20 }
                 spriteType = "GFX_GH_MAN_Leviathan_background"
                 pdx_tooltip = GH_GH_MAN_Leviathan_background_tooltip
                 pdx_tooltip_delayed = GH_MAN_GH_MAN_Leviathan_background_tooltip_delayed
             } 
+                               buttonType = {
+			name = "GH_MAN_Nissan" #日产
+			quadTextureSprite = "GFX_GH_MAN_Nissan"
+			position = { x = 420 y = 142 }
+			#pdx_tooltip = GH_MAN_Leviathan_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+                              buttonType = {
+			name = "GH_MAN_Man_industry" #满业
+			quadTextureSprite = "GFX_GH_MAN_Man_industry"
+			position = { x = 420 y = 360 }
+			#pdx_tooltip = GH_MAN_Leviathan_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+                              buttonType = {
+			name = "GH_MAN_Royal" #皇族
+			quadTextureSprite = "GFX_GH_MAN_Royal"
+			position = { x = 685 y = 130 }
+			#pdx_tooltip = GH_MAN_Leviathan_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+                               buttonType = {
+			name = "GH_MAN_GAD" #总务厅
+			quadTextureSprite = "GFX_GH_MAN_GAD"
+			position = { x = 685 y = 360 }
+			#pdx_tooltip = GH_MAN_Leviathan_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+                               buttonType = {
+			name = "GH_MAN_Concordia" #协和会
+			quadTextureSprite = "GFX_GH_MAN_Concordia"
+			position = { x = 950 y = 142 }
+			#pdx_tooltip = GH_MAN_Leviathan_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+                               buttonType = {
+			name = "GH_MAN_Manchu_gang" #满洲帮
+			quadTextureSprite = "GFX_GH_MAN_Manchu_gang"
+			position = { x = 950 y = 360 }
+			#pdx_tooltip = GH_MAN_Leviathan_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+                             buttonType = {
+			name = "GH_MAN_Kwantung_army" #关东军
+			quadTextureSprite = "GFX_GH_MAN_Kwantung_army"
+			position = { x = 125 y = 250 }
+			#pdx_tooltip = GH_MAN_Leviathan_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
 	}
 }
