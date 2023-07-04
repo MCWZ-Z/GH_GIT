@@ -13,3 +13,25 @@ defined_text = {
 		localization_key = GH_MAN_Shadow_putinto_too_low
 	}
 }
+
+defined_text = {
+	name = Get_GH_MAN_emperor_status
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_emperor_status = 1 }
+		}
+		localization_key = GH_MAN_emperor_status_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_emperor_status = 2 }
+		}
+		localization_key = GH_MAN_emperor_status_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_emperor_status = 3 }
+		}
+		localization_key = GH_MAN_emperor_status_3_tt
+	}
+}

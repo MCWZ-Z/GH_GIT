@@ -8,6 +8,14 @@ on_actions = { #
 				set_variable = {
 					GH_MAN_Shadow_putinto_var = 30
 				}
+
+
+
+				####初始化 利维坦
+				set_variable = {
+					GH_MAN_emperor_status = 1
+				}			
+
 			}
 		}
 	}
