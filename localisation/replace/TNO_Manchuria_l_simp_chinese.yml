@@ -287,14 +287,32 @@
  GH_MAN_Shadow_putinto_too_low:0 "§R过低§!"
  
  ##decision-3
- GH_MAN_Royal_Leviathan_DESC:0 "当前的§O九五之尊§!是：§W爱新觉罗·溥仪§!\n\n§O皇族§!现在的状态是：[Get_GH_MAN_emperor_status]\n\n§O皇族§!的统治状况：§r放权§!\n\n-----------------------------\n\n§W点击以和§O皇族§!进行互动§!"
+ GH_MAN_Royal_Leviathan_DESC:0 "当前的§O九五之尊§!是：[Get_GH_MAN_current_emperor]\n\n§O皇族§!现在的状态是：[Get_GH_MAN_emperor_status]\n\n§O皇族§!的统治状况：[Get_GH_MAN_emperor_dominate]\n\n-----------------------------\n\n§W点击以和§O皇族§!进行互动§!"
  ##下面要修改颜色
- GH_MAN_emperor_status_1_tt:0 "§J满洲共主§!"
- GH_MAN_emperor_status_2_tt:0 "§J法理渐失§!"
- GH_MAN_emperor_status_3_tt:0 "§J皇权崩坏§!"
+ GH_MAN_current_emperor_1_tt:0 "§W爱新觉罗·溥仪§!"
+ GH_MAN_current_emperor_2_tt:0 "§W爱新觉罗·溥杰§!"
+ GH_MAN_current_emperor_3_tt:0 "§W爱新觉罗·毓嵒§!"
+ GH_MAN_emperor_status_1_tt:0 "§G满洲共主§!"
+ GH_MAN_emperor_status_2_tt:0 "§Y法理渐失§!"
+ GH_MAN_emperor_status_3_tt:0 "§e皇权崩坏§!"
+ GH_MAN_emperor_dominate_1_tt:0 "§G独揽大权§!"
+ GH_MAN_emperor_dominate_2_tt:0 "§Y君主立宪§!"
+ GH_MAN_emperor_dominate_3_tt:0 "§e不闻不问§!"
 
 
- GH_MAN_GAD_Leviathan_DESC:0 "当前的§g总务厅长官§!是：§W木村俊夫§!\n\n§g总务厅§!现在的状态是：§l效率低下§!\n\n§g总务厅§!的腐败程度：§L极其腐败§!\n\n-----------------------------\n\n§W点击以和§g总务厅§!进行互动§!"
+ GH_MAN_GAD_Leviathan_DESC:0 "当前的§g总务厅长官§!是：[Get_GH_MAN_current_GAD_leader]\n\n§g总务厅§!现在的状态是：[Get_GH_MAN_current_GAD_status]\n\n§g总务厅§!的腐败程度：[Get_GH_MAN_current_GAD_corrupt]\n\n-----------------------------\n\n§W点击以和§g总务厅§!进行互动§!"
+ 
+ GH_MAN_current_GAD_leader_1_tt:0 "§W木村俊夫§!"
+ GH_MAN_current_GAD_leader_2_tt:0 "§W大平正芳§!"
+ GH_MAN_current_GAD_leader_3_tt:0 "§W竹下登§!"
+ GH_MAN_current_GAD_status_1_tt:0 "§G运转良好§!"
+ GH_MAN_current_GAD_status_2_tt:0 "§Y过度扩张§!"
+ GH_MAN_current_GAD_status_3_tt:0 "§e效率低下§!"
+ GH_MAN_current_GAD_corrupt_1_tt:0 "§G秋毫无犯§!"
+ GH_MAN_current_GAD_corrupt_2_tt:0 "§Y雁过拔毛§!"
+ GH_MAN_current_GAD_corrupt_3_tt:0 "§e腐败成风§!"
+ 
+ 
  GH_MAN_Man_industry_Leviathan_DESC:0 "当前的§y满业社长§!是：§W五岛升§!\n\n§y满业§!现在的经营状况是：§e衰败不堪§!\n\n§y满业§!目前掌握着：§D大部分行业§!\n\n-----------------------------\n\n§W点击以和§y满业§!进行互动§!"
  GH_MAN_Nissan_Leviathan_DESC:0 "当前的§x日产社长§!是：§W濑木庸介§!\n\n§x日产§!现在的状态是：§d寻求并购§!\n\n§x日产§!目前掌控着：§s什么都没有掌控§!\n\n-----------------------------\n\n§W点击以和§x日产§!进行互动§!"
  GH_MAN_Concordia_Leviathan_DESC:0 "当前的§S协和会长§!是：§W阮振铎§!\n\n§S协和会§!现在的状态是：§Y逐渐衰微§!\n\n§S协和会§!与§J东京§!之间的关系：§q荒废§!\n\n-----------------------------\n\n§W点击以和§S协和会§!进行互动§!"

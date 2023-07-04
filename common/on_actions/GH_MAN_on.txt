@@ -13,8 +13,23 @@ on_actions = { #
 
 				####初始化 利维坦
 				set_variable = {
+					GH_MAN_current_emperor = 1
+				}	
+				set_variable = {
 					GH_MAN_emperor_status = 1
-				}			
+				}
+				set_variable = {
+					GH_MAN_emperor_dominate = 3
+				}
+				set_variable = {
+					GH_MAN_current_GAD_leader = 1
+				}
+				set_variable = {
+					GH_MAN_current_GAD_status = 3
+				}
+				set_variable = {
+					GH_MAN_current_GAD_corrupt = 3
+				}						
 
 			}
 		}
