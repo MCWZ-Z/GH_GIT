@@ -9,7 +9,7 @@ scripted_gui = {
 		}
 	
 		effects = {
-			GH_MAN_leviathan_OpenButton_click = {
+			GH_MAN_Leviathan_OpenButton_click = {
 				if = {
 					limit = { NOT = { has_country_flag = GH_MAN_leviathan_GUI_Open } }
 					set_country_flag = GH_MAN_leviathan_GUI_Open
