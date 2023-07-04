@@ -1038,7 +1038,7 @@ GH_MAN_North_ManShadow_Category = {
 		visible = {
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_resistance_growing"
 			# 结算一次抵抗度带来的负面影响（只结算月度部分）
 			# 90天
 		}
@@ -1048,14 +1048,25 @@ GH_MAN_North_ManShadow_Category = {
 		fire_only_once = no
 		days_re_enable = 45
 		# 5%投入度 50CP 
+		custom_cost_trigger = {
+			command_power > 49.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 5
+			}
+		}
+		custom_cost_text = GH_decision_cost_5_putinto_50_cp
 		visible = {
 			has_country_flag = GH_MAN_Shadow_NCJUA_selected
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_police_in_city"
 			# 	抵抗度立即减少3%
 			hidden_effect = {
-				
+				add_command_power = -50
+				set_temp_variable = {
+					MAN_putinto_var_temp = -5
+				}
+				MAN_change_Shadow_putinto_var = yes
 			}
 			set_temp_variable = {
 				MAN_Shadow_resist_temp = -3
@@ -1067,13 +1078,26 @@ GH_MAN_North_ManShadow_Category = {
 		fire_only_once = no
 		days_re_enable = 60
 		# 5%投入度 50CP 
+		custom_cost_trigger = {
+			command_power > 49.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 5
+			}
+		}
+		custom_cost_text = GH_decision_cost_5_putinto_50_cp
 		visible = {
 			has_country_flag = GH_MAN_Shadow_NCJUA_selected
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_sweep_in_countryside"
 			# 抵抗度立即减少5%，稳定度-2%
-			
+			hidden_effect = {
+				add_command_power = -50
+				set_temp_variable = {
+					MAN_putinto_var_temp = -5
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			set_temp_variable = {
 				MAN_Shadow_resist_temp = -5
 			}
@@ -1085,11 +1109,25 @@ GH_MAN_North_ManShadow_Category = {
 		fire_only_once = no
 		days_re_enable = 60
 		# 5%投入度 50PP
+		custom_cost_trigger = {
+			has_political_power > 49.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 5
+			}
+		}
+		custom_cost_text = GH_decision_cost_5_putinto_50_pp
 		visible = {
 			has_country_flag = GH_MAN_Shadow_NCJUA_selected
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_curfew"
+			hidden_effect = {
+				add_political_power = -50
+				set_temp_variable = {
+					MAN_putinto_var_temp = -5
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 抵抗度立即减少2%，稳定度+3%
 
 			set_temp_variable = {
@@ -1104,6 +1142,13 @@ GH_MAN_North_ManShadow_Category = {
 		days_re_enable = 75
 		days_remove = 30
 		# 3%投入度 50PP
+		custom_cost_trigger = {
+			has_political_power > 49.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 3
+			}
+		}
+		custom_cost_text = GH_decision_cost_3_putinto_50_pp
 		visible = {
 			has_country_flag = GH_MAN_Shadow_NCJUA_selected
 		}
@@ -1114,7 +1159,14 @@ GH_MAN_North_ManShadow_Category = {
 			MAN_change_Shadow_resist_var = yes
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_investigate_NCJUC"
+			hidden_effect = {
+				add_political_power = -50
+				set_temp_variable = {
+					MAN_putinto_var_temp = -3
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 30天后，抵抗度减少2%，下个月抗联的负面追加影响将不生效
 		}
 	}
@@ -1126,8 +1178,22 @@ GH_MAN_North_ManShadow_Category = {
 		visible = {
 			has_country_flag = GH_MAN_Shadow_refugee_selected
 		}
+		custom_cost_trigger = {
+			command_power > 24.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 3
+			}
+		}
+		custom_cost_text = GH_decision_cost_3_putinto_25_cp
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_police_suppress_rioters"
+			hidden_effect = {
+				add_command_power = -25
+				set_temp_variable = {
+					MAN_putinto_var_temp = -3
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 抵抗度立即减少3%
 			set_temp_variable = {
 				MAN_Shadow_resist_temp = -3
@@ -1142,8 +1208,22 @@ GH_MAN_North_ManShadow_Category = {
 		visible = {
 			has_country_flag = GH_MAN_Shadow_refugee_selected
 		}
+		custom_cost_trigger = {
+			command_power > 24.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 3
+			}
+		}
+		custom_cost_text = GH_decision_cost_3_putinto_25_cp
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_gendarmerie_to_maintain_order"
+			hidden_effect = {
+				add_command_power = -25
+				set_temp_variable = {
+					MAN_putinto_var_temp = -3
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 抵抗度立即减少3%,稳定度-2%
 			set_temp_variable = {
 				MAN_Shadow_resist_temp = -3
@@ -1156,11 +1236,25 @@ GH_MAN_North_ManShadow_Category = {
 		fire_only_once = no
 		days_re_enable = 60
 		# 5%投入度  75PP
+		custom_cost_trigger = {
+			has_political_power > 74.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 5
+			}
+		}
+		custom_cost_text = GH_decision_cost_5_putinto_75_pp
 		visible = {
 			has_country_flag = GH_MAN_Shadow_refugee_selected
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_identifying_criminals"
+			hidden_effect = {
+				add_political_power = -75
+				set_temp_variable = {
+					MAN_putinto_var_temp = -5
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 抵抗度立即减少5%，并添加10M到债务中
 			set_temp_variable = {
 				MAN_Shadow_resist_temp = -5
@@ -1173,11 +1267,25 @@ GH_MAN_North_ManShadow_Category = {
 		fire_only_once = no
 		days_re_enable = 75
 		# 5%投入度 75CP
+		custom_cost_trigger = {
+			command_power > 74.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 5
+			}
+		}
+		custom_cost_text = GH_decision_cost_5_putinto_75_cp
 		visible = {
 			has_country_flag = GH_MAN_Shadow_refugee_selected
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_seize_underground_trading"
+			hidden_effect = {
+				add_command_power = -75
+				set_temp_variable = {
+					MAN_putinto_var_temp = -5
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 抵抗度立即减少5%
 			set_temp_variable = {
 				MAN_Shadow_resist_temp = -5
@@ -1193,8 +1301,22 @@ GH_MAN_North_ManShadow_Category = {
 		visible = {
 			has_country_flag = GH_MAN_Shadow_whitearmy_selected
 		}
+		custom_cost_trigger = {
+			command_power > 49.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 5
+			}
+		}
+		custom_cost_text = GH_decision_cost_5_putinto_50_cp
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_assault_russian_hideouts"
+			hidden_effect = {
+				add_command_power = -50
+				set_temp_variable = {
+					MAN_putinto_var_temp = -5
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 抵抗度立即减少5%，稳定度-2%
 			set_temp_variable = {
 				MAN_Shadow_resist_temp = -5
@@ -1211,8 +1333,22 @@ GH_MAN_North_ManShadow_Category = {
 		visible = {
 			has_country_flag = GH_MAN_Shadow_whitearmy_selected
 		}
+		custom_cost_trigger = {
+			command_power > 49.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 5
+			}
+		}
+		custom_cost_text = GH_decision_cost_5_putinto_50_cp
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_confiscate_russian_armory"
+			hidden_effect = {
+				add_command_power = -50
+				set_temp_variable = {
+					MAN_putinto_var_temp = -5
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 抵抗度立即减少2%，添加150支俄罗斯产早期步枪进入仓储中
 
 			set_temp_variable = {
@@ -1229,8 +1365,22 @@ GH_MAN_North_ManShadow_Category = {
 		visible = {
 			has_country_flag = GH_MAN_Shadow_whitearmy_selected
 		}
+		custom_cost_trigger = {
+			has_political_power > 49.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 3
+			}
+		}
+		custom_cost_text = GH_decision_cost_3_putinto_50_pp
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_money_with_collaborators"
+			hidden_effect = {
+				add_political_power = -50
+				set_temp_variable = {
+					MAN_putinto_var_temp = -3
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 抵抗度立即减少5%，并添加10M到债务中
 			set_temp_variable = {
 				MAN_Shadow_resist_temp = -5
@@ -1242,11 +1392,25 @@ GH_MAN_North_ManShadow_Category = {
 		fire_only_once = no
 		days_re_enable = 75
 		# 3%投入度 50PP
+		custom_cost_trigger = {
+			has_political_power > 49.99
+			check_variable = {
+				GH_MAN_Shadow_putinto_var > 3
+			}
+		}
+		custom_cost_text = GH_decision_cost_3_putinto_50_pp
 		visible = {
 			has_country_flag = GH_MAN_Shadow_whitearmy_selected
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			hidden_effect = {
+				add_political_power = -50
+				set_temp_variable = {
+					MAN_putinto_var_temp = -3
+				}
+				MAN_change_Shadow_putinto_var = yes
+			}
 			# 抵抗度立即减少5%
 			set_temp_variable = {
 				MAN_Shadow_resist_temp = -5
