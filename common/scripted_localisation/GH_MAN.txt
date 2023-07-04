@@ -182,3 +182,45 @@ defined_text = {
 		localization_key = GH_MAN_mang_yo_control_3_tt
 	}
 }
+defined_text = {
+	name = Get_GH_MAN_current_Nissan
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Nissan = 1 }
+		}
+		localization_key = GH_MAN_current_Nissan_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Nissan = 2 }
+		}
+		localization_key = GH_MAN_current_Nissan_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Nissan = 3 }
+		}
+		localization_key = GH_MAN_current_Nissan_3_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_current_Nissan_control
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Nissan_control = 1 }
+		}
+		localization_key = GH_MAN_current_Nissan_control_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Nissan_control = 2 }
+		}
+		localization_key = GH_MAN_current_Nissan_control_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Nissan_control = 3 }
+		}
+		localization_key = GH_MAN_current_Nissan_control_3_tt
+	}
+}
