@@ -50,7 +50,7 @@ scripted_gui = {
 		}
 		properties = {
 			GH_MAN_shadowloading_full = {
-				frame = MAN_Shadow_loading
+				frame = GH_MAN_Shadow_resist
 			}
 			#进度条
 			# GH_MAN_Shadow_NCJUA = {

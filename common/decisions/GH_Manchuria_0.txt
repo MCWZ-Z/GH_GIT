@@ -982,43 +982,53 @@ GH_MAN_East_Asia_Defense_Council = {
 
 GH_MAN_North_ManShadow_Category = {
 	####通用
-	# increase investment
-	# expand the scope of action
-	# deploy more staff
-	# Resistance continues to grow
+	# 抵抗度：GH_MAN_Shadow_resist
+	# 投入度：GH_MAN_Shadow_putinto_var
 	MAN_Shadow_putinto_more = {
 		fire_only_once = no
-		days_re_enable = 0
+		days_re_enable = 90
 		cost = 50
 		visible = {
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_putinto_more"
 			# 立即获得10%投入度
+			set_temp_variable = {
+				MAN_putinto_var_temp = 10
+			}
+			MAN_change_Shadow_putinto_var = yes
 			# CD：90天
 		}
 	}
 	MAN_Shadow_expand_action = {
 		fire_only_once = no
-		days_re_enable = 0
+		days_re_enable = 75
 		cost = 25
 		visible = {
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_expand_action"
 			#立即获得7%投入度
+			set_temp_variable = {
+				MAN_putinto_var_temp = 7
+			}
+			MAN_change_Shadow_putinto_var = yes
 			# CD：75天
 		}
 	}
 	MAN_Shadow_more_staff = {
 		fire_only_once = no
-		days_re_enable = 0
+		days_re_enable = 60
 		cost = 10
 		visible = {
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_Shadow_more_staff"
 			#立即获得5%投入度
+			set_temp_variable = {
+				MAN_putinto_var_temp = 5
+			}
+			MAN_change_Shadow_putinto_var = yes
 			# CD：60天
 		}
 	}
@@ -1043,7 +1053,14 @@ GH_MAN_North_ManShadow_Category = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
-			# 			抵抗度立即减少3%
+			# 	抵抗度立即减少3%
+			hidden_effect = {
+				
+			}
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -3
+			}
+			MAN_change_Shadow_resist_var = yes
 		}
 	}
 	MAN_Shadow_sweep_in_countryside = {
@@ -1057,6 +1074,11 @@ GH_MAN_North_ManShadow_Category = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少5%，稳定度-2%
 			
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -5
+			}
+			MAN_change_Shadow_resist_var = yes
+			add_stability = -0.02
 		}
 	}
 	MAN_Shadow_curfew = {
@@ -1069,6 +1091,12 @@ GH_MAN_North_ManShadow_Category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少2%，稳定度+3%
+
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -2
+			}
+			MAN_change_Shadow_resist_var = yes
+			add_stability = 0.03
 		}
 	}
 	MAN_Shadow_investigate_NCJUC = {
@@ -1080,7 +1108,10 @@ GH_MAN_North_ManShadow_Category = {
 			has_country_flag = GH_MAN_Shadow_NCJUA_selected
 		}
 		remove_effect = {
-
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -2
+			}
+			MAN_change_Shadow_resist_var = yes
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
@@ -1098,6 +1129,10 @@ GH_MAN_North_ManShadow_Category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少3%
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -3
+			}
+			MAN_change_Shadow_resist_var = yes
 		}
 	}
 	MAN_Shadow_gendarmerie_to_maintain_order = {
@@ -1110,6 +1145,11 @@ GH_MAN_North_ManShadow_Category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少3%,稳定度-2%
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -3
+			}
+			MAN_change_Shadow_resist_var = yes
+			add_stability = -0.02
 		}
 	}
 	MAN_Shadow_identifying_criminals = {
@@ -1122,6 +1162,11 @@ GH_MAN_North_ManShadow_Category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少5%，并添加10M到债务中
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -5
+			}
+			MAN_change_Shadow_resist_var = yes
+
 		}
 	}
 	MAN_Shadow_seize_underground_trading = {
@@ -1134,6 +1179,10 @@ GH_MAN_North_ManShadow_Category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少5%
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -5
+			}
+			MAN_change_Shadow_resist_var = yes
 		}
 	}
 	####俄罗斯合作者
@@ -1147,6 +1196,12 @@ GH_MAN_North_ManShadow_Category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少5%，稳定度-2%
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -5
+			}
+			MAN_change_Shadow_resist_var = yes
+			add_stability = -0.02
+
 		}
 	}
 	MAN_Shadow_confiscate_russian_armory = {
@@ -1159,6 +1214,12 @@ GH_MAN_North_ManShadow_Category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少2%，添加150支俄罗斯产早期步枪进入仓储中
+
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -2
+			}
+			MAN_change_Shadow_resist_var = yes
+
 		}
 	}
 	MAN_Shadow_money_with_collaborators = {
@@ -1171,6 +1232,10 @@ GH_MAN_North_ManShadow_Category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少5%，并添加10M到债务中
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -5
+			}
+			MAN_change_Shadow_resist_var = yes
 		}
 	}
 	MAN_Shadow_negotiations_with_russian_collaborators = {
@@ -1183,6 +1248,10 @@ GH_MAN_North_ManShadow_Category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision MAN_show_budget_plan_decisions"
 			# 抵抗度立即减少5%
+			set_temp_variable = {
+				MAN_Shadow_resist_temp = -5
+			}
+			MAN_change_Shadow_resist_var = yes
 		}
 	}
 }

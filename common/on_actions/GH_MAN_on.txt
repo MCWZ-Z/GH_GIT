@@ -3,7 +3,7 @@ on_actions = { #
 		effect = {
 			MAN = {
 				set_variable = {
-					MAN_Shadow_loading = 30
+					GH_MAN_Shadow_resist = 30
 				}
 				set_variable = {
 					GH_MAN_Shadow_putinto_var = 30

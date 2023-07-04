@@ -71,6 +71,48 @@ MAN_add_to_debt = {
 	clear_variable = MAN_debt_var_temp
 }
 
+####
+MAN_change_Shadow_putinto_var = {
+	#改变投入度
+	add_to_variable = {
+		var = GH_MAN_Shadow_putinto_var
+		value = MAN_putinto_var_temp
+		# tooltip = MAN_budget_var_tt
+	}
+	if = {
+		limit = { check_variable = { MAN_putinto_var_temp < 0 } }
+		multiply_temp_variable = { MAN_putinto_var_temp = -1 }
+		custom_effect_tooltip = MAN_putinto_var_temp_decrease_tt
+	} 
+	else = {
+		custom_effect_tooltip = MAN_putinto_var_temp_increase_tt
+	}
+	clear_variable = MAN_putinto_var_temp
+}
+MAN_change_Shadow_resist_var = {
+	#改变抵抗度
+	add_to_variable = {
+		var = GH_MAN_Shadow_resist
+		value = MAN_Shadow_resist_temp
+		# tooltip = MAN_budget_var_tt
+	}
+	if = {
+		limit = { check_variable = { MAN_Shadow_resist_temp < 0 } }
+		multiply_temp_variable = { MAN_Shadow_resist_temp = -1 }
+		custom_effect_tooltip = MAN_Shadow_resist_temp_decrease_tt
+	} 
+	else = {
+		custom_effect_tooltip = MAN_Shadow_resist_temp_increase_tt
+	}
+	clear_variable = MAN_Shadow_resist_temp
+}
+
+
+
+
+####
+
+
 GH_MAN_econ_money_reserves_change_raw_money = {
 	#Uses Temp Vars to make it a lot simpler + no mass tooltip spam, value of parameter in billions
 	add_to_variable = {
