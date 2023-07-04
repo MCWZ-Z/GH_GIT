@@ -140,3 +140,45 @@ defined_text = {
 		localization_key = GH_MAN_current_GAD_corrupt_3_tt
 	}
 }
+defined_text = {
+	name = Get_GH_MAN_current_mang_yo
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_mang_yo = 1 }
+		}
+		localization_key = GH_MAN_current_mang_yo_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_mang_yo = 2 }
+		}
+		localization_key = GH_MAN_current_mang_yo_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_mang_yo = 3 }
+		}
+		localization_key = GH_MAN_current_mang_yo_3_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_mang_yo_control
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_mang_yo_control = 1 }
+		}
+		localization_key = GH_MAN_mang_yo_control_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_mang_yo_control = 2 }
+		}
+		localization_key = GH_MAN_mang_yo_control_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_mang_yo_control = 3 }
+		}
+		localization_key = GH_MAN_mang_yo_control_3_tt
+	}
+}

@@ -287,7 +287,7 @@
  GH_MAN_Shadow_putinto_too_low:0 "§R过低§!"
  
  ##decision-3
- GH_MAN_Royal_Leviathan_DESC:0 "当前的§O九五之尊§!是：[Get_GH_MAN_current_emperor]\n\n§O皇族§!现在的状态是：[Get_GH_MAN_emperor_status]\n\n§O皇族§!的统治状况：[Get_GH_MAN_emperor_dominate]\n\n-----------------------------\n\n§W点击以和§O皇族§!进行互动§!"
+ GH_MAN_Royal_Leviathan_DESC:0 "当前的§O九五之尊§!是：[Get_GH_MAN_current_emperor]\n\n§O皇族§!现在的状态是：[Get_GH_MAN_emperor_status]\n\n§O皇族§!的统治状况：[Get_GH_MAN_emperor_dominate]\n\n-----------------------------\n\n§W§O皇族§!现在提供的效果是：§!"
  ##下面要修改颜色
  GH_MAN_current_emperor_1_tt:0 "§W爱新觉罗·溥仪§!"
  GH_MAN_current_emperor_2_tt:0 "§W爱新觉罗·溥杰§!"
@@ -300,7 +300,7 @@
  GH_MAN_emperor_dominate_3_tt:0 "§e不闻不问§!"
 
 
- GH_MAN_GAD_Leviathan_DESC:0 "当前的§g总务厅长官§!是：[Get_GH_MAN_current_GAD_leader]\n\n§g总务厅§!现在的状态是：[Get_GH_MAN_current_GAD_status]\n\n§g总务厅§!的腐败程度：[Get_GH_MAN_current_GAD_corrupt]\n\n-----------------------------\n\n§W点击以和§g总务厅§!进行互动§!"
+ GH_MAN_GAD_Leviathan_DESC:0 "当前的§g总务厅长官§!是：[Get_GH_MAN_current_GAD_leader]\n\n§g总务厅§!现在的状态是：[Get_GH_MAN_current_GAD_status]\n\n§g总务厅§!的腐败程度：[Get_GH_MAN_current_GAD_corrupt]\n\n-----------------------------\n\n§W§g总务厅§!现在提供的效果是：§!"
  
  GH_MAN_current_GAD_leader_1_tt:0 "§W木村俊夫§!"
  GH_MAN_current_GAD_leader_2_tt:0 "§W大平正芳§!"
@@ -313,11 +313,28 @@
  GH_MAN_current_GAD_corrupt_3_tt:0 "§e腐败成风§!"
  
  
- GH_MAN_Man_industry_Leviathan_DESC:0 "当前的§y满业社长§!是：§W五岛升§!\n\n§y满业§!现在的经营状况是：§e衰败不堪§!\n\n§y满业§!目前掌握着：§D大部分行业§!\n\n-----------------------------\n\n§W点击以和§y满业§!进行互动§!"
- GH_MAN_Nissan_Leviathan_DESC:0 "当前的§x日产社长§!是：§W濑木庸介§!\n\n§x日产§!现在的状态是：§d寻求并购§!\n\n§x日产§!目前掌控着：§s什么都没有掌控§!\n\n-----------------------------\n\n§W点击以和§x日产§!进行互动§!"
- GH_MAN_Concordia_Leviathan_DESC:0 "当前的§S协和会长§!是：§W阮振铎§!\n\n§S协和会§!现在的状态是：§Y逐渐衰微§!\n\n§S协和会§!与§J东京§!之间的关系：§q荒废§!\n\n-----------------------------\n\n§W点击以和§S协和会§!进行互动§!"
- GH_MAN_Manchu_gang_Leviathan_DESC:0 "当前的§o满洲帮领袖§!是：§W椎名悦三郎§!\n\n§o满洲帮§!现在的状态是：§V正在崛起§!\n\n§o满洲帮§!与§J东京§!之间的关系：§G良好§!\n\n-----------------------------\n\n§W点击以和§o满洲帮§!进行互动§!"
- GH_MAN_Kwantung_army_Leviathan_DESC:0 "当前的§r关东军总司令§!是：§W片仓衷§!\n\n§r关东军§!现在的状态是：§h内部矛盾§!\n\n§r关东军§!纯洁度：§E较多朝鲜人§!\n\n-----------------------------\n\n§W点击以和§r关东军§!进行互动§!"
+ GH_MAN_Man_industry_Leviathan_DESC:0 "当前的§y满业社长§!是：§W五岛升§!\n\n§y满业§!现在的经营状况是：[Get_GH_MAN_current_mang_yo]\n\n§y满业§!目前掌握着：[Get_GH_MAN_mang_yo_control]\n\n-----------------------------\n\n§W§y满业§!现在提供的效果是：§!"
+ 
+ GH_MAN_current_mang_yo_1_tt:0 "§G蒸蒸日上§!"
+ GH_MAN_current_mang_yo_2_tt:0 "§Y步入正轨§!"
+ GH_MAN_current_mang_yo_3_tt:0 "§e衰败不堪§!"
+ GH_MAN_mang_yo_control_1_tt:0 "§G大部分行业§!"
+ GH_MAN_mang_yo_control_2_tt:0 "§Y铁路与运输业§!"
+ GH_MAN_mang_yo_control_3_tt:0 "§e占位符§!"
+ 
+ 
+ GH_MAN_Nissan_Leviathan_DESC:0 "当前的§x日产社长§!是：§W濑木庸介§!\n\n§x日产§!现在的状态是：[Get_GH_MAN_current_Nissan]\n\n§x日产§!目前掌控着：[Get_GH_MAN_current_Nissan_control]\n\n-----------------------------\n\n§W§x日产§!现在提供的效果是：§!"
+ 
+ GH_MAN_current_Nissan_1_tt:0 "§G权势熏天§!"
+ GH_MAN_current_Nissan_2_tt:0 "§Y野心勃勃§!"
+ GH_MAN_current_Nissan_3_tt:0 "§e寻求并购§!"
+ GH_MAN_current_Nissan_control_1_tt:0 "§G制造业§!"
+ GH_MAN_current_Nissan_control_2_tt:0 "§Y制造与电气业§!"
+ GH_MAN_current_Nissan_control_3_tt:0 "§e未能染指§!"
+ 
+ GH_MAN_Concordia_Leviathan_DESC:0 "当前的§S协和会长§!是：§W阮振铎§!\n\n§S协和会§!现在的状态是：§Y逐渐衰微§!\n\n§S协和会§!与§J东京§!之间的关系：§q荒废§!\n\n-----------------------------\n\n§W§S协和会§!现在提供的效果是：§!"
+ GH_MAN_Manchu_gang_Leviathan_DESC:0 "当前的§o满洲帮领袖§!是：§W椎名悦三郎§!\n\n§o满洲帮§!现在的状态是：§V正在崛起§!\n\n§o满洲帮§!与§J东京§!之间的关系：§G良好§!\n\n-----------------------------\n\n§W§o满洲帮§!现在提供的效果是；§!"
+ GH_MAN_Kwantung_army_Leviathan_DESC:0 "当前的§r关东军总司令§!是：§W片仓衷§!\n\n§r关东军§!现在的状态是：§h内部矛盾§!\n\n§r关东军§!纯洁度：§E较多朝鲜人§!\n\n-----------------------------\n\n§W§r关东军§!现在提供的效果是：§!"
  
  
  ##events
