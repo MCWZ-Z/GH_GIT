@@ -44,7 +44,7 @@ guiTypes = {
 			name = "GH_MAN_Nissan" #日产
 			quadTextureSprite = "GFX_GH_MAN_Nissan"
 			position = { x = 420 y = 142 }
-			# pdx_tooltip = MAN_THENEWORDER_DESC
+			pdx_tooltip = GH_MAN_Nissan_Leviathan_DESC
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -52,7 +52,7 @@ guiTypes = {
 			name = "GH_MAN_Man_industry" #满业
 			quadTextureSprite = "GFX_GH_MAN_Man_industry"
 			position = { x = 420 y = 360 }
-			# pdx_tooltip = GH_MAN_Leviathan_tt
+			pdx_tooltip = GH_MAN_Man_industry_Leviathan_DESC
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -60,7 +60,7 @@ guiTypes = {
 			name = "GH_MAN_Royal" #皇族
 			quadTextureSprite = "GFX_GH_MAN_Royal"
 			position = { x = 685 y = 130 }
-			#pdx_tooltip = GH_MAN_Leviathan_tt
+			pdx_tooltip = GH_MAN_Royal_Leviathan_DESC
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -68,7 +68,7 @@ guiTypes = {
 			name = "GH_MAN_GAD" #总务厅
 			quadTextureSprite = "GFX_GH_MAN_GAD"
 			position = { x = 685 y = 360 }
-			#pdx_tooltip = GH_MAN_Leviathan_tt
+			pdx_tooltip = GH_MAN_GAD_Leviathan_DESC
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -76,7 +76,7 @@ guiTypes = {
 			name = "GH_MAN_Concordia" #协和会
 			quadTextureSprite = "GFX_GH_MAN_Concordia"
 			position = { x = 950 y = 142 }
-			#pdx_tooltip = GH_MAN_Leviathan_tt
+			pdx_tooltip = GH_MAN_Concordia_Leviathan_DESC
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -84,7 +84,7 @@ guiTypes = {
 			name = "GH_MAN_Manchu_gang" #满洲帮
 			quadTextureSprite = "GFX_GH_MAN_Manchu_gang"
 			position = { x = 950 y = 360 }
-			#pdx_tooltip = GH_MAN_Leviathan_tt
+			pdx_tooltip = GH_MAN_Manchu_gang_Leviathan_DESC
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -92,7 +92,7 @@ guiTypes = {
 			name = "GH_MAN_Kwantung_army" #关东军
 			quadTextureSprite = "GFX_GH_MAN_Kwantung_army"
 			position = { x = 125 y = 250 }
-			#pdx_tooltip = GH_MAN_Leviathan_tt
+			pdx_tooltip = GH_MAN_Kwantung_army_Leviathan_DESC
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
