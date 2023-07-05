@@ -1,0 +1,25 @@
+defined_text = {
+	name = Get_TNO_CountryClosing_picture
+	text = {
+		trigger = { original_tag = MAN }
+		localization_key = "[Get_TNO_CountryClosing_picture_MAN]"
+	}
+}	
+defined_text = {
+	name = Get_TNO_CountryClosing_epilogue
+	text = {
+		trigger = {
+			original_tag = MAN
+		}
+		localization_key = "[Get_TNO_CountryClosing_epilogue_MAN]"
+	}
+}
+defined_text = {
+	name = Get_TNO_CountryClosing_picture_MAN
+	text = {
+		trigger = {
+			has_country_flag = MAN_first_phase_Ending
+		}
+		localization_key = "GFX_CountryClosing_picture_MAN_first_phase_Ending_Ending"
+	}
+}		

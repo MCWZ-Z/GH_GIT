@@ -420,8 +420,7 @@ country_event = {
 country_event = {
 	id = man.333
 	title = man.333.t
-	desc = man.109.desc
-	#开始事件
+	desc = man.333.desc
 	# picture = /
 
 	immediate = {
@@ -433,11 +432,28 @@ country_event = {
 
 	option = {
 		name = man.333.a
-		set_country_flag = MAN_Industry_levee_activated
-		set_variable = { MAN_industrial_levee_strength = 3 }
 	}
 }
 #NEW-------------
+country_event = {
+	id = man.444
+	title = man.444.t
+	desc = man.444.desc
+	# picture = /
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.444"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+	    custom_effect_tooltip = man_444_a_tt
+		name = man.444.a
+		set_country_flag = GH_MAN_Splendid_into_ashes_trigger
+	}
+}
 ##########################################################
 ##########################################################
 ###################THE END OF THE WORLD###################
