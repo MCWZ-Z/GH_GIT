@@ -71,7 +71,7 @@ GH_MAN_Utilizing_Breakwaters_Category = {
 }
 GH_MAN_political_palace_Category = { #这部分是决议类，用debug决议作为示范，命名一律规定为“GH_国家ID_决议内容_Category”
 	# icon = / #这是该决议类的图标，由GFX文件定义
-    picture = GFX_decision_category_Amur_development
+    picture = GFX_decision_category_GH_MAN_political_palace
 	allowed = { #这是决定哪个国家可以使用该决议类
         tag = MAN
     }

@@ -1,142 +1,156 @@
 GH_MAN_political_palace_Category = {
-        MAN_expand_emp_int = { #展开与皇族互动的决议
-        fire_only_once = no
-        visible = {
-            NOT = {
+	MAN_expand_emp_int = {
+		#展开与皇族互动的决议
+		fire_only_once = no
+		visible = {
+			NOT = {
 				has_country_flag = MAN_show_emp_int_flag
 			}
-        }
-        complete_effect = {
-        set_country_flag = MAN_show_emp_int_flag
-        }
-    }
-    MAN_hide_emp_int = { #收缩与皇族互动的决议
-        fire_only_once = no
-        visible = {
-				has_country_flag = MAN_show_emp_int_flag
-        }
-        complete_effect = {
-        clr_country_flag = MAN_show_emp_int_flag
-        }
-    }
-    MAN_expand_GAD_int = { #展开与总务厅互动的决议
-        fire_only_once = no
-        visible = {
-            NOT = {
+		}
+		complete_effect = {
+			set_country_flag = MAN_show_emp_int_flag
+		}
+	}
+	MAN_hide_emp_int = {
+		#收缩与皇族互动的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = MAN_show_emp_int_flag
+		}
+		complete_effect = {
+			clr_country_flag = MAN_show_emp_int_flag
+		}
+	}
+	MAN_expand_GAD_int = {
+		#展开与总务厅互动的决议
+		fire_only_once = no
+		visible = {
+			NOT = {
 				has_country_flag = MAN_show_GAD_int_flag
 			}
-        }
-        complete_effect = {
-        set_country_flag = MAN_show_GAD_int_flag
-        }
-    }
-    MAN_hide_GAD_int = { #收缩与总务厅互动的决议
-        fire_only_once = no
-        visible = {
-				has_country_flag = MAN_show_GAD_int_flag
-        }
-        complete_effect = {
-        clr_country_flag = MAN_show_GAD_int_flag
-        }
-    }
-    MAN_expand_mang_yo_int = { #展开与满业互动的决议
-        fire_only_once = no
-        visible = {
-            NOT = {
+		}
+		complete_effect = {
+			set_country_flag = MAN_show_GAD_int_flag
+		}
+	}
+	MAN_hide_GAD_int = {
+		#收缩与总务厅互动的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = MAN_show_GAD_int_flag
+		}
+		complete_effect = {
+			clr_country_flag = MAN_show_GAD_int_flag
+		}
+	}
+	MAN_expand_mang_yo_int = {
+		#展开与满业互动的决议
+		fire_only_once = no
+		visible = {
+			NOT = {
 				has_country_flag = MAN_show_mang_yo_int_flag
 			}
-        }
-        complete_effect = {
-        set_country_flag = MAN_show_mang_yo_int_flag
-        }
-    }
-    MAN_hide_mang_yo_int = { #收缩与满业互动的决议
-        fire_only_once = no
-        visible = {
-				has_country_flag = MAN_show_mang_yo_int_flag
-        }
-        complete_effect = {
-        clr_country_flag = MAN_show_mang_yo_int_flag
-        }
-    }
-    MAN_expand_nissan_int = { #展开与日产互动的决议
-        fire_only_once = no
-        visible = {
-            NOT = {
+		}
+		complete_effect = {
+			set_country_flag = MAN_show_mang_yo_int_flag
+		}
+	}
+	MAN_hide_mang_yo_int = {
+		#收缩与满业互动的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = MAN_show_mang_yo_int_flag
+		}
+		complete_effect = {
+			clr_country_flag = MAN_show_mang_yo_int_flag
+		}
+	}
+	MAN_expand_nissan_int = {
+		#展开与日产互动的决议
+		fire_only_once = no
+		visible = {
+			NOT = {
 				has_country_flag = MAN_show_nissan_int_flag
 			}
-        }
-        complete_effect = {
-        set_country_flag = MAN_show_nissan_int_flag
-        }
-    }
-    MAN_hide_nissan_int = { #收缩与日产互动的决议
-        fire_only_once = no
-        visible = {
-				has_country_flag = MAN_show_nissan_int_flag
-        }
-        complete_effect = {
-        clr_country_flag = MAN_show_nissan_int_flag
-        }
-    }
-    MAN_expand_kuang_tong_army_int = { #展开与关东军互动的决议
-        fire_only_once = no
-        visible = {
-            NOT = {
+		}
+		complete_effect = {
+			set_country_flag = MAN_show_nissan_int_flag
+		}
+	}
+	MAN_hide_nissan_int = {
+		#收缩与日产互动的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = MAN_show_nissan_int_flag
+		}
+		complete_effect = {
+			clr_country_flag = MAN_show_nissan_int_flag
+		}
+	}
+	MAN_expand_kuang_tong_army_int = {
+		#展开与关东军互动的决议
+		fire_only_once = no
+		visible = {
+			NOT = {
 				has_country_flag = MAN_show_kuang_tong_army_int_flag
 			}
-        }
-        complete_effect = {
-        set_country_flag = MAN_show_kuang_tong_army_int_flag
-        }
-    }
-    MAN_hide_kuang_tong_army_int = { #收缩与关东军互动的决议
-        fire_only_once = no
-        visible = {
-				has_country_flag = MAN_show_kuang_tong_army_int_flag
-        }
-        complete_effect = {
-        clr_country_flag = MAN_show_kuang_tong_army_int_flag
-        }
-    }
-    MAN_expand_manchu_gang_int = { #展开与满洲帮互动的决议
-        fire_only_once = no
-        visible = {
-            NOT = {
+		}
+		complete_effect = {
+			set_country_flag = MAN_show_kuang_tong_army_int_flag
+		}
+	}
+	MAN_hide_kuang_tong_army_int = {
+		#收缩与关东军互动的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = MAN_show_kuang_tong_army_int_flag
+		}
+		complete_effect = {
+			clr_country_flag = MAN_show_kuang_tong_army_int_flag
+		}
+	}
+	MAN_expand_manchu_gang_int = {
+		#展开与满洲帮互动的决议
+		fire_only_once = no
+		visible = {
+			NOT = {
 				has_country_flag = MAN_show_manchu_gang_int_flag
 			}
-        }
-        complete_effect = {
-        set_country_flag = MAN_show_manchu_gang_int_flag
-        }
-    }
-    MAN_hide_manchu_gang_int = { #收缩与满洲帮互动的决议
-        fire_only_once = no
-        visible = {
-				has_country_flag = MAN_show_manchu_gang_int_flag
-        }
-        complete_effect = {
-        clr_country_flag = MAN_show_manchu_gang_int_flag
-        }
-    }
-    MAN_expand_shoe_box_int = { #展开与协和会互动的决议
-        fire_only_once = no
-        visible = {
-            NOT = {
+		}
+		complete_effect = {
+			set_country_flag = MAN_show_manchu_gang_int_flag
+		}
+	}
+	MAN_hide_manchu_gang_int = {
+		#收缩与满洲帮互动的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = MAN_show_manchu_gang_int_flag
+		}
+		complete_effect = {
+			clr_country_flag = MAN_show_manchu_gang_int_flag
+		}
+	}
+	MAN_expand_shoe_box_int = {
+		#展开与协和会互动的决议
+		fire_only_once = no
+		visible = {
+			NOT = {
 				has_country_flag = MAN_show_shoe_box_int_flag
 			}
-        }
-        complete_effect = {
-        set_country_flag = MAN_show_shoe_box_int_flag
-        }
-    }
-    MAN_hide_shoe_box_int = { #收缩与协和会互动的决议
-        fire_only_once = no
-        visible = {
-				has_country_flag = MAN_show_shoe_box_int_flag
-        }
-        complete_effect = {
-        clr_country_flag = MAN_show_shoe_box_int_flag
-        }
-    }
-}    
+		}
+		complete_effect = {
+			set_country_flag = MAN_show_shoe_box_int_flag
+		}
+	}
+	MAN_hide_shoe_box_int = {
+		#收缩与协和会互动的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = MAN_show_shoe_box_int_flag
+		}
+		complete_effect = {
+			clr_country_flag = MAN_show_shoe_box_int_flag
+		}
+	}
+}
