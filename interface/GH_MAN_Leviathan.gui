@@ -82,5 +82,21 @@ guiTypes = {
 			position = { x = 125 y = 250 }
 			pdx_tooltip = GH_MAN_Kwantung_army_Leviathan_DESC
 		}
+                                buttonType = {
+			name = "GH_MAN_bill"
+			quadTextureSprite = "GFX_GH_MAN_bill"
+			position = { x = 1250 y = 250 }
+			pdx_tooltip = GH_MAN_bill_DESC
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+                                buttonType = {
+			name = "GH_MAN_popular_support"
+			quadTextureSprite = "GFX_GH_MAN_popular_support"
+			position = { x = 1250 y = 350 }
+			pdx_tooltip = GH_MAN_popular_support_DESC
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
 	}
 }

@@ -35,4 +35,12 @@ spriteTypes = {
 		name = GFX_GH_MAN_Kwantung_army
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Kwantung_army.dds"
 	}
+                spriteType = {
+		name = GFX_GH_MAN_bill
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_bill.dds"
+	}
+                spriteType = {
+		name = GFX_GH_MAN_popular_support
+		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_popular_support.dds"
+	}
 }
