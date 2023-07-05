@@ -224,3 +224,198 @@ defined_text = {
 		localization_key = GH_MAN_current_Nissan_control_3_tt
 	}
 }
+defined_text = {
+	name = Get_GH_MAN_kuang_tong_army_leader
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_kuang_tong_army_leader = 1 }
+		}
+		localization_key = GH_MAN_kuang_tong_army_leader_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_kuang_tong_army_leader = 2 }
+		}
+		localization_key = GH_MAN_kuang_tong_army_leader_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_kuang_tong_army_leader = 3 }
+		}
+		localization_key = GH_MAN_kuang_tong_army_leader_3_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_current_kuang_tong_army
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_kuang_tong_army = 1 }
+		}
+		localization_key = GH_MAN_current_kuang_tong_army_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_kuang_tong_army = 2 }
+		}
+		localization_key = GH_MAN_current_kuang_tong_army_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_kuang_tong_army = 3 }
+		}
+		localization_key = GH_MAN_current_kuang_tong_army_3_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_kuang_tong_army = 4 }
+		}
+		localization_key = GH_MAN_current_kuang_tong_army_4_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_kuang_tong_army_cru
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_kuang_tong_army_cru = 1 }
+		}
+		localization_key = GH_MAN_kuang_tong_army_cru_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_kuang_tong_army_cru = 2 }
+		}
+		localization_key = GH_MAN_kuang_tong_army_cru_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_kuang_tong_army_cru = 3 }
+		}
+		localization_key = GH_MAN_kuang_tong_army_cru_3_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_Concordia_leader
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Concordia_leader = 1 }
+		}
+		localization_key = GH_MAN_Concordia_leader_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Concordia_leader = 2 }
+		}
+		localization_key = GH_MAN_Concordia_leader_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Concordia_leader = 3 }
+		}
+		localization_key = GH_MAN_Concordia_leader_3_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_current_Concordia
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Concordia = 1 }
+		}
+		localization_key = GH_MAN_current_Concordia_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Concordia = 2 }
+		}
+		localization_key = GH_MAN_current_Concordia_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Concordia = 3 }
+		}
+		localization_key = GH_MAN_current_Concordia_3_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_Concordia_relation
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Concordia_relation = 1 }
+		}
+		localization_key = GH_MAN_Concordia_relation_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Concordia_relation = 2 }
+		}
+		localization_key = GH_MAN_Concordia_relation_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Concordia_relation = 3 }
+		}
+		localization_key = GH_MAN_Concordia_relation_3_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_Manchu_gang_leader
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Manchu_gang_leader = 1 }
+		}
+		localization_key = GH_MAN_Manchu_gang_leader_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Manchu_gang_leader = 2 }
+		}
+		localization_key = GH_MAN_Manchu_gang_leader_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Manchu_gang_leader = 3 }
+		}
+		localization_key = GH_MAN_Manchu_gang_leader_3_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_current_Manchu_gang
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Manchu_gang = 1 }
+		}
+		localization_key = GH_MAN_current_Manchu_gang_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Manchu_gang = 2 }
+		}
+		localization_key = GH_MAN_current_Manchu_gang_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_Manchu_gang = 3 }
+		}
+		localization_key = GH_MAN_current_Manchu_gang_3_tt
+	}
+}
+defined_text = {
+	name = Get_GH_MAN_Manchu_gang_relation
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Manchu_gang_relation = 1 }
+		}
+		localization_key = GH_MAN_Manchu_gang_relation_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Manchu_gang_relation = 2 }
+		}
+		localization_key = GH_MAN_Manchu_gang_relation_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_Manchu_gang_relation = 3 }
+		}
+		localization_key = GH_MAN_Manchu_gang_relation_3_tt
+	}
+}

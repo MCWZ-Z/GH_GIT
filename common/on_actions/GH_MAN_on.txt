@@ -41,7 +41,34 @@ on_actions = { #
 				}
 				set_variable = {
 					GH_MAN_current_Nissan_control = 3
-				}						
+				}
+				set_variable = {
+					GH_MAN_kuang_tong_army_leader = 1
+				}
+				set_variable = {
+					GH_MAN_current_kuang_tong_army = 2
+				}
+				set_variable = {
+					GH_MAN_kuang_tong_army_cru = 3
+				}
+				set_variable = {
+					GH_MAN_Concordia_leader = 1
+				}
+				set_variable = {
+					GH_MAN_current_Concordia = 3
+				}
+				set_variable = {
+					GH_MAN_Concordia_relation = 3
+				}
+				set_variable = {
+					GH_MAN_Manchu_gang_leader = 1
+				}
+				set_variable = {
+					GH_MAN_current_Manchu_gang = 2
+				}
+				set_variable = {
+					GH_MAN_Manchu_gang_relation = 1
+				}								
 
 			}
 		}

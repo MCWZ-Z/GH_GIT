@@ -332,9 +332,44 @@
  GH_MAN_current_Nissan_control_2_tt:0 "§Y制造与电气业§!"
  GH_MAN_current_Nissan_control_3_tt:0 "§e未能染指§!"
  
- GH_MAN_Concordia_Leviathan_DESC:0 "当前的§S协和会长§!是：§W阮振铎§!\n\n§S协和会§!现在的状态是：§Y逐渐衰微§!\n\n§S协和会§!与§J东京§!之间的关系：§q荒废§!\n\n-----------------------------\n\n§W§S协和会§!现在提供的效果是：§!"
- GH_MAN_Manchu_gang_Leviathan_DESC:0 "当前的§o满洲帮领袖§!是：§W椎名悦三郎§!\n\n§o满洲帮§!现在的状态是：§V正在崛起§!\n\n§o满洲帮§!与§J东京§!之间的关系：§G良好§!\n\n-----------------------------\n\n§W§o满洲帮§!现在提供的效果是；§!"
- GH_MAN_Kwantung_army_Leviathan_DESC:0 "当前的§r关东军总司令§!是：§W片仓衷§!\n\n§r关东军§!现在的状态是：§h内部矛盾§!\n\n§r关东军§!纯洁度：§E较多朝鲜人§!\n\n-----------------------------\n\n§W§r关东军§!现在提供的效果是：§!"
+ GH_MAN_Concordia_Leviathan_DESC:0 "当前的§S协和会长§!是：[Get_GH_MAN_Concordia_leader]\n\n§S协和会§!现在的状态是：[Get_GH_MAN_current_Concordia]\n\n§S协和会§!与§J东京§!之间的关系：[Get_GH_MAN_Concordia_relation]\n\n-----------------------------\n\n§W§S协和会§!现在提供的效果是：§!"
+ 
+ GH_MAN_Concordia_leader_1_tt:0 "§W阮振铎§!"
+ GH_MAN_Concordia_leader_2_tt:0 "§W占位符§!"
+ GH_MAN_Concordia_leader_3_tt:0 "§W占位符§!"
+ GH_MAN_current_Concordia_1_tt:0 "§G如日中天§!"
+ GH_MAN_current_Concordia_2_tt:0 "§Y正在崛起§!"
+ GH_MAN_current_Concordia_3_tt:0 "§e逐渐衰微§!"
+ GH_MAN_Concordia_relation_1_tt:0 "§G良好§!"
+ GH_MAN_Concordia_relation_2_tt:0 "§Y疏远§!"
+ GH_MAN_Concordia_relation_3_tt:0 "§e荒废§!"
+ 
+ 
+ GH_MAN_Manchu_gang_Leviathan_DESC:0 "当前的§o满洲帮领袖§!是：[Get_GH_MAN_Manchu_gang_leader]\n\n§o满洲帮§!现在的状态是：[Get_GH_MAN_current_Manchu_gang]\n\n§o满洲帮§!与§J东京§!之间的关系：[Get_GH_MAN_Manchu_gang_relation]\n\n-----------------------------\n\n§W§o满洲帮§!现在提供的效果是；§!"
+ 
+ GH_MAN_Manchu_gang_leader_1_tt:0 "§W椎名悦三郎§!"
+ GH_MAN_Manchu_gang_leader_2_tt:0 "§W占位符§!"
+ GH_MAN_Manchu_gang_leader_3_tt:0 "§W占位符§!"
+ GH_MAN_current_Manchu_gang_1_tt:0 "§G如日中天§!"
+ GH_MAN_current_Manchu_gang_2_tt:0 "§Y正在崛起§!"
+ GH_MAN_current_Manchu_gang_3_tt:0 "§e逐渐衰微§!"
+ GH_MAN_Manchu_gang_relation_1_tt:0 "§G良好§!"
+ GH_MAN_Manchu_gang_relation_2_tt:0 "§Y疏远§!"
+ GH_MAN_Manchu_gang_relation_3_tt:0 "§e荒废§!"
+ 
+ 
+ GH_MAN_Kwantung_army_Leviathan_DESC:0 "当前的§r关东军总司令§!是：[Get_GH_MAN_kuang_tong_army_leader]\n\n§r关东军§!现在的状态是：[Get_GH_MAN_current_kuang_tong_army]\n\n§r关东军§!人员成分：[Get_GH_MAN_kuang_tong_army_cru]\n\n-----------------------------\n\n§W§r关东军§!现在提供的效果是：§!"
+ 
+ GH_MAN_kuang_tong_army_leader_1_tt:0 "§W片仓衷§!"
+ GH_MAN_kuang_tong_army_leader_2_tt:0 "§W占位符§!"
+ GH_MAN_kuang_tong_army_leader_3_tt:0 "§W占位符§!"
+ GH_MAN_current_kuang_tong_army_1_tt:0 "§G意见统一§!"
+ GH_MAN_current_kuang_tong_army_2_tt:0 "§Y内部分歧§!"
+ GH_MAN_current_kuang_tong_army_3_tt:0 "§e内部矛盾§!"
+ GH_MAN_current_kuang_tong_army_4_tt:0 "§q几乎分裂§!"
+ GH_MAN_kuang_tong_army_cru_1_tt:0 "§G本土士兵较多§!"
+ GH_MAN_kuang_tong_army_cru_2_tt:0 "§Y日鲜混杂§!"
+ GH_MAN_kuang_tong_army_cru_3_tt:0 "§e基层大量朝鲜族士官§!"
  
  
  ##events
