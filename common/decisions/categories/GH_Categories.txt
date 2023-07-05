@@ -78,6 +78,7 @@ GH_MAN_political_palace_Category = { #这部分是决议类，用debug决议作�
     visible = { #这是决定在什么条件下可以使用该决议类，这个和上面的代码块中的内容都可以在https://hoi4.paradoxwikis.com/Conditions中找到
         is_ai = no
     }
+    scripted_gui = GH_MAN_political_palace_ui
     visible_when_empty = yes #这是保证在没有决议的情况下，该决议类仍能被看到，在写GUI时尤为重要
     priority = 777
 }
