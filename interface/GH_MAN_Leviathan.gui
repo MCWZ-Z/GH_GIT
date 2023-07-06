@@ -100,7 +100,7 @@ guiTypes = {
 		}
 		iconType = {
 			name = "GH_MAN_infor"
-			position = { x = 50 y = 50 }
+			position = { x = 11 y = 15 }
 			spriteType = "GFX_Burgundy_GUI_Info_Button"
 			pdx_tooltip = GH_MAN_leviathan_info
 			# pdx_tooltip_delayed = GH_MAN_North_ManShadow_infor_tooltip_delayed
