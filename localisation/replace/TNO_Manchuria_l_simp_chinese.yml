@@ -416,13 +416,14 @@
  MAN_hide_shoe_box_int:0 "隐藏与§S协和会§!互动的选项"
  MAN_hide_shoe_box_int_DESC:0 ""
  MAN_Pujie_intervene:0 "由§O溥杰§!出面解决问题"
- MAN_Pujie_intervene_DESC:0 "选择让§O溥杰§!出面解决需要强硬或是毫不让步处理的问题，在面对此类问题时多会事半功倍，甚至还可能会有额外收获。此举会提升§O溥杰§!在§O皇族§!之中的地位，一系列的选择可能会影响到大皇帝的身后之事。"
+ MAN_Pujie_intervene_desc:0 "选择让§O溥杰§!出面解决需要强硬或是毫不让步处理的问题，在面对此类问题时多会事半功倍，甚至还可能会有额外收获。此举会提升§O溥杰§!在§O皇族§!之中的地位，一系列的选择可能会影响到大皇帝的身后之事。"
  MAN_Yuyan_intervene:0 "由§Q毓嵒§!出面解决问题"
- MAN_Yuyan_intervene_DESC:0 "选择让§Q毓嵒§!出面解决需要温和或是圆滑处理的问题，在面对此类问题时多会事半功倍，甚至还可能会有额外收获。此举会提升§Q毓嵒§!在§O皇族§!之中的地位，一系列的选择可能会影响到大皇帝的身后之事。"
+ MAN_Yuyan_intervene_desc:0 "选择让§Q毓嵒§!出面解决需要温和或是圆滑处理的问题，在面对此类问题时多会事半功倍，甚至还可能会有额外收获。此举会提升§Q毓嵒§!在§O皇族§!之中的地位，一系列的选择可能会影响到大皇帝的身后之事。"
  MAN_strive_emp_rights:0 "争取§O皇族§!权益"
- MAN_strive_emp_rights_DESC:0 "此举会略微改善§O皇族§!在§d利维坦§!中的统治状况。"
+ MAN_strive_emp_rights_desc:0 "此举会略微改善§O皇族§!在§d利维坦§!中的统治状况。"
  MAN_seeking_emp_support:0 "寻求§O皇族§!支持"
- MAN_seeking_emp_support_DESC:0 "许以好处，§O皇族§!便会支持当前正在审议的提案。"
+ MAN_seeking_emp_support_desc:0 "许以好处，§O皇族§!便会支持当前正在审议的提案。"
+ MAN_hit_GAD:0 "敲打§g总务厅§!"
  
  
  ##events
