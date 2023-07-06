@@ -23,7 +23,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "GH_MAN_Leviathan_GUI"
-		size = { height = 630 width = 1520 }
+		size = { height = 700 width = 1520 }
 		position = { x = 238 y = 220 }
 		show_sound = open_sub_window
 		moveable = yes
@@ -105,5 +105,32 @@ guiTypes = {
 			pdx_tooltip = GH_MAN_leviathan_info
 			# pdx_tooltip_delayed = GH_MAN_North_ManShadow_infor_tooltip_delayed
 		}
+		buttonType = {
+			name = "GH_MAN_close"
+			position = { x = -11 y = 15 }
+			orientation = "UPPER_RIGHT"
+			spriteType = "GFX_kartenhaus_CloseButton"
+			clicksound = click_default
+			shortcut = "ESCAPE"
+			# pdx_tooltip = GH_MAN_leviathan_info
+			# pdx_tooltip_delayed = GH_MAN_North_ManShadow_infor_tooltip_delayed
+		}
+
+
+		containerWindowType = {
+			####定义一个区域专门用来存放这个进度条（不定义也可以
+            name = "GH_MAN_Leviathan_progress_container"
+            position = { x = 410 y = 620 }
+			### x定义好了 y建议再行调整
+            iconType = {
+				# 进度条在.gui中写法与其他iconType一致
+                name = "GH_MAN_Leviathan_progress_bar"
+                # position = { x = 5 y = 4 }
+                # alwaystransparent = yes
+                spriteType = "GFX_GH_MAN_Leviathan_progressbar"
+				pdx_tooltip = GFX_GH_MAN_Leviathan_progress_tooltip
+                pdx_tooltip_delayed = GFX_GH_MAN_Leviathan_progress_tooltip_delayed
+            }
+        }
 	}
 }

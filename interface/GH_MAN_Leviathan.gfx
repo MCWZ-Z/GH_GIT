@@ -7,40 +7,54 @@ spriteTypes = {
 		name = GFX_GH_MAN_Leviathan_background
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Leviathan_background.dds"
 	}
-                spriteType = {
+	spriteType = {
 		name = GFX_GH_MAN_Nissan
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Nissan.dds"
 	}
-                spriteType = {
+	spriteType = {
 		name = GFX_GH_MAN_Man_industry
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Man_industry.dds"
 	}
-                spriteType = {
+	spriteType = {
 		name = GFX_GH_MAN_Royal
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Royal.dds"
 	}
-                spriteType = {
+	spriteType = {
 		name = GFX_GH_MAN_GAD
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_GAD.dds"
 	}
-                spriteType = {
+	spriteType = {
 		name = GFX_GH_MAN_Concordia
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Concordia.dds"
 	}
-                spriteType = {
+	spriteType = {
 		name = GFX_GH_MAN_Manchu_gang
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Manchu_gang.dds"
 	}
-                spriteType = {
+	spriteType = {
 		name = GFX_GH_MAN_Kwantung_army
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_Kwantung_army.dds"
 	}
-                spriteType = {
+	spriteType = {
 		name = GFX_GH_MAN_bill
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_bill.dds"
 	}
-                spriteType = {
+	spriteType = {
 		name = GFX_GH_MAN_popular_support
 		texturefile = "gfx/interface/GUI/leviathan/GH_MAN_popular_support.dds"
 	}
+
+
+	progressbartype = {
+		## 此处为进度条使用的gfx type 都是字面意义（
+		name = "GFX_GH_MAN_Leviathan_progressbar"
+		textureFile1 = "gfx/interface/GUI/leviathan/GH_MAN_leviathan_loading_bar_full.dds"
+		textureFile2 = "gfx/interface/GUI/leviathan/GH_MAN_leviathan_loading_bar_empty.dds"
+		size = { x = 700 y = 50 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+
+
 }
