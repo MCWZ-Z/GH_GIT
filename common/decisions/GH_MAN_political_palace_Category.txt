@@ -3,7 +3,7 @@ GH_MAN_political_palace_Category = {
 		#debug
 		fire_only_once = no
 		visible = {
-
+			is_debug = yes
 		}
 		complete_effect = {
 			# set_country_flag = MAN_show_emp_int_flag
