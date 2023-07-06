@@ -91,6 +91,16 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_GAD_int_flag
 		}
 	}
+	MAN_hit_GAD = { #敲打总务厅
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_GAD_int_flag
+		}
+        complete_effect = {
+        }		
+	}
 	MAN_expand_mang_yo_int = {
 		#展开与满业互动的决议
 		fire_only_once = no
