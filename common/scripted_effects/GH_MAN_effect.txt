@@ -107,7 +107,25 @@ MAN_change_Shadow_resist_var = {
 	clear_variable = MAN_Shadow_resist_temp
 }
 
+MAN_change_Leviathan_stability = {
+	#改变利维坦稳定度
+	add_to_variable = {
+		var = GH_MAN_Leviathan_stability
+		value = GH_MAN_Leviathan_stability_temp
+		# tooltip = MAN_budget_var_tt
+	}
+	if = {
+		limit = { check_variable = { GH_MAN_Leviathan_stability_temp < 0 } }
+		multiply_temp_variable = { GH_MAN_Leviathan_stability_temp = -1 }
+		custom_effect_tooltip = GH_MAN_Leviathan_stability_temp_decrease_tt
+	} 
+	else = {
+		custom_effect_tooltip = GH_MAN_Leviathan_stability_temp_increase_tt
+	}
+	clear_variable = GH_MAN_Leviathan_stability_temp
 
+	##不确定是否需要限制范围
+}
 
 
 ####

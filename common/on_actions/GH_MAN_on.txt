@@ -68,7 +68,14 @@ on_actions = { #
 				}
 				set_variable = {
 					GH_MAN_Manchu_gang_relation = 1
-				}								
+				}	
+				
+				###
+				set_variable = {
+					## 初始化进度条的进度
+					GH_MAN_Leviathan_stability = 80
+				}
+				
 
 			}
 		}

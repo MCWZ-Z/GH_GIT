@@ -36,5 +36,11 @@ scripted_gui = {
 		visible = {
 			has_country_flag = GH_MAN_Leviathan_GUI_Open
 		}
+		properties = {
+			GH_MAN_Leviathan_progress_bar = {
+				## 定义控制进度条进度的变量是哪一个
+				frame = GH_MAN_Leviathan_stability
+			}
+		}
 	}
 }
