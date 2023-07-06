@@ -414,6 +414,7 @@
  MAN_strive_emp_rights_DESC:0 "此举会略微改善§O皇族§!在§d利维坦§!中的统治状况。"
  MAN_seeking_emp_support:0 "寻求§O皇族§!支持"
  MAN_seeking_emp_support_DESC:0 "许以好处，§O皇族§!便会支持当前正在审议的提案。"
+ MAN_hit_GAD:0 "敲打§g总务厅§!"
  
  
  ##events
