@@ -153,7 +153,7 @@ country_event = {
 	title = man.8.t
 	desc = man.8.desc
 
-	# picture = /
+	picture = GFX_GH_MAN_glib
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event man.8"
@@ -248,7 +248,7 @@ country_event = {
 	title = man.13.t
 	desc = man.13.desc
 
-	# picture = /
+	picture = GFX_GH_MAN_noise
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event man.13"
@@ -267,7 +267,7 @@ country_event = {
 	title = man.14.t
 	desc = man.14.desc
 
-	# picture = /
+	picture = GFX_GH_MAN_izanami
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event man.14"
@@ -286,7 +286,7 @@ country_event = {
 	title = man.15.t
 	desc = man.15.desc
 
-	# picture = /
+	picture = GFX_GH_MAN_talk_with_elo
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event man.15"
