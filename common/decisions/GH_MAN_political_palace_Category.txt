@@ -21,6 +21,36 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_emp_int_flag
 		}
 	}
+	MAN_Yuyan_intervene = { #皇族-由毓嵒出面
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_emp_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_strive_emp_rights = { #皇族-争取皇族权益
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_emp_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_seeking_emp_support = { #皇族-寻求皇族支持
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_emp_int_flag
+		}
+        complete_effect = {
+        }		
+	}
 	MAN_expand_GAD_int = {
 		#展开与总务厅互动的决议
 		fire_only_once = no
@@ -154,36 +184,6 @@ GH_MAN_political_palace_Category = {
 		}
 	}
 	MAN_Pujie_intervene = { #皇族-由溥杰出面
-		cost = 50
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			has_country_flag = MAN_show_emp_int_flag
-		}
-        complete_effect = {
-        }		
-	}
-	MAN_Yuyan_intervene = { #皇族-由毓嵒出面
-		cost = 50
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			has_country_flag = MAN_show_emp_int_flag
-		}
-        complete_effect = {
-        }		
-	}
-	MAN_strive_emp_rights = { #皇族-争取皇族权益
-		cost = 50
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			has_country_flag = MAN_show_emp_int_flag
-		}
-        complete_effect = {
-        }		
-	}
-	MAN_seeking_emp_support = { #皇族-寻求皇族支持
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
