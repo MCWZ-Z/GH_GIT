@@ -6,7 +6,7 @@ country_event = { #这是一个具体的事件
 	title = man.1.t #这是事件标题的本地化键值，统一为“事件ID.t”
 	desc = man.1.desc #这是事件内容的本地化键值，统一为“事件ID.desc”
 
-	# picture = / #这是事件配图
+	picture = GFX_GH_MAN_cage_talk
 
 	immediate = { #这是便于debug的日志
 		log = "[GetDateText]: [Root.GetName]: event man.1"
@@ -134,7 +134,7 @@ country_event = {
 	title = man.7.t
 	desc = man.7.desc
 
-	# picture = /
+	picture = GFX_GH_MAN_be_chased
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event man.7"
@@ -305,7 +305,7 @@ country_event = {
 	title = man.16.t
 	desc = man.16.desc
 
-	# picture = /
+	picture = GFX_GH_MAN_puppeteer
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event man.16"
@@ -452,6 +452,115 @@ country_event = {
 	    custom_effect_tooltip = man_444_a_tt
 		name = man.444.a
 		set_country_flag = GH_MAN_Splendid_into_ashes_trigger
+	}
+}
+
+country_event = {
+	id = man.21
+	title = man.21.t
+	desc = man.21.desc
+
+	picture = GFX_GH_MAN_apprehend_danger
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.21"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.21.a
+	}
+}
+country_event = {
+	id = man.22
+	title = man.22.t
+	desc = man.22.desc
+
+	picture = GFX_GH_MAN_commander
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.22"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.22.a
+	}
+}
+country_event = {
+	id = man.23
+	title = man.23.t
+	desc = man.23.desc
+
+	picture = GFX_GH_MAN_graft_and_transplant
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.23"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.23.a
+	}
+}
+country_event = {
+	id = man.24
+	title = man.24.t
+	desc = man.24.desc
+
+	picture = GFX_GH_MAN_be_understand
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.24"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.24.a
+	}
+}
+country_event = {
+	id = man.25
+	title = man.25.t
+	desc = man.25.desc
+
+	picture = GFX_GH_MAN_big_nephew
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.25"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.25.a
+	}
+}
+country_event = {
+	id = man.26
+	title = man.26.t
+	desc = man.26.desc
+
+	picture = GFX_GH_MAN_careerist
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.26"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.26.a
 	}
 }
 ##########################################################

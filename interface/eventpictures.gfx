@@ -16,5 +16,42 @@
 		name = "GFX_GH_MAN_talk_with_elo"
 		texturefile = "gfx/event_pictures/GH_MAN/talk_with_elo.dds"
 	}
+	spriteType = {
+		name = "GFX_GH_MAN_apprehend_danger"
+		texturefile = "gfx/event_pictures/GH_MAN/apprehend_danger.dds"
+	}
+	spriteType = {
+		name = "GFX_GH_MAN_be_chased"
+		texturefile = "gfx/event_pictures/GH_MAN/be_chased.dds"
+	}
+	spriteType = {
+		name = "GFX_GH_MAN_be_understand"
+		texturefile = "gfx/event_pictures/GH_MAN/be_understand.dds"
+	}
+	spriteType = {
+		name = "GFX_GH_MAN_big_nephew"
+		texturefile = "gfx/event_pictures/GH_MAN/big_nephew.dds"
+	}
+	spriteType = {
+		name = "GFX_GH_MAN_cage_talk"
+		texturefile = "gfx/event_pictures/GH_MAN/cage_talk.dds"
+	}
+	spriteType = {
+		name = "GFX_GH_MAN_careerist"
+		texturefile = "gfx/event_pictures/GH_MAN/careerist.dds"
+	}
+	spriteType = {
+		name = "GFX_GH_MAN_commander"
+		texturefile = "gfx/event_pictures/GH_MAN/commander.dds"
+	}
+	spriteType = {
+		name = "GFX_GH_MAN_graft_and_transplant"
+		texturefile = "gfx/event_pictures/GH_MAN/graft_and_transplant.dds"
+	}
+	spriteType = {
+		name = "GFX_GH_MAN_puppeteer"
+		texturefile = "gfx/event_pictures/GH_MAN/puppeteer.dds"
+	}
+	
 	
 
