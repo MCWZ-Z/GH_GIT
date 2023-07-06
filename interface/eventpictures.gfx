@@ -1,5 +1,5 @@
 ###########################这是事件图片命名的地方
-        
+spriteTypes = {      
     spriteType = {
 		name = "GFX_GH_MAN_glib"
 		texturefile = "gfx/event_pictures/GH_MAN/glib.dds"
@@ -55,3 +55,4 @@
 	
 	
 
+}
