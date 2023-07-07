@@ -563,6 +563,24 @@ country_event = {
 		name = man.26.a
 	}
 }
+country_event = {
+	id = man.27
+	title = man.27.t
+	desc = man.27.desc
+
+	picture = GFX_GH_MAN_careerist
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event man.27"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = man.27.a
+	}
+}
 ##########################################################
 ##########################################################
 ###################THE END OF THE WORLD###################
