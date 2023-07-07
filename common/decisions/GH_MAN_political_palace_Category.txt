@@ -347,6 +347,46 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_manchu_gang_int_flag
 		}
 	}
+	MAN_keep_good_with_tokyo_gang = { #满洲帮 - 与东京增进关系
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_manchu_gang_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_slander_with_shoe_box = { #满洲帮 - 诋毁协和会在东京的声誉
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_manchu_gang_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_talk_with_Shiina = { #满洲帮 - 和椎名悦三郎谈谈
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_manchu_gang_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_seeking_manchu_gang_support = { #满洲帮 - 寻求满洲帮支持
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_manchu_gang_int_flag
+		}
+        complete_effect = {
+        }		
+	}
 	MAN_expand_shoe_box_int = {
 		#展开与协和会互动的决议
 		fire_only_once = no
@@ -368,5 +408,45 @@ GH_MAN_political_palace_Category = {
 		complete_effect = {
 			clr_country_flag = MAN_show_shoe_box_int_flag
 		}
+	}
+	MAN_keep_good_with_tokyo_shoe_box = { #协和会 - 与东京增进关系
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_shoe_box_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_slander_with_manchu_gang = { #协和会 - 诋毁满洲帮在东京的声誉
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_shoe_box_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_talk_with_Ruan = { #协和会 - 和阮振铎谈谈
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_shoe_box_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_seeking_shoe_box_support = { #协和会 - 寻求协和会支持
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_shoe_box_int_flag
+		}
+        complete_effect = {
+        }		
 	}
 }
