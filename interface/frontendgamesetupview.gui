@@ -949,6 +949,14 @@ guiTypes = {
 			pdx_tooltip = "BOOKMARK_GUANGDONG_NEW"
 			pdx_tooltip_delayed = "BOOKMARK_GUANGDONG_NEW_DELAYED"
 		}
+		
+		iconType = { # Manchuriya NEW
+			name = "country_selection_man_new"
+			position = { x = 900 y = 100 }
+			spriteType = "GFX_country_selection_OLD_shine"
+			pdx_tooltip = "BOOKMARK_MANCHURIYA_NEW"
+			pdx_tooltip_delayed = "BOOKMARK_MANCHURIYA_NEW_DELAYED"
+		}
 
 		# Triumvirate
 		iconType = { # GREECE BLOCKED ENTRY
