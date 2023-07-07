@@ -231,7 +231,7 @@ GH_MAN_political_palace_Category = {
 		#展开与日产互动的决议
 		fire_only_once = no
 		available = {
-		    NOT = { has_country_flag = MAN_nissan_merger_finish }
+		     has_country_flag = MAN_nissan_merger_finish
 		}
 		visible = {
 			NOT = {
@@ -304,7 +304,7 @@ GH_MAN_political_palace_Category = {
 		#展开与关东军互动的决议
 		fire_only_once = no
 		available = {
-		    NOT = { has_country_flag = MAN_kuang_tong_army_unify }
+		    has_country_flag = MAN_kuang_tong_army_unify
 		}
 		visible = {
 			NOT = {
