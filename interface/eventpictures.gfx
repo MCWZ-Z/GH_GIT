@@ -52,7 +52,10 @@ spriteTypes = {
 		name = "GFX_GH_MAN_puppeteer"
 		texturefile = "gfx/event_pictures/GH_MAN/puppeteer.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_GH_MAN_rubbsh_Ruan"
+		texturefile = "gfx/event_pictures/GH_MAN/rubbsh_Ruan.dds"
+	}
 	
 
 }

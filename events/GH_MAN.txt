@@ -568,7 +568,7 @@ country_event = {
 	title = man.27.t
 	desc = man.27.desc
 
-	picture = GFX_GH_MAN_careerist
+	picture = GFX_GH_MAN_rubbsh_Ruan
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event man.27"
