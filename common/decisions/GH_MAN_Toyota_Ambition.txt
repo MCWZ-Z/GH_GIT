@@ -1,0 +1,19 @@
+GH_MAN_Toyota_Ambition_Category = {
+	MAN_TA_debug_gui_visibility_debug = {
+		
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = MAN_TA_debug_gui_visible
+				}
+				clr_country_flag = MAN_TA_debug_gui_visible
+			}
+			else = {
+				set_country_flag = MAN_TA_debug_gui_visible
+			}
+		}
+	}
+}

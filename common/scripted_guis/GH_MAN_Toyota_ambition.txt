@@ -1,0 +1,14 @@
+scripted_gui = {
+	GH_MAN_toyota_ambition_ui = {
+		window_name = "GH_MAN_toyota_ambition_ui"
+		#context_type = decision_category
+		context_type = player_context
+		parent_window_token = GH_MAN_toyota_ambition_ui
+		# parent_window_token = politics_tab
+		visible = {
+			tag = MAN
+			has_country_flag = MAN_TA_debug_gui_visible
+		}
+
+	}
+}

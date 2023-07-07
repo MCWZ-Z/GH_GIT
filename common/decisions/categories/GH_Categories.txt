@@ -82,3 +82,20 @@ GH_MAN_political_palace_Category = { #这部分是决议类，用debug决议作�
     visible_when_empty = yes #这是保证在没有决议的情况下，该决议类仍能被看到，在写GUI时尤为重要
     priority = 777
 }
+
+GH_MAN_Toyota_Ambition_Category = {
+    icon = GFX_decision_category_GH_MAN_Toyota_Ambition
+    #picture = 
+    allowed = { 
+        tag = MAN
+    }
+    visible = { 
+        OR = {
+            has_country_flag = MAN_Toyota_Ambition_Decision_Allowed
+            is_debug = yes
+        }
+    }
+    scripted_gui = GH_MAN_toyota_ambition_ui
+    visible_when_empty = yes
+    priority = 600
+}

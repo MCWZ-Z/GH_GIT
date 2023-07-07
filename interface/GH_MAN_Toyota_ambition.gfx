@@ -1,0 +1,9 @@
+#
+spriteTypes = {
+	spriteType = {
+		name = "GFX_decision_category_GH_MAN_Toyota_Ambition" #这是在character中规定的GFX命名
+		texturefile = "gfx/interface/GUI/toyota_ambition/decision_category_GH_MAN_Toyota_Ambition.dds" #这是GFX对应的文件，文件命名统一为“MAN_GH_minister_人名.dds”
+	}
+	
+
+}

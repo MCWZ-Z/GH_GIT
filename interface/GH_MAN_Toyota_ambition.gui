@@ -1,0 +1,16 @@
+guiTypes = {
+    containerWindowType = {
+        name = "GH_MAN_toyota_ambition_ui"
+        size = { width = 482 height = 100 }
+        position = { x = -100 y = -379 }
+        iconType = {
+			name = "GH_MAN_infor"
+			position = { x = 394 y = -65 }
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			pdx_tooltip = GH_MAN_toyota_ambition_info
+			
+		}
+        
+    }
+
+}
