@@ -387,6 +387,8 @@
  
  GH_MAN_political_palace_Category:0 "政治宫廷"
  GH_MAN_political_palace_info:0 "§W统治整个国家的§d利维坦§!构成了这间巨型的§w纸牌宫廷§!，§O皇帝§!的仆从与重臣们来来去去，却无一人真正在意他的感受，都只拿他作为一具听话的§V提线傀儡§!。争权夺利，互相倾轧，只为了多分一杯羹。\n\n可以通过与每股势力进行互动，从而§B调整当前的权力分配§!，§q阻挠§!或§l推进§!事务，§k处理§!或§s搁置§!议题，无论如何，都要保证这间纸牌宫廷的§G稳定§!，绝不能让帝国因某人的一己私欲而§e全盘葬送§!。\n\n§S协和会§!、§g总务厅§!属于§g文官集团§!，§o满洲帮§!是一群§o改革技术官僚§!组成的小团体，§x日产§!、§y满业§!都属于§y托拉斯§!。了解他们的需求与痛点，平衡他们的力量，你可以在§d利维坦GUI§!中查看现在的格局。§!"
+ MAN_political_palace_debug:0 "§G增加§!5§d利维坦§!稳定度"
+ MAN_political_palace_reduce_debug:0 "§R减少§!5§d利维坦§!稳定度"
  MAN_expand_emp_int:0 "展开与§O皇族§!互动的选项"
  MAN_expand_emp_int_DESC:0 ""
  MAN_hide_emp_int:0 "隐藏与§O皇族§!互动的选项"
@@ -400,11 +402,19 @@
  MAN_hide_mang_yo_int:0 "隐藏与§y满业§!互动的选项"
  MAN_hide_mang_yo_int_DESC:0 ""
  MAN_expand_nissan_int:0 "展开与§x日产§!互动的选项"
- MAN_expand_nissan_int_DESC:0 ""
+ MAN_expand_nissan_int_desc:0 "[Get_GH_MAN_nissan_inter]"
+ 
+ GH_MAN_nissan_inter_1_tt:0 "我们暂时不能与§x日产§!互动，因为他们还未进入满洲"
+ GH_MAN_nissan_inter_2_tt:0 "并购已经完成，现在我们可以与§x日产§!互动了"
+ 
  MAN_hide_nissan_int:0 "隐藏与§x日产§!互动的选项"
  MAN_hide_nissan_int_DESC:0 ""
  MAN_expand_kuang_tong_army_int:0 "展开与§r关东军§!互动的选项"
- MAN_expand_kuang_tong_army_int_DESC:0 ""
+ MAN_expand_kuang_tong_army_int_desc:0 "[Get_GH_MAN_kuang_tong_army_inter]"
+ 
+ GH_MAN_kuang_tong_army_inter_1_tt:0 "我们暂时不能与§r关东军§!互动，因为§r关东军§!内部的分歧还悬而未决"
+ GH_MAN_kuang_tong_army_inter_2_tt:0 "§r关东军§!内部的分歧已解决，现在我们可以与§r关东军§!互动了"
+ 
  MAN_hide_kuang_tong_army_int:0 "隐藏与§r关东军§!互动的选项"
  MAN_hide_kuang_tong_army_int_DESC:0 ""
  MAN_expand_manchu_gang_int:0 "展开与§o满洲帮§!互动的选项"
@@ -424,6 +434,21 @@
  MAN_seeking_emp_support:0 "寻求§O皇族§!支持"
  MAN_seeking_emp_support_desc:0 "许以好处，§O皇族§!便会支持当前正在审议的提案。"
  MAN_hit_GAD:0 "敲打§g总务厅§!"
+ MAN_talk_with_Kimura:0 "和§g木村俊夫§!谈谈"
+ MAN_request_GAD_reform:0 "要求§g总务厅§!实行公务员改革"
+ MAN_seeking_GAD_support:0 "寻求§g总务厅§!支持"
+ MAN_seeking_GAD_support_desc:0 "许以好处，§g总务厅§!便会支持当前正在审议的提案。"
+ MAN_talk_with_inoly:0 "和§G五岛升§!谈谈"
+ MAN_need_mang_yo_money:0 "向§G满业§!索取资金"
+ MAN_help_mang_yo:0 "在政策上帮扶§G满业§!"
+ MAN_seeking_mang_yo_support:0 "寻求§G满业§!支持"
+ MAN_seeking_mang_yo_support_desc:0 "许以好处，§G满业§!便会提高当前正在审议的提案的落实率。"
+ MAN_talk_with_Setsuke:0 "和§x濑木庸介§!谈谈"
+ MAN_need_nissan_compromise:0 "要求§x日产§!为§G满业§!让步"
+ MAN_help_nissan:0 "在政策上帮扶§x日产§!"
+ MAN_seeking_nissan_support:0 "寻求§x日产§!支持"
+ MAN_seeking_nissan_support_desc:0 "许以好处，§x日产§!便会提高当前正在审议的提案的落实率。"
+ 
  
  
  ##events

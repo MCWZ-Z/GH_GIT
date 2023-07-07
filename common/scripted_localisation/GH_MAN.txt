@@ -419,3 +419,31 @@ defined_text = {
 		localization_key = GH_MAN_Manchu_gang_relation_3_tt
 	}
 }
+defined_text = {
+	name = Get_GH_MAN_nissan_inter
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_nissan_inter = 1 }
+		}
+		localization_key = GH_MAN_nissan_inter_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_nissan_inter = 2 }
+		}
+		localization_key = GH_MAN_nissan_inter_2_tt
+	}
+defined_text = {
+	name = Get_GH_MAN_kuang_tong_army_inter
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_kuang_tong_army_inter = 1 }
+		}
+		localization_key = GH_MAN_kuang_tong_army_inter_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_kuang_tong_army_inter = 2 }
+		}
+		localization_key = GH_MAN_kuang_tong_army_inter_2_tt
+	}	

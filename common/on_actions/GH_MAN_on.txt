@@ -68,7 +68,16 @@ on_actions = { #
 				}
 				set_variable = {
 					GH_MAN_Manchu_gang_relation = 1
-				}	
+				}
+				
+				###初始化 政治宫廷
+				set_variable = {
+					Get_GH_MAN_nissan_inter = 1
+				}
+				set_variable = {
+					Get_GH_MAN_kuang_tong_army_inter = 1
+				}
+					
 				
 				###
 				set_variable = {

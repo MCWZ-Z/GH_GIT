@@ -15,6 +15,22 @@ GH_MAN_political_palace_Category = {
 			
 		}
 	}
+	MAN_political_palace_reduce_debug = {
+		#debug
+		fire_only_once = no
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			# set_country_flag = MAN_show_emp_int_flag
+			set_temp_variable = {
+				GH_MAN_Leviathan_stability_temp = -5
+				#设置改变的数字 正数为增加 负数为减少
+			}
+			MAN_change_Leviathan_stability = yes
+			
+		}
+	}
 
 
 	MAN_expand_emp_int = {
@@ -38,6 +54,16 @@ GH_MAN_political_palace_Category = {
 		complete_effect = {
 			clr_country_flag = MAN_show_emp_int_flag
 		}
+	}
+	MAN_Pujie_intervene = { #皇族-由溥杰出面
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_emp_int_flag
+		}
+        complete_effect = {
+        }		
 	}
 	MAN_Yuyan_intervene = { #皇族-由毓嵒出面
 		cost = 50
@@ -91,7 +117,41 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_GAD_int_flag
 		}
 	}
-	MAN_hit_GAD = { #敲打总务厅
+	MAN_hit_GAD = { #总务厅 - 敲打总务厅
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_GAD_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_talk_with_Kimura = { #总务厅 - 和木村俊夫谈谈
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_GAD_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_request_GAD_reform = { #总务厅 - 要求总务厅实行改革
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_GAD_int_flag
+		}
+        complete_effect = {
+        set_temp_variable = {
+				GH_MAN_Leviathan_stability_temp = -5
+				#设置改变的数字 正数为增加 负数为减少
+			}
+        }		
+	}
+	MAN_seeking_GAD_support = { #总务厅-寻求总务厅支持
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
@@ -123,9 +183,56 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_mang_yo_int_flag
 		}
 	}
+	MAN_talk_with_inoly = { #满业 - 和五岛升谈谈
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_mang_yo_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_need_mang_yo_money = { #满业 - 向满业索取资金
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_mang_yo_int_flag
+		}
+        complete_effect = {
+        set_temp_variable = {
+				GH_MAN_Leviathan_stability_temp = -5
+				#设置改变的数字 正数为增加 负数为减少
+			}
+        }		
+	}
+	MAN_help_mang_yo = { #满业 - 在政策上帮扶满业
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_mang_yo_int_flag
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_seeking_mang_yo_support = { #满业 - 寻求满业支持
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_mang_yo_int_flag
+		}
+        complete_effect = {
+        }		
+	}
 	MAN_expand_nissan_int = {
 		#展开与日产互动的决议
 		fire_only_once = no
+		available = {
+		    NOT = { has_country_flag = MAN_nissan_merger_finish }
+		}
 		visible = {
 			NOT = {
 				has_country_flag = MAN_show_nissan_int_flag
@@ -145,9 +252,60 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_nissan_int_flag
 		}
 	}
+	MAN_talk_with_Setsuke = { #日产 - 和濑木庸介谈谈
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_nissan_int_flag
+			has_country_flag = MAN_nissan_merger_finish
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_need_nissan_compromise = { #日产 - 要求日产为满业让步
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_nissan_int_flag
+			has_country_flag = MAN_nissan_merger_finish
+		}
+        complete_effect = {
+        set_temp_variable = {
+				GH_MAN_Leviathan_stability_temp = -5
+				#设置改变的数字 正数为增加 负数为减少
+			}
+        }		
+	}
+	MAN_help_nissan = { #日产 - 在政策上帮扶日产
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_nissan_int_flag
+			has_country_flag = MAN_nissan_merger_finish
+		}
+        complete_effect = {
+        }		
+	}
+	MAN_seeking_nissan_support = { #日产 - 寻求日产支持
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 180
+		visible = {
+			has_country_flag = MAN_show_nissan_int_flag
+			has_country_flag = MAN_nissan_merger_finish
+		}
+        complete_effect = {
+        }		
+	}
 	MAN_expand_kuang_tong_army_int = {
 		#展开与关东军互动的决议
 		fire_only_once = no
+		available = {
+		    NOT = { has_country_flag = MAN_kuang_tong_army_unify }
+		}
 		visible = {
 			NOT = {
 				has_country_flag = MAN_show_kuang_tong_army_int_flag
@@ -210,15 +368,5 @@ GH_MAN_political_palace_Category = {
 		complete_effect = {
 			clr_country_flag = MAN_show_shoe_box_int_flag
 		}
-	}
-	MAN_Pujie_intervene = { #皇族-由溥杰出面
-		cost = 50
-		fire_only_once = no
-		days_re_enable = 180
-		visible = {
-			has_country_flag = MAN_show_emp_int_flag
-		}
-        complete_effect = {
-        }		
 	}
 }
