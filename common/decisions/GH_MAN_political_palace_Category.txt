@@ -1,4 +1,29 @@
 GH_MAN_political_palace_Category = {
+	MAN_political_power_debug = {
+		#debug
+		fire_only_once = no
+		visible = {
+			is_debug = yes
+		}
+		complete_effect = {
+			# set_country_flag = MAN_show_emp_int_flag
+			# 势力的序号 0 为灰色 1 为绿色 2 为棕色
+			# MAN_faction_from_temp 为失去权力势力序号
+			# MAN_faction_to_temp 为增加权力的势力序号
+			# MAN_faction_num_temp 为权力改变量
+			set_temp_variable = {
+				MAN_faction_from_temp = 0
+			}
+			set_temp_variable = {
+				MAN_faction_to_temp = 2
+			}
+			set_temp_variable = {
+				MAN_faction_num_temp = 1
+			}
+			MAN_change_political_palace_num = yes
+			
+		}
+	}
 	MAN_political_palace_debug = {
 		#debug
 		fire_only_once = no
