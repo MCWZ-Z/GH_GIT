@@ -43,37 +43,37 @@ guiTypes = {
 		iconType = {
 			name = "GH_MAN_Nissan" #日产
 			spriteType = "GFX_GH_MAN_Nissan"
-			position = { x = 420 y = 142 }
+			position = { x = 415 y = 131 }
 			pdx_tooltip = GH_MAN_Nissan_Leviathan_DESC
 		}
 		iconType = {
 			name = "GH_MAN_Man_industry" #满业
 			spriteType = "GFX_GH_MAN_Man_industry"
-			position = { x = 420 y = 360 }
+			position = { x = 415 y = 353 }
 			pdx_tooltip = GH_MAN_Man_industry_Leviathan_DESC
 		}
 		iconType = {
 			name = "GH_MAN_Royal" #皇族
 			spriteType = "GFX_GH_MAN_Royal"
-			position = { x = 685 y = 130 }
+			position = { x = 678 y = 120 }
 			pdx_tooltip = GH_MAN_Royal_Leviathan_DESC
 		}
 		iconType = {
 			name = "GH_MAN_GAD" #总务厅
 			spriteType = "GFX_GH_MAN_GAD"
-			position = { x = 685 y = 360 }
+			position = { x = 678 y = 348 }
 			pdx_tooltip = GH_MAN_GAD_Leviathan_DESC
 		}
 		iconType = {
 			name = "GH_MAN_Concordia" #协和会
 			spriteType = "GFX_GH_MAN_Concordia"
-			position = { x = 950 y = 142 }
+			position = { x = 943 y = 131 }
 			pdx_tooltip = GH_MAN_Concordia_Leviathan_DESC
 		}
 		iconType = {
 			name = "GH_MAN_Manchu_gang" #满洲帮
 			spriteType = "GFX_GH_MAN_Manchu_gang"
-			position = { x = 950 y = 360 }
+			position = { x = 943 y = 353 }
 			pdx_tooltip = GH_MAN_Manchu_gang_Leviathan_DESC
 		}
 		iconType = {
