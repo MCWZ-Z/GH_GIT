@@ -138,15 +138,23 @@ MAN_change_political_palace_num = {
 		limit = {
 			check_variable = {
 				GH_MAN_political_palace_array^MAN_faction_from_temp < 0
-			}
-			
+			}			
 		}
-
+		set_temp_variable = {
+			from_num_temp = GH_MAN_political_palace_array^MAN_faction_from_temp
+			# 这个数就是超出0的部分
+			# to的数值要减去它
+		}
+		set_variable = {
+			GH_MAN_political_palace_array^MAN_faction_from_temp = 0
+		}
+		add_to_variable = {
+			GH_MAN_political_palace_array^MAN_faction_to_temp = from_num_temp
+		}
+		clear_variable = from_num_temp
 	}
 
-
-
-	# 清空临时变了
+	# 清空临时变量
 	clear_variable = MAN_faction_num_temp
 	clear_variable = MAN_faction_from_temp
 	clear_variable = MAN_faction_to_temp
