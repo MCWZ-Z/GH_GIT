@@ -648,6 +648,16 @@ guiTypes = {
 			pdx_tooltip_delayed = "BOOKMARK_UGLY_AMERICAN_NEW_DELAYED_JAP"
 		}
 
+		iconType = { # GH NEW -- MAN
+			name = "country_selection_gh_man"
+			position = { x = 822 y = 189 }
+			spriteType = "GFX_country_selection_new_big_shine"
+			pdx_tooltip = "BOOKMARK_GH_NEW_MAN"
+			pdx_tooltip_delayed = "BOOKMARK_GH_NEW_DELAYED_MAN"
+		}
+
+
+
 		containerWindowType = {
 			name ="countries"
 			position = { x = 15 y = 45 }
@@ -721,7 +731,7 @@ guiTypes = {
 			}
 			iconType = { # MANCHUKUO INFO
 				name = "country_selection_info_manchukuo"
-				position = { x = 827 y = 160 }
+				position = { x = 810 y = 140 }
 				spriteType = "GFX_country_selection_alert_big_shine"
 				pdx_tooltip = "BOOKMARK_MANCHUKUO_INFO"
 				pdx_tooltip_delayed = "BOOKMARK_MANCHUKUO_INFO_DELAYED"
@@ -950,13 +960,13 @@ guiTypes = {
 			pdx_tooltip_delayed = "BOOKMARK_GUANGDONG_NEW_DELAYED"
 		}
 		
-		iconType = { # Manchuriya NEW
-			name = "country_selection_man_new"
-			position = { x = 900 y = 100 }
-			spriteType = "GFX_country_selection_OLD_shine"
-			pdx_tooltip = "BOOKMARK_MANCHURIYA_NEW"
-			pdx_tooltip_delayed = "BOOKMARK_MANCHURIYA_NEW_DELAYED"
-		}
+		# iconType = { # Manchuriya NEW
+		# 	name = "country_selection_man_new"
+		# 	position = { x = 900 y = 100 }
+		# 	spriteType = "GFX_country_selection_OLD_shine"
+		# 	pdx_tooltip = "BOOKMARK_MANCHURIYA_NEW"
+		# 	pdx_tooltip_delayed = "BOOKMARK_MANCHURIYA_NEW_DELAYED"
+		# }
 
 		# Triumvirate
 		iconType = { # GREECE BLOCKED ENTRY
