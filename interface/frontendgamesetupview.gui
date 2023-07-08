@@ -652,8 +652,8 @@ guiTypes = {
 			name = "country_selection_gh_man"
 			position = { x = 822 y = 189 }
 			spriteType = "GFX_country_selection_new_big_shine"
-			pdx_tooltip = "BOOKMARK_GH_NEW_MAN"
-			pdx_tooltip_delayed = "BOOKMARK_GH_NEW_DELAYED_MAN"
+			pdx_tooltip = "BOOKMARK_MANCHURIYA_NEW"
+			pdx_tooltip_delayed = "BOOKMARK_MANCHURIYA_NEW_DELAYED"
 		}
 
 
