@@ -126,6 +126,49 @@ MAN_change_Leviathan_stability = {
 
 	##不确定是否需要限制范围
 }
+MAN_change_political_palace_num = {
+	# 权力变更
+	add_to_variable = { GH_MAN_political_palace_array^MAN_faction_to_temp = MAN_faction_num_temp }
+	subtract_from_variable = { GH_MAN_political_palace_array^MAN_faction_from_temp = MAN_faction_num_temp }
+	custom_effect_tooltip = GH_MAN_change_political_palace_num_tt
+
+	# 限制范围
+	# 当 from减到0以下时 需要进行限制
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_political_palace_array^MAN_faction_from_temp < 0
+			}			
+		}
+		set_temp_variable = {
+			from_num_temp = GH_MAN_political_palace_array^MAN_faction_from_temp
+			# 这个数就是超出0的部分
+			# to的数值要减去它
+		}
+		set_variable = {
+			GH_MAN_political_palace_array^MAN_faction_from_temp = 0
+		}
+		add_to_variable = {
+			GH_MAN_political_palace_array^MAN_faction_to_temp = from_num_temp
+		}
+		clear_variable = from_num_temp
+	}
+
+	# 清空临时变量
+	clear_variable = MAN_faction_num_temp
+	clear_variable = MAN_faction_from_temp
+	clear_variable = MAN_faction_to_temp
+	MAN_change_political_palace_check = yes
+}
+
+
+MAN_change_political_palace_check = {
+	#改变显示效果
+	set_temp_variable = { num1 = GH_MAN_political_palace_array^0 }
+	set_variable = { GH_MAN_political_palace_grey_var = num1 }
+	add_to_temp_variable = { num1 = GH_MAN_political_palace_array^1 }
+	set_variable = { GH_MAN_political_palace_green_var = num1 }
+}
 
 
 ####

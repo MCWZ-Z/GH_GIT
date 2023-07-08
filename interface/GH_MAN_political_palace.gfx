@@ -1,0 +1,36 @@
+#占位符
+spriteTypes = {
+	spriteType = {
+		name = GFX_GH_MAN_political_palace_loading_bar_none
+		texturefile = "gfx/interface/GUI/political_palace/GH_MAN_political_palace_loading_bar_none.dds"
+	}
+	# progressbartype = {
+	# 	name = "GFX_GH_MAN_political_palace_loading_bar_brown"
+	# 	textureFile1 = "gfx/interface/GUI/political_palace/GH_MAN_political_palace_loading_bar_brown.dds"
+	# 	textureFile2 = "gfx/interface/GUI/political_palace/GH_MAN_political_palace_loading_bar_empty.dds"
+	# 	size = { x = 444 y = 46 }
+	# 	effectFile = "gfx/FX/progress.lua"
+	# 	horizontal = yes
+	# 	steps = 10
+	# }
+	progressbartype = {
+		name = "GFX_GH_MAN_political_palace_loading_bar_green"
+		textureFile1 = "gfx/interface/GUI/political_palace/GH_MAN_political_palace_loading_bar_green.dds"
+		textureFile2 = "gfx/interface/GUI/political_palace/GH_MAN_political_palace_loading_bar_brown.dds"
+		size = { x = 444 y = 46 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 10
+	}
+	progressbartype = {
+		name = "GFX_GH_MAN_political_palace_loading_bar_grey"
+		textureFile1 = "gfx/interface/GUI/political_palace/GH_MAN_political_palace_loading_bar_grey.dds"
+		textureFile2 = "gfx/interface/GUI/political_palace/GH_MAN_political_palace_loading_bar_empty.dds"
+		size = { x = 444 y = 46 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 10
+	}
+
+
+}

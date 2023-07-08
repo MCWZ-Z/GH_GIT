@@ -6,6 +6,14 @@ scripted_gui = {
 		visible = {
 			tag = MAN
 		}
+		properties = {
 
+			GH_MAN_political_palace_loading_bar_green = {
+				frame = GH_MAN_political_palace_green_var
+			}
+			GH_MAN_political_palace_loading_bar_grey = {
+				frame = GH_MAN_political_palace_grey_var
+			}
+		}
 	}
 }

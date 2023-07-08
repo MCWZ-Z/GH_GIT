@@ -433,6 +433,7 @@ defined_text = {
 		}
 		localization_key = GH_MAN_nissan_inter_2_tt
 	}
+}
 defined_text = {
 	name = Get_GH_MAN_kuang_tong_army_inter
 	text = {
@@ -447,3 +448,66 @@ defined_text = {
 		}
 		localization_key = GH_MAN_kuang_tong_army_inter_2_tt
 	}	
+}
+
+
+defined_text = {
+	### 宫廷势力 from
+	name = Get_GH_MAN_political_palace_faction_from_name
+	text = {
+		trigger = {
+			check_variable = { MAN_faction_from_temp = 0 }
+		}
+		localization_key = GH_MAN_political_palace_faction_grey_name
+		# 文官集团
+	}
+	text = {
+		trigger = {
+			check_variable = { MAN_faction_from_temp = 1 }
+		}
+		localization_key = GH_MAN_political_palace_faction_green_name
+		# 托拉斯
+	}
+	text = {
+		trigger = {
+			check_variable = { MAN_faction_from_temp = 2 }
+		}
+		localization_key = GH_MAN_political_palace_faction_brown_name
+		# 革新官僚
+	}	
+	text = {
+		localization_key = GH_MAN_political_palace_faction_error_name
+		# 戳拉！
+	}
+}
+defined_text = {
+	### 宫廷势力 to
+	name = Get_GH_MAN_political_palace_faction_to_name
+	text = {
+		trigger = {
+			check_variable = { MAN_faction_to_temp = 0 }
+		}
+		localization_key = GH_MAN_political_palace_faction_grey_name
+		# 文官集团
+	}
+	text = {
+		trigger = {
+			check_variable = { MAN_faction_to_temp = 1 }
+		}
+		localization_key = GH_MAN_political_palace_faction_green_name
+		# 托拉斯
+	}
+	text = {
+		trigger = {
+			check_variable = { MAN_faction_to_temp = 2 }
+		}
+		localization_key = GH_MAN_political_palace_faction_brown_name
+		# 革新官僚
+	}	
+	text = {
+		localization_key = GH_MAN_political_palace_faction_error_name
+		# 戳拉！
+	}
+}
+
+
