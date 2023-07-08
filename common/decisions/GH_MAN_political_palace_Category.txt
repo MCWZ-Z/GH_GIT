@@ -81,23 +81,25 @@ GH_MAN_political_palace_Category = {
 		}
 	}
 	MAN_Pujie_intervene = { #皇族-由溥杰出面
-		cost = 50
+		cost = 0
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_emp_int_flag
 		}
         complete_effect = {
+            set_country_flag = GH_MAN_Pujie_on_face
         }		
 	}
 	MAN_Yuyan_intervene = { #皇族-由毓嵒出面
-		cost = 50
+		cost = 0
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_emp_int_flag
 		}
         complete_effect = {
+            set_country_flag = GH_MAN_Yuyan_on_face
         }		
 	}
 	MAN_strive_emp_rights = { #皇族-争取皇族权益
@@ -142,7 +144,7 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_GAD_int_flag
 		}
 	}
-	MAN_hit_GAD = { #总务厅 - 敲打总务厅
+	MAN_hit_GAD = { #总务厅 - 敲打总务厅 ###点击五次后，总务厅腐败好转一个档次
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
