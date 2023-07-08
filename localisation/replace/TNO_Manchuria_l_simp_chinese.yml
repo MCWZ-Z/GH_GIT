@@ -463,6 +463,11 @@
  #丰田的钢铁雄心
  GH_MAN_Toyota_Ambition_Category:0 "丰田的钢铁雄心"
  GH_MAN_toyota_ambition_info:0 "为了拓展市场，丰田的农业机械化方案迅速开展，针对目标市场，研发对应的机械化工具，并在限制制造成本的前提下尽可能的让这些工具的实用性更高，便能在售出后赚取更多利益。每年将有350天时间决定并研发出今年需要出售的工具，并销往对应的市场，请谨慎根据目标市场的情况来选择每种机械的总成本和特性。\n(WIP)\n(后续会加上颜色和texticon)"
+ ##GUI button tooltips
+ GH_TA_start_research_title:0 "开始研究" 
+ GH_TA_pause_research_title:0 "暂停研究" 
+ GH_TA_shift_target_title:0 "更换研究" 
+ GH_TA_stop_research_title:0 "停止研究" 
  #debug shit
  MAN_TA_debug_gui_visibility_debug:0 "设置debug窗口的可见性"
  MAN_TA_debug_gui_visibility_debug_desc:0 "因为P社的尿性，决议窗口的灵活度远不如自由GUI的灵活度，所以我专门留了一个让它“自由”的按钮"

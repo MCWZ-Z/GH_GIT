@@ -1,8 +1,10 @@
 guiTypes = {
     containerWindowType = {
         name = "GH_MAN_toyota_ambition_ui"
-        size = { width = 482 height = 100 }
-        position = { x = -100 y = -379 }
+        size = { width = 482 height = 500 }
+        position = { x = 300 y = 300 }
+        clipping = no
+        moveable = yes
         iconType = {
 			name = "GH_MAN_infor"
 			position = { x = 394 y = -65 }
@@ -10,7 +12,234 @@ guiTypes = {
 			pdx_tooltip = GH_MAN_toyota_ambition_info
 			
 		}
-        
+        ##临时使用以确定边界
+        #background = {
+        #    name = "GH_MAN_toyota_ambition_debug_Background"
+        #    quadTextureSprite = "GFX_tiled_window_1b_no_border"
+        #    position = { x = 0 y = 0 }
+        #}
+        ####装饰
+        iconType = {
+			name = "GH_TA_decorative_chains"
+			position = { x = 10 y = 182 }
+			spriteType = "GFX_GH_TA_decorative_chains"
+		}        
+        iconType = {
+			name = "GH_TA_decorative_connecting_cables"
+			position = { x = 247 y = 64  }
+			spriteType = "GFX_GH_TA_decorative_connecting_cables"
+		}
+        ####主研究框
+        iconType = {
+			name = "GH_TA_no_research_title"
+			position = { x = 10 y = 10 }
+			spriteType = "GFX_GH_TA_no_research_title"
+			pdx_tooltip = GH_TA_no_research_title_tt
+		}
+        iconType = {
+			name = "GH_TA_main_research_box"
+			position = { x = 8 y = 56 }
+			spriteType = "GFX_GH_TA_main_research_box"
+			pdx_tooltip = GH_TA_main_research_box_tt
+		}
+        iconType = {
+			name = "GH_TA_main_research_progressbar_box"
+			position = { x = 8 y = 174 }
+			spriteType = "GFX_GH_TA_main_research_progressbar_box"
+			pdx_tooltip = GH_TA_main_research_progressbar_box_tt
+		}
+        #####配件研究框
+        iconType = {
+			name = "GH_TA_no_accessory_title"
+			position = { x = 25 y = 204 }
+			spriteType = "GFX_GH_TA_no_accessory_title"
+			pdx_tooltip = GH_TA_no_accessory_title_tt
+		}        
+        iconType = {
+			name = "GH_TA_accessory_research_box"
+			position = { x = 10 y = 245 }
+			spriteType = "GFX_GH_TA_accessory_research_box"
+			pdx_tooltip = GH_TA_accessory_research_box_tt
+		}
+        iconType = {
+			name = "GH_TA_accessory_research_progressbar_box"
+			position = { x = 10 y = 360 }
+			spriteType = "GFX_GH_TA_accessory_research_progressbar_box"
+			pdx_tooltip = GH_TA_accessory_research_progressbar_box_tt
+		}
+
+
+        ###零部件研究框 - 1
+        iconType = {
+			name = "GH_TA_parts_empty_1"
+			position = { x = 355 y = 2 }
+			spriteType = "GFX_GH_TA_parts_empty"
+		}        
+        iconType = {
+			name = "GH_TA_parts_box_1"
+			position = { x = 355 y = 2 }
+			spriteType = "GFX_GH_TA_parts_box"
+			pdx_tooltip = GH_TA_parts_box_1_tt
+		}        
+        iconType = {
+			name = "GH_TA_parts_progressbar_box_1"
+			position = { x = 249 y = 66 }
+			spriteType = "GFX_GH_TA_parts_progressbar_box"
+			pdx_tooltip = GH_TA_parts_progressbar_box_1_tt
+		}
+        iconType = {
+			name = "GH_TA_parts_locked_button_not_available_1"
+            position = { x = 367 y = 10 }
+			spriteType = "GFX_GH_TA_parts_locked_button_not_available"
+			pdx_tooltip = GH_TA_parts_locked_button_not_available_tt
+		}
+        buttonType = {
+            name = "GH_TA_parts_add_button_1"
+            position = { x = 367 y = 14 }
+            quadTextureSprite = "GFX_GH_TA_parts_add_button"
+            pdx_tooltip = GH_TA_parts_add_button_tt
+        }        
+        buttonType = {
+            name = "GH_TA_parts_locked_button_1"
+            position = { x = 367 y = 10 }
+            quadTextureSprite = "GFX_GH_TA_parts_locked_button"
+            pdx_tooltip = GH_TA_parts_locked_button_tt
+        }
+        ###零部件研究框 - 2
+        iconType = {
+			name = "GH_TA_parts_empty_2"
+			position = { x = 355 y = 77 }
+			spriteType = "GFX_GH_TA_parts_empty"
+		}        
+        iconType = {
+			name = "GH_TA_parts_box_2"
+			position = { x = 355 y = 77 }
+			spriteType = "GFX_GH_TA_parts_box"
+			pdx_tooltip = GH_TA_parts_box_1_tt
+		}        
+        iconType = {
+			name = "GH_TA_parts_progressbar_box_2"
+			position = { x = 249 y = 112 }
+			spriteType = "GFX_GH_TA_parts_progressbar_box"
+			pdx_tooltip = GH_TA_parts_progressbar_box_1_tt
+		}
+        iconType = {
+			name = "GH_TA_parts_locked_button_not_available_2"
+            position = { x = 367 y = 85 }
+			spriteType = "GFX_GH_TA_parts_locked_button_not_available"
+			pdx_tooltip = GH_TA_parts_locked_button_not_available_tt
+		}
+        buttonType = {
+            name = "GH_TA_parts_add_button_2"
+            position = { x = 367 y = 89 }
+            quadTextureSprite = "GFX_GH_TA_parts_add_button"
+            pdx_tooltip = GH_TA_parts_add_button_tt
+        }        
+        buttonType = {
+            name = "GH_TA_parts_locked_button_2"
+            position = { x = 367 y = 85 }
+            quadTextureSprite = "GFX_GH_TA_parts_locked_button"
+            pdx_tooltip = GH_TA_parts_locked_button_tt
+        }
+        ###零部件研究框 - 3
+        iconType = {
+			name = "GH_TA_parts_empty_3"
+			position = { x = 355 y = 152 }
+			spriteType = "GFX_GH_TA_parts_empty"
+		}        
+        iconType = {
+			name = "GH_TA_parts_box_3"
+			position = { x = 355 y = 152 }
+			spriteType = "GFX_GH_TA_parts_box"
+			pdx_tooltip = GH_TA_parts_box_3_tt
+		}        
+        iconType = {
+			name = "GH_TA_parts_progressbar_box_3"
+			position = { x = 249 y = 159 }
+			spriteType = "GFX_GH_TA_parts_progressbar_box"
+			pdx_tooltip = GH_TA_parts_progressbar_box_3_tt
+		}
+        iconType = {
+			name = "GH_TA_parts_locked_button_not_available_3"
+            position = { x = 367 y = 160 }
+			spriteType = "GFX_GH_TA_parts_locked_button_not_available"
+			pdx_tooltip = GH_TA_parts_locked_button_not_available_tt
+		}
+        buttonType = {
+            name = "GH_TA_parts_add_button_3"
+            position = { x = 367 y = 164 }
+            quadTextureSprite = "GFX_GH_TA_parts_add_button"
+            pdx_tooltip = GH_TA_parts_add_button_tt
+        }        
+        buttonType = {
+            name = "GH_TA_parts_locked_button_3"
+            position = { x = 367 y = 160 }
+            quadTextureSprite = "GFX_GH_TA_parts_locked_button"
+            pdx_tooltip = GH_TA_parts_locked_button_tt
+        }
+
+        #### 研究进程选项
+        buttonType = {
+            name = "GH_TA_start_research_button"
+            position = { x = 303 y = 227 }
+            quadTextureSprite = "GFX_GH_TA_start_research_button"
+            pdx_tooltip = GH_TA_start_research_button_tt
+        } 
+        instantTextBoxType = {
+            name = "GH_TA_start_research_title"
+            position = { x = 330 y = 238 } 
+            maxWidth = 90
+            format = center
+            orientation = upper_left
+            font = "aldrich_24_outline"
+            text = GH_TA_start_research_title
+        }
+        buttonType = {
+            name = "GH_TA_pause_research_button"
+            position = { x = 303 y = 282 }
+            quadTextureSprite = "GFX_GH_TA_pause_research_button"
+            pdx_tooltip = GH_TA_pause_research_button_tt
+        }
+        instantTextBoxType = {
+            name = "GH_TA_pause_research_title"
+            position = { x = 330 y = 293 } 
+            maxWidth = 90
+            format = center
+            orientation = upper_left
+            font = "aldrich_24_outline"
+            text = GH_TA_pause_research_title
+        }
+        buttonType = { 
+            name = "GH_TA_shift_target_button"
+            position = { x = 303 y = 282 }
+            quadTextureSprite = "GFX_GH_TA_shift_target_button"
+            pdx_tooltip = GH_TA_shift_target_button_tt
+        }
+        instantTextBoxType = {
+            name = "GH_TA_shift_target_title"
+            position = { x = 330 y = 293 } 
+            maxWidth = 90
+            format = center
+            orientation = upper_left
+            font = "aldrich_24_outline"
+            text = GH_TA_shift_target_title
+        }
+        buttonType = {
+            name = "GH_TA_stop_research_button"
+            position = { x = 303 y = 337 }
+            quadTextureSprite = "GFX_GH_TA_stop_research_button"
+            pdx_tooltip = GH_TA_stop_research_button_tt
+        }
+        instantTextBoxType = {
+            name = "GH_TA_stop_research_title"
+            position = { x = 330 y = 348 } 
+            maxWidth = 90
+            format = center
+            orientation = upper_left
+            font = "aldrich_24_outline"
+            text = GH_TA_stop_research_title
+        }
     }
 
+    
 }

@@ -10,5 +10,68 @@ scripted_gui = {
 			has_country_flag = MAN_TA_debug_gui_visible
 		}
 
+
+
+
+		triggers = {
+
+       		###零部件研究框 - 1
+			GH_TA_parts_locked_button_1_visible = {
+				check_variable = { TODOvariable = 0 } ##正在研究的是主体而不是配件
+				NOT= { has_country_flag = GH_TA_parts_box_1_allowed }
+			}
+			GH_TA_parts_add_button_1_visible = { 
+				check_variable = { TODOvariable = 0  } ##正在研究的是主体而不是配件
+				has_country_flag = GH_TA_parts_box_1_allowed
+			}
+			GH_TA_parts_locked_button_not_available_1_visible = { 
+				check_variable = { TODOvariable = 1  } ##正在研究的是配件
+				has_country_flag = GH_TA_parts_box_1_allowed
+			}
+		
+			###零部件研究框 - 2
+			GH_TA_parts_locked_button_2_visible = {
+				check_variable = { TODOvariable = 0 } ##正在研究的是主体而不是配件
+				NOT= { has_country_flag = GH_TA_parts_box_2_allowed }
+			}
+			GH_TA_parts_add_button_2_visible = { 
+				check_variable = { TODOvariable = 0  } ##正在研究的是主体而不是配件
+				has_country_flag = GH_TA_parts_box_2_allowed
+			}
+			GH_TA_parts_locked_button_not_available_2_visible = { 
+				check_variable = { TODOvariable = 1  } ##正在研究的是配件
+				has_country_flag = GH_TA_parts_box_2_allowed
+			}
+	 
+       		###零部件研究框 - 3
+			GH_TA_parts_locked_button_3_visible = {
+				check_variable = { TODOvariable = 0 } ##正在研究的是主体而不是配件
+				NOT= { has_country_flag = GH_TA_parts_box_3_allowed }
+			}
+			GH_TA_parts_add_button_3_visible = { 
+				check_variable = { TODOvariable = 0  } ##正在研究的是主体而不是配件
+				has_country_flag = GH_TA_parts_box_3_allowed
+			}
+			GH_TA_parts_locked_button_not_available_3_visible = { 
+				check_variable = { TODOvariable = 1  } ##正在研究的是配件
+				has_country_flag = GH_TA_parts_box_3_allowed
+			}
+
+		    #### 研究进程选项
+			GH_TA_pause_research_button_visible = { 
+				NOT= { has_country_flag = GH_TA_current_research_stopped }
+			}
+			GH_TA_pause_research_title_visible = { 
+				NOT= { has_country_flag = GH_TA_current_research_stopped }
+			}
+		
+			GH_TA_shift_target_button_visible = { 
+				has_country_flag = GH_TA_current_research_stopped
+			}
+			GH_TA_shift_target_title_visible = { 
+				has_country_flag = GH_TA_current_research_stopped
+			}
+
+		}
 	}
 }

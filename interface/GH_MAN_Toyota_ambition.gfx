@@ -1,9 +1,96 @@
 #
 spriteTypes = {
-	spriteType = {
-		name = "GFX_decision_category_GH_MAN_Toyota_Ambition" #这是在character中规定的GFX命名
-		texturefile = "gfx/interface/GUI/toyota_ambition/decision_category_GH_MAN_Toyota_Ambition.dds" #这是GFX对应的文件，文件命名统一为“MAN_GH_minister_人名.dds”
+	spriteType = { 
+		name = "GFX_decision_category_GH_MAN_Toyota_Ambition"
+		texturefile = "gfx/interface/GUI/toyota_ambition/decision_category_GH_MAN_Toyota_Ambition.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_GH_TA_accessory_research_box"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_accessory_research_box.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_accessory_research_progressbar_box"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_accessory_research_progressbar_box.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_decorative_chains"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_decorative_chains.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_decorative_connecting_cables"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_decorative_connecting_cables.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_main_research_box"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_main_research_box.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_main_research_progressbar_box"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_main_research_progressbar_box.png"
+	} 
+	spriteType = {
+		name = "GFX_GH_TA_no_accessory_title"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_no_accessory_title.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_no_research_title"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_no_research_title.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_parts_add_button"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_parts_add_button.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_parts_box"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_parts_box.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_parts_empty"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_parts_empty.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_parts_locked_button"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_parts_locked_button.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_parts_progressbar_box"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_parts_progressbar_box.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_pause_research_button"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_pause_research_button.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_shift_target_button"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_shift_target_button.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_start_research_button"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_start_research_button.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_stop_research_button"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_stop_research_button.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_parts_locked_button_not_available"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_parts_locked_button_not_available.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_accessory_research_not_available"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_accessory_research_not_available.png"
+	}
+	spriteType = {
+		name = "GFX_GH_TA_notavailable_accessory_title"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/TA_notavailable_accessory_title.png"
+	}
+	spriteType = {
+		name = "GFX_GH_"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/.png"
+	}
+	spriteType = {
+		name = "GFX_GH_"
+		texturefile = "gfx/interface/GUI/toyota_ambition/gui_assets/.png"
+	}
 
 }
