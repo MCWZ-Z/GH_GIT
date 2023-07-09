@@ -6,14 +6,21 @@ MAN_add_action_points = {
 		# tooltip = MAN_add_action_points_tt
 	}
 	if = {
-		limit = { check_variable = { MAN_action_points_temp < 0 } }
-		multiply_temp_variable = { MAN_action_points_temp = -1 }
+		limit = {
+			check_variable = {
+				MAN_action_points_temp < 0
+			}
+		}
+		multiply_temp_variable = {
+			MAN_action_points_temp = -1
+		}
 		custom_effect_tooltip = MAN_action_points_decrease_tt
-	} 
+	}
 	else = {
 		custom_effect_tooltip = MAN_action_points_increase_tt
 	}
 }
+
 MAN_add_action_points_requirement = {
 	#添加行动力需求
 	add_to_variable = {
@@ -22,14 +29,21 @@ MAN_add_action_points_requirement = {
 		# tooltip = MAN_action_points_requirement_tt
 	}
 	if = {
-		limit = { check_variable = { MAN_action_points_requirement_temp < 0 } }
-		multiply_temp_variable = { MAN_action_points_requirement_temp = -1 }
+		limit = {
+			check_variable = {
+				MAN_action_points_requirement_temp < 0
+			}
+		}
+		multiply_temp_variable = {
+			MAN_action_points_requirement_temp = -1
+		}
 		custom_effect_tooltip = MAN_action_points_requirement_decrease_tt
-	} 
+	}
 	else = {
 		custom_effect_tooltip = MAN_action_points_requirement_increase_tt
 	}
 }
+
 MAN_add_budget = {
 	#添加资金预算
 	add_to_variable = {
@@ -44,14 +58,21 @@ MAN_add_budget = {
 		MAN_budget_var_per_M = 1000
 	}
 	if = {
-		limit = { check_variable = { MAN_budget_var_temp < 0 } }
-		multiply_temp_variable = { MAN_budget_var_temp = -1 }
+		limit = {
+			check_variable = {
+				MAN_budget_var_temp < 0
+			}
+		}
+		multiply_temp_variable = {
+			MAN_budget_var_temp = -1
+		}
 		custom_effect_tooltip = MAN_add_budget_decrease_tt
-	} 
+	}
 	else = {
 		custom_effect_tooltip = MAN_add_budget_increase_tt
 	}
 }
+
 MAN_add_to_debt = {
 	#添加到债务
 	add_to_variable = {
@@ -60,10 +81,16 @@ MAN_add_to_debt = {
 		# tooltip = MAN_budget_var_tt
 	}
 	if = {
-		limit = { check_variable = { MAN_debt_var_temp < 0 } }
-		multiply_temp_variable = { MAN_debt_var_temp = -1 }
+		limit = {
+			check_variable = {
+				MAN_debt_var_temp < 0
+			}
+		}
+		multiply_temp_variable = {
+			MAN_debt_var_temp = -1
+		}
 		custom_effect_tooltip = MAN_debt_var_temp_decrease_tt
-	} 
+	}
 	else = {
 		custom_effect_tooltip = MAN_debt_var_temp_increase_tt
 	}
@@ -80,15 +107,22 @@ MAN_change_Shadow_putinto_var = {
 		# tooltip = MAN_budget_var_tt
 	}
 	if = {
-		limit = { check_variable = { MAN_putinto_var_temp < 0 } }
-		multiply_temp_variable = { MAN_putinto_var_temp = -1 }
+		limit = {
+			check_variable = {
+				MAN_putinto_var_temp < 0
+			}
+		}
+		multiply_temp_variable = {
+			MAN_putinto_var_temp = -1
+		}
 		custom_effect_tooltip = MAN_putinto_var_temp_decrease_tt
-	} 
+	}
 	else = {
 		custom_effect_tooltip = MAN_putinto_var_temp_increase_tt
 	}
 	clear_variable = MAN_putinto_var_temp
 }
+
 MAN_change_Shadow_resist_var = {
 	#改变抵抗度
 	add_to_variable = {
@@ -97,10 +131,16 @@ MAN_change_Shadow_resist_var = {
 		# tooltip = MAN_budget_var_tt
 	}
 	if = {
-		limit = { check_variable = { MAN_Shadow_resist_temp < 0 } }
-		multiply_temp_variable = { MAN_Shadow_resist_temp = -1 }
+		limit = {
+			check_variable = {
+				MAN_Shadow_resist_temp < 0
+			}
+		}
+		multiply_temp_variable = {
+			MAN_Shadow_resist_temp = -1
+		}
 		custom_effect_tooltip = MAN_Shadow_resist_temp_decrease_tt
-	} 
+	}
 	else = {
 		custom_effect_tooltip = MAN_Shadow_resist_temp_increase_tt
 	}
@@ -115,30 +155,39 @@ MAN_change_Leviathan_stability = {
 		# tooltip = MAN_budget_var_tt
 	}
 	if = {
-		limit = { check_variable = { GH_MAN_Leviathan_stability_temp < 0 } }
-		multiply_temp_variable = { GH_MAN_Leviathan_stability_temp = -1 }
+		limit = {
+			check_variable = {
+				GH_MAN_Leviathan_stability_temp < 0
+			}
+		}
+		multiply_temp_variable = {
+			GH_MAN_Leviathan_stability_temp = -1
+		}
 		custom_effect_tooltip = GH_MAN_Leviathan_stability_temp_decrease_tt
-	} 
+	}
 	else = {
 		custom_effect_tooltip = GH_MAN_Leviathan_stability_temp_increase_tt
 	}
 	clear_variable = GH_MAN_Leviathan_stability_temp
-
 	##不确定是否需要限制范围
 }
+
 MAN_change_political_palace_num = {
 	# 权力变更
-	add_to_variable = { GH_MAN_political_palace_array^MAN_faction_to_temp = MAN_faction_num_temp }
-	subtract_from_variable = { GH_MAN_political_palace_array^MAN_faction_from_temp = MAN_faction_num_temp }
+	add_to_variable = {
+		GH_MAN_political_palace_array^MAN_faction_to_temp = MAN_faction_num_temp
+	}
+	subtract_from_variable = {
+		GH_MAN_political_palace_array^MAN_faction_from_temp = MAN_faction_num_temp
+	}
 	custom_effect_tooltip = GH_MAN_change_political_palace_num_tt
-
 	# 限制范围
 	# 当 from减到0以下时 需要进行限制
 	if = {
 		limit = {
 			check_variable = {
 				GH_MAN_political_palace_array^MAN_faction_from_temp < 0
-			}			
+			}
 		}
 		set_temp_variable = {
 			from_num_temp = GH_MAN_political_palace_array^MAN_faction_from_temp
@@ -153,7 +202,6 @@ MAN_change_political_palace_num = {
 		}
 		clear_variable = from_num_temp
 	}
-
 	# 清空临时变量
 	clear_variable = MAN_faction_num_temp
 	clear_variable = MAN_faction_from_temp
@@ -161,46 +209,78 @@ MAN_change_political_palace_num = {
 	MAN_change_political_palace_check = yes
 }
 
-
 MAN_change_political_palace_check = {
 	#改变宫廷权力显示效果
-	set_temp_variable = { num1 = GH_MAN_political_palace_array^0 }
-	set_variable = { GH_MAN_political_palace_grey_var = num1 }
-	add_to_temp_variable = { num1 = GH_MAN_political_palace_array^1 }
-	set_variable = { GH_MAN_political_palace_green_var = num1 }
+	set_temp_variable = {
+		num1 = GH_MAN_political_palace_array^0
+	}
+	set_variable = {
+		GH_MAN_political_palace_grey_var = num1
+	}
+	add_to_temp_variable = {
+		num1 = GH_MAN_political_palace_array^1
+	}
+	set_variable = {
+		GH_MAN_political_palace_green_var = num1
+	}
 }
 
-MAN_current_GAD_status_up = {
-	#利维坦敲打
-
-	# if = {
-
-
-		
-	# }
-	add_to_variable = {
-		GH_MAN_current_GAD_num = 1
+MAN_current_GAD_corrupt_down = {
+	#腐败好转
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_GAD_corrupt = 11
+			}
+		}
+		custom_effect_tooltip = MAN_current_GAD_corrupt_3to2_tt
 	}
 	if = {
 		limit = {
 			check_variable = {
-				GH_MAN_current_GAD_num = 5
+				GH_MAN_current_GAD_corrupt = 6
 			}
 		}
-		set_variable = {
-			GH_MAN_current_GAD_num = 0
+		custom_effect_tooltip = MAN_current_GAD_corrupt_2to1_tt
+	}
+	add_to_variable = {
+		GH_MAN_current_GAD_corrupt = -1
+	}
+	clamp_variable = {
+		var = GH_MAN_current_GAD_corrupt
+		min = 0
+		max = 15
+	}
+}
+MAN_current_GAD_corrupt_up = {
+	#腐败恶化
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_GAD_corrupt = 10
+			}
 		}
-		add_to_variable = {
-			GH_MAN_current_GAD_status = -1
+		custom_effect_tooltip = MAN_current_GAD_corrupt_2to3_tt
+	}
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_GAD_corrupt = 5
+			}
 		}
-		#级别上升提示
+		custom_effect_tooltip = MAN_current_GAD_corrupt_1to2_tt
+	}
+	add_to_variable = {
+		GH_MAN_current_GAD_corrupt = 1
+	}
+	clamp_variable = {
+		var = GH_MAN_current_GAD_corrupt
+		min = 0
+		max = 15
 	}
 }
 
-
 ####
-
-
 GH_MAN_econ_money_reserves_change_raw_money = {
 	#Uses Temp Vars to make it a lot simpler + no mass tooltip spam, value of parameter in billions
 	add_to_variable = {

@@ -123,20 +123,17 @@ defined_text = {
 	name = Get_GH_MAN_current_GAD_corrupt
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_GAD_corrupt = 1 }
+			check_variable = { GH_MAN_current_GAD_corrupt < 6 }
 		}
 		localization_key = GH_MAN_current_GAD_corrupt_1_tt
 	}
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_GAD_corrupt = 2 }
+			check_variable = { GH_MAN_current_GAD_corrupt < 11 }
 		}
 		localization_key = GH_MAN_current_GAD_corrupt_2_tt
 	}
 	text = {
-		trigger = {
-			check_variable = { GH_MAN_current_GAD_corrupt = 3 }
-		}
 		localization_key = GH_MAN_current_GAD_corrupt_3_tt
 	}
 }
@@ -509,5 +506,52 @@ defined_text = {
 		# 戳拉！
 	}
 }
+
+
+defined_text = {
+	### GAD 前一步
+	name = Get_GH_MAN_last_GAD_corrupt_temp
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_last_GAD_corrupt_temp = 1 }
+		}
+		localization_key = GH_MAN_current_GAD_corrupt_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_last_GAD_corrupt_temp = 2 }
+		}
+		localization_key = GH_MAN_current_GAD_corrupt_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_last_GAD_corrupt_temp = 3 }
+		}
+		localization_key = GH_MAN_current_GAD_corrupt_3_tt
+	}
+}
+defined_text = {
+	### GAD 后一步
+	name = Get_GH_MAN_current_GAD_corrupt_temp
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_GAD_corrupt_temp = 1 }
+		}
+		localization_key = GH_MAN_current_GAD_corrupt_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_GAD_corrupt_temp = 2 }
+		}
+		localization_key = GH_MAN_current_GAD_corrupt_2_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { GH_MAN_current_GAD_corrupt_temp = 3 }
+		}
+		localization_key = GH_MAN_current_GAD_corrupt_3_tt
+	}
+}
+
 
 

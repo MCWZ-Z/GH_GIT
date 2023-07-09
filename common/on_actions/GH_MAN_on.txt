@@ -28,7 +28,7 @@ on_actions = { #
 					GH_MAN_current_GAD_status = 3
 				}
 				set_variable = {
-					GH_MAN_current_GAD_corrupt = 3
+					GH_MAN_current_GAD_corrupt = 15
 				}
 				set_variable = {
 					GH_MAN_current_mang_yo = 3
