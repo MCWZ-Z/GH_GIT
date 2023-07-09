@@ -3503,6 +3503,9 @@ defined_text = {
 			}
 			localization_key = MAN_CountryInfo_Content.5
 		}
+
+
+
 		text = {
 			trigger = {
 				check_variable = { f = 6 }
@@ -3527,7 +3530,6 @@ defined_text = {
 			}
 			localization_key = MAN_CountryInfo_Content.9
 		}
-
 		text = {
 			trigger = {
 				check_variable = { f = 10 }
@@ -3539,6 +3541,26 @@ defined_text = {
 				check_variable = { f = 11 }
 			}
 			localization_key = MAN_CountryInfo_Content.11
+		}
+
+		text = {
+			trigger = {
+				check_variable = { f = 12 }
+			}
+			localization_key = MAN_CountryInfo_Content.12
+		}
+
+		text = {
+			trigger = {
+				check_variable = { f = 13 }
+			}
+			localization_key = MAN_CountryInfo_Content.13
+		}
+		text = {
+			trigger = {
+				check_variable = { f = 14 }
+			}
+			localization_key = MAN_CountryInfo_Content.14
 		}
 	}
 
@@ -5459,6 +5481,7 @@ defined_text = {
 			}
 			localization_key = MAN_CountryInfo_Content_desc.5
 		}
+
 		text = {
 			trigger = {
 				check_variable = { f = 6 }
@@ -5494,6 +5517,25 @@ defined_text = {
 				check_variable = { f = 11 }
 			}
 			localization_key = MAN_CountryInfo_Content_desc.11
+		}
+
+		text = {
+			trigger = {
+				check_variable = { f = 12 }
+			}
+			localization_key = MAN_CountryInfo_Content_desc.12
+		}
+		text = {
+			trigger = {
+				check_variable = { f = 13 }
+			}
+			localization_key = MAN_CountryInfo_Content_desc.13
+		}
+		text = {
+			trigger = {
+				check_variable = { f = 14 }
+			}
+			localization_key = MAN_CountryInfo_Content_desc.14
 		}
 	}
 # X. Functionality
