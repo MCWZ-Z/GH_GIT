@@ -20,7 +20,7 @@ spriteTypes = {
 		size = { x = 444 y = 46 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
-		steps = 10
+		steps = 100
 	}
 	progressbartype = {
 		name = "GFX_GH_MAN_political_palace_loading_bar_grey"
@@ -29,7 +29,7 @@ spriteTypes = {
 		size = { x = 444 y = 46 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
-		steps = 10
+		steps = 100
 	}
 
 

@@ -78,13 +78,13 @@ on_actions = { #
 					Get_GH_MAN_kuang_tong_army_inter = 1
 				}
 				add_to_array = {
-					GH_MAN_political_palace_array = 5
+					GH_MAN_political_palace_array = 50
 				}
 				add_to_array = {
-					GH_MAN_political_palace_array = 3
+					GH_MAN_political_palace_array = 30
 				}
 				add_to_array = {
-					GH_MAN_political_palace_array = 2
+					GH_MAN_political_palace_array = 20
 				}
 				MAN_change_political_palace_check = yes
 				
