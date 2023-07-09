@@ -152,6 +152,7 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_GAD_int_flag
 		}
         complete_effect = {
+			
         }		
 	}
 	MAN_talk_with_Kimura = { #总务厅 - 和木村俊夫谈谈

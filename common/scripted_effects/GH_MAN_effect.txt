@@ -163,11 +163,38 @@ MAN_change_political_palace_num = {
 
 
 MAN_change_political_palace_check = {
-	#改变显示效果
+	#改变宫廷权力显示效果
 	set_temp_variable = { num1 = GH_MAN_political_palace_array^0 }
 	set_variable = { GH_MAN_political_palace_grey_var = num1 }
 	add_to_temp_variable = { num1 = GH_MAN_political_palace_array^1 }
 	set_variable = { GH_MAN_political_palace_green_var = num1 }
+}
+
+MAN_current_GAD_status_up = {
+	#利维坦敲打
+
+	if = {
+
+
+		
+	}
+	add_to_variable = {
+		GH_MAN_current_GAD_num = 1
+	}
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_GAD_num = 5
+			}
+		}
+		set_variable = {
+			GH_MAN_current_GAD_num = 0
+		}
+		add_to_variable = {
+			GH_MAN_current_GAD_status = -1
+		}
+		#级别上升提示
+	}
 }
 
 
