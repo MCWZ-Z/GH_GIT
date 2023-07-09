@@ -1,0 +1,9 @@
+#我找不到可以扔这玩意的地方，将就一下
+spriteTypes = {
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_Manchukuo"
+		texturefile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Manchukuo.dds"
+	}
+	
+
+}

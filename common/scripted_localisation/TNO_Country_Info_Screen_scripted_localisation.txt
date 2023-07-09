@@ -319,6 +319,11 @@ defined_text = {
 		trigger = { tag = GNG }
 		localization_key = TNO_COUNTRY_INFO_BUTTON_TEXT_GNG
 	}
+	## Manchukuo
+	text = {
+		trigger = { tag = MAN }
+		localization_key = TNO_COUNTRY_INFO_BUTTON_TEXT_MAN
+	}
 
 	## Default
 	text = {
@@ -537,6 +542,12 @@ defined_text = {
 	text = {
 		trigger = { tag = GNG }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_Guangdong"
+	}
+
+	## Manchukuo
+	text = {
+		trigger = { tag = MAN }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Manchukuo"
 	}
 	
 	## Default
