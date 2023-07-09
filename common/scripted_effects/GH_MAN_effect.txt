@@ -173,11 +173,11 @@ MAN_change_political_palace_check = {
 MAN_current_GAD_status_up = {
 	#利维坦敲打
 
-	if = {
+	# if = {
 
 
 		
-	}
+	# }
 	add_to_variable = {
 		GH_MAN_current_GAD_num = 1
 	}
