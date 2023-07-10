@@ -280,6 +280,61 @@ MAN_current_GAD_corrupt_up = {
 	}
 }
 
+MAN_current_GAD_status_down = {
+	#效率好转
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_GAD_status = 11
+			}
+		}
+		custom_effect_tooltip = MAN_current_GAD_status_3to2_tt
+	}
+	if = {
+		limit = {
+			check_variable = {
+				MAN_current_GAD_status = 6
+			}
+		}
+		custom_effect_tooltip = MAN_current_GAD_status_2to1_tt
+	}
+	add_to_variable = {
+		GH_MAN_current_GAD_status = -1
+	}
+	clamp_variable = {
+		var = GH_MAN_current_GAD_status
+		min = 0
+		max = 15
+	}
+}
+MAN_current_GAD_status_up = {
+	#效率恶化
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_GAD_status = 10
+			}
+		}
+		custom_effect_tooltip = MAN_current_GAD_status_2to3_tt
+	}
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_GAD_status = 5
+			}
+		}
+		custom_effect_tooltip = MAN_current_GAD_status_1to2_tt
+	}
+	add_to_variable = {
+		GH_MAN_current_GAD_status = 1
+	}
+	clamp_variable = {
+		var = GH_MAN_current_GAD_status
+		min = 0
+		max = 15
+	}
+}
+
 ####
 GH_MAN_econ_money_reserves_change_raw_money = {
 	#Uses Temp Vars to make it a lot simpler + no mass tooltip spam, value of parameter in billions

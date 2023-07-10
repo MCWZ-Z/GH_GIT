@@ -297,11 +297,11 @@ characters = {
 			id = -1
 		}
 		corps_commander = { #还没有具体设定
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
 		}
 	}
 	MAN_GH_paik_sun_yup = { #白善烨
@@ -318,11 +318,11 @@ characters = {
 		}
 		
 		corps_commander = { #还没有具体设定
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 
@@ -339,11 +339,11 @@ characters = {
 			}
 		}
 		corps_commander = { #还没有具体设定
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 
