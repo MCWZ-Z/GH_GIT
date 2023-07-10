@@ -318,7 +318,7 @@ characters = {
 		}
 		
 		corps_commander = { #还没有具体设定
-			skill = 3
+			skill = 2
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 3
