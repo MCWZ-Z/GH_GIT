@@ -340,9 +340,18 @@
 
 
  GH_MAN_GAD_Leviathan_DESC:0 "当前的§g总务厅长官§!是：[Get_GH_MAN_current_GAD_leader]\n\n§g总务厅§!现在的状态是：[Get_GH_MAN_current_GAD_status]\n\n§g总务厅§!的腐败程度：[Get_GH_MAN_current_GAD_corrupt]\n\n-----------------------------\n\n§W§g总务厅§!现在提供的效果是：§!"
-
- MAN_current_GAD_corrupt_3to2_tt:0 "总务厅腐败从$GH_MAN_current_GAD_corrupt_3_tt$变成了$GH_MAN_current_GAD_corrupt_2_tt$"
- MAN_current_GAD_corrupt_2to1_tt:0 "总务厅腐败从$GH_MAN_current_GAD_corrupt_2_tt$变成了$GH_MAN_current_GAD_corrupt_1_tt$" 
+ MAN_current_GAD_status_3to2_tt:0
+ "总务厅的现状从$GH_MAN_current_GAD_status_3_tt$变成了$GH_MAN_current_GAD_status_2_tt$"
+ MAN_current_GAD_status_2to1_tt:0
+ "总务厅的现状从$GH_MAN_current_GAD_status_2_tt$变成了$GH_MAN_current_GAD_status_1_tt$"
+ 
+ MAN_current_GAD_status_2to3_tt:0
+ "总务厅的现状从$GH_MAN_current_GAD_status_2_tt$变成了$GH_MAN_current_GAD_status_3_tt$"
+ MAN_current_GAD_status_1to2_tt:0
+ "总务厅的现状从$GH_MAN_current_GAD_status_1_tt$变成了$GH_MAN_current_GAD_status_2_tt$"
+ 
+ MAN_current_GAD_corrupt_3to2_tt:0 "总务厅的腐败状况从$GH_MAN_current_GAD_corrupt_3_tt$变成了$GH_MAN_current_GAD_corrupt_2_tt$"
+ MAN_current_GAD_corrupt_2to1_tt:0 "总务厅的腐败状况从$GH_MAN_current_GAD_corrupt_2_tt$变成了$GH_MAN_current_GAD_corrupt_1_tt$" 
 
  MAN_current_GAD_corrupt_2to3_tt:0 "总务厅腐败从$GH_MAN_current_GAD_corrupt_2_tt$变成了$GH_MAN_current_GAD_corrupt_3_tt$"
  MAN_current_GAD_corrupt_1to2_tt:0 "总务厅腐败从$GH_MAN_current_GAD_corrupt_1_tt$变成了$GH_MAN_current_GAD_corrupt_2_tt$"
