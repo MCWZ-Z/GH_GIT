@@ -293,7 +293,7 @@ MAN_current_GAD_status_down = {
 	if = {
 		limit = {
 			check_variable = {
-				MAN_current_GAD_status = 6
+				GH_MAN_current_GAD_status = 6
 			}
 		}
 		custom_effect_tooltip = MAN_current_GAD_status_2to1_tt
@@ -330,6 +330,61 @@ MAN_current_GAD_status_up = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_GAD_status
+		min = 0
+		max = 15
+	}
+}
+
+MAN_current_mang_yo_down = {
+	#满业现状好转
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_mang_yo = 11
+			}
+		}
+		custom_effect_tooltip = MAN_current_mang_yo_3to2_tt
+	}
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_mang_yo = 6
+			}
+		}
+		custom_effect_tooltip = MAN_current_mang_yo_2to1_tt
+	}
+	add_to_variable = {
+		GH_MAN_current_mang_yo = -1
+	}
+	clamp_variable = {
+		var = GH_MAN_current_mang_yo
+		min = 0
+		max = 15
+	}
+}
+MAN_current_mang_yo_up = {
+	#满业现状恶化
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_mang_yo = 10
+			}
+		}
+		custom_effect_tooltip = MAN_current_mang_yo_2to3_tt
+	}
+	if = {
+		limit = {
+			check_variable = {
+				GH_MAN_current_mang_yo = 5
+			}
+		}
+		custom_effect_tooltip = MAN_current_mang_yo_1to2_tt
+	}
+	add_to_variable = {
+		GH_MAN_current_mang_yo = 1
+	}
+	clamp_variable = {
+		var = GH_MAN_current_mang_yo
 		min = 0
 		max = 15
 	}

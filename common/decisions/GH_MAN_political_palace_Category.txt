@@ -233,6 +233,8 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_mang_yo_int_flag
 		}
         complete_effect = {
+        MAN_current_mang_yo_up = yes
+        MAN_current_mang_yo_up = yes
         set_temp_variable = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
@@ -247,6 +249,7 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_mang_yo_int_flag
 		}
         complete_effect = {
+        MAN_current_mang_yo_down = yes
         }		
 	}
 	MAN_seeking_mang_yo_support = { #满业 - 寻求满业支持
