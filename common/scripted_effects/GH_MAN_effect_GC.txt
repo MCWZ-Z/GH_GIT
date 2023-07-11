@@ -1,0 +1,12 @@
+Global_Conflicts_Initalize_MAN = {
+	set_temp_variable = { TabName = token:BoP_Tab_GlobalConflicts }
+	TNO_BoP_AddTab = yes
+}
+TNO_fopo_add_east_aisa_tab = {
+	set_temp_variable = { conflict_id = token:GC_EastAsia }
+	TNO_add_fopo_conflict_tab = yes
+}
+TNO_fopo_remove_malaysia_civil_war_tab = {
+	set_temp_variable = { conflict_id = token:GC_EastAsia }
+	TNO_remove_fopo_conflict_tab = yes
+}

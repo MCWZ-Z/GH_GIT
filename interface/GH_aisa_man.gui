@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "GH_MAN_East_Asia_Defense_Council_ui"
 		size = { width = 500 height = 400 }
-		position = { x = -100 y = -379 }
+		position = { x = -535 y = -120 }
 		# orientation = lower_right
 		orientation = center
 		buttonType = {

@@ -1,0 +1,10 @@
+TNO_fopo_east_asia_selected = {
+	# 东亚选中显示条件
+	OR = {
+		check_variable = { selected_conflict_id = token:GC_EastAsia }
+		AND = {
+			is_in_array = { TNO_active_conflicts = token:GC_EastAsia }
+			is_ai = yes
+		}
+	}
+}

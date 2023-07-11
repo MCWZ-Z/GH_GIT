@@ -1,0 +1,6 @@
+ideas = {
+	#隐藏idea 用来作为全球冲突的token的
+	hidden_ideas = {
+		GC_EastAsia = {}		# 
+	}
+}

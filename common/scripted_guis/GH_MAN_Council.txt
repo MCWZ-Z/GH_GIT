@@ -1,8 +1,9 @@
 scripted_gui = {
 	GH_MAN_East_Asia_Defense_Council_ui = {
 		window_name = "GH_MAN_East_Asia_Defense_Council_ui"
-		context_type = decision_category
-		# parent_window_token = politics_tab
+		context_type = player_context
+		parent_window_name = powerbalanceview
+		
 		visible = {
 			tag = MAN
 		}

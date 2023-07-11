@@ -1,0 +1,11 @@
+on_actions = { #
+	on_startup = {
+		effect = {
+			MAN = {
+				Global_Conflicts_Initalize_MAN = yes
+
+				TNO_fopo_add_east_aisa_tab = yes
+			}
+		}
+	}
+}
