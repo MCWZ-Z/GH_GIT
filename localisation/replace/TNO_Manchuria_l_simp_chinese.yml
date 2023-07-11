@@ -203,9 +203,9 @@
  GH_MAN_East_Asia_Defense_Council:0 "东亚防卫安理会"
  MAN_annual_assessment_coming:0 "考核时间到来"
  MAN_annual_assessment_coming_desc:0 ""
- MAN_show_budget_plan_decisions:0 "展开预算应用选项"
+ MAN_show_budget_plan_decisions:0 "展开§R预算应用§!选项"
  MAN_show_budget_plan_decisions_desc:0 ""
- MAN_hide_budget_plan_decisions:0 "收起预算应用选项"
+ MAN_hide_budget_plan_decisions:0 "收起§R预算应用§!选项"
  MAN_hide_budget_plan_decisions_desc:0 ""
  MAN_offer_budget_to_AMR:0 "向阿穆尔提供资金"
  MAN_offer_budget_to_AMR_desc:0 ""
@@ -220,9 +220,9 @@
  MAN_ask_for_more_budget:0 "向日本要求更多资金预算"
  MAN_ask_for_more_budget_desc:0 ""
 
- MAN_show_intelligence_decisions:0 "展开情报获取选项"
+ MAN_show_intelligence_decisions:0 "展开§Y情报获取§!选项"
  MAN_show_intelligence_decisions_desc:0 ""
- MAN_hide_intelligence_decisions:0 "收起情报获取选项"
+ MAN_hide_intelligence_decisions:0 "收起§Y情报获取§!选项"
  MAN_hide_intelligence_decisions_desc:0 ""
  MAN_sharing_intelligence_with_tokko:0 "与日本本土特高课共享情报"
  MAN_sharing_intelligence_with_tokko_desc:0 ""
@@ -233,9 +233,9 @@
  MAN_gathering_INS_intelligence:0 "帮助印尼甄别自由派分子"
  MAN_gathering_INS_intelligence_desc:0 ""
 
- MAN_show_MAG_affairs_decisions:0 "展开马加丹斡旋选项"
+ MAN_show_MAG_affairs_decisions:0 "展开§g马加丹斡旋§!选项"
  MAN_show_MAG_affairs_decisions_desc:0 ""
- MAN_hide_MAG_affairs_decisions:0 "收起马加丹斡旋选项"
+ MAN_hide_MAG_affairs_decisions:0 "收起§g马加丹斡旋§!选项"
  MAN_hide_MAG_affairs_decisions_desc:0 ""
  MAN_sell_gun_to_MAG:0 "向马加丹出售枪支"
  MAN_sell_gun_to_MAG_desc:0 ""
@@ -247,9 +247,9 @@
  MAN_sell_equipment_to_MAG_desc:0 ""
 
 
- MAN_show_AMR_affairs_decisions:0 "展开阿穆尔斡旋选项"
+ MAN_show_AMR_affairs_decisions:0 "展开§q阿穆尔斡旋§!选项"
  MAN_show_AMR_affairs_decisions_desc:0 ""
- MAN_hide_AMR_affairs_decisions:0 "收起阿穆尔斡旋选项"
+ MAN_hide_AMR_affairs_decisions:0 "收起§q阿穆尔斡旋§!选项"
  MAN_hide_AMR_affairs_decisions_desc:0 ""
  MAN_sell_gun_to_AMR:0 "向阿穆尔出售枪支"
  MAN_sell_gun_to_AMR_desc:0 ""
@@ -262,9 +262,9 @@
 
 
 
- MAN_show_CHT_affairs_decisions:0 "展开外贝加尔斡旋选项"
+ MAN_show_CHT_affairs_decisions:0 "展开§K外贝加尔斡旋§!选项"
  MAN_show_CHT_affairs_decisions_desc:0 ""
- MAN_hide_CHT_affairs_decisions:0 "收起外贝加尔斡旋选项"
+ MAN_hide_CHT_affairs_decisions:0 "收起§K外贝加尔斡旋§!选项"
  MAN_hide_CHT_affairs_decisions_desc:0 ""
  MAN_sell_gun_to_CHT:0 "向外贝加尔出售枪支"
  MAN_sell_gun_to_CHT_desc:0 ""
