@@ -52,6 +52,9 @@ scripted_gui = {
 			GH_MAN_shadowloading_full = {
 				frame = GH_MAN_Shadow_resist
 			}
+			GH_MAN_shadow_putinto_bar = {
+				frame = GH_MAN_Shadow_putinto_var
+			}
 			#进度条
 			# GH_MAN_Shadow_NCJUA = {
 			# 	frame = MAN_Shadow_NCJUA
