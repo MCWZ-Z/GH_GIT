@@ -18,7 +18,7 @@ GH_MAN_political_palace_Category = {
 				MAN_faction_to_temp = 2
 			}
 			set_temp_variable = {
-				MAN_faction_num_temp = 1
+				MAN_faction_num_temp = 5
 			}
 			MAN_change_political_palace_num = yes
 			
@@ -181,7 +181,8 @@ GH_MAN_political_palace_Category = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
 			}
-        }		
+        }
+        MAN_change_Leviathan_stability = yes		
 	}
 	MAN_seeking_GAD_support = { #总务厅-寻求总务厅支持
 		cost = 50
@@ -241,7 +242,8 @@ GH_MAN_political_palace_Category = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
 			}
-        }		
+        }
+        MAN_change_Leviathan_stability = yes		
 	}
 	MAN_help_mang_yo = { #满业 - 在政策上帮扶满业
 		cost = 50
@@ -314,7 +316,8 @@ GH_MAN_political_palace_Category = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
 			}
-        }		
+        }
+        MAN_change_Leviathan_stability = yes		
 	}
 	MAN_help_nissan = { #日产 - 在政策上帮扶日产
 		cost = 50
