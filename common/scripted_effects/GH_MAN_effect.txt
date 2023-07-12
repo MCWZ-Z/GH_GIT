@@ -248,7 +248,7 @@ MAN_current_GAD_corrupt_down = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_GAD_corrupt
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -275,7 +275,7 @@ MAN_current_GAD_corrupt_up = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_GAD_corrupt
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -303,7 +303,7 @@ MAN_current_GAD_status_down = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_GAD_status
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -330,7 +330,7 @@ MAN_current_GAD_status_up = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_GAD_status
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -358,7 +358,7 @@ MAN_current_mang_yo_down = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_mang_yo
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -385,7 +385,7 @@ MAN_current_mang_yo_up = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_mang_yo
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -413,7 +413,7 @@ MAN_current_Concordia_down = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_Concordia
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -441,7 +441,7 @@ MAN_current_Concordia_up = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_Concordia
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -469,7 +469,7 @@ MAN_Concordia_relation_down = {
 	}
 	clamp_variable = {
 		var = GH_MAN_Concordia_relation
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -497,7 +497,7 @@ MAN_Concordia_relation_up = {
 	}
 	clamp_variable = {
 		var = GH_MAN_Concordia_relation
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -525,7 +525,7 @@ MAN_current_Manchu_gang_down = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_Manchu_gang
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -553,7 +553,7 @@ MAN_current_Manchu_gang_up = {
 	}
 	clamp_variable = {
 		var = GH_MAN_current_Manchu_gang
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -581,7 +581,7 @@ MAN_Manchu_gang_relation_down = {
 	}
 	clamp_variable = {
 		var = GH_MAN_Manchu_gang_relation
-		min = 0
+		min = 1
 		max = 15
 	}
 }
@@ -609,7 +609,7 @@ MAN_Manchu_gang_relation_up = {
 	}
 	clamp_variable = {
 		var = GH_MAN_Manchu_gang_relation
-		min = 0
+		min = 1
 		max = 15
 	}
 }

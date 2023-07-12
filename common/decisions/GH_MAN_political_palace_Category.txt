@@ -176,13 +176,13 @@ GH_MAN_political_palace_Category = {
 		}
         complete_effect = {
         MAN_current_GAD_status_down = yes
+        MAN_change_Leviathan_stability = yes
 				#这是效率好转
         set_temp_variable = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
 			}
-        }
-        MAN_change_Leviathan_stability = yes		
+        }	
 	}
 	MAN_seeking_GAD_support = { #总务厅-寻求总务厅支持
 		cost = 50
@@ -236,14 +236,14 @@ GH_MAN_political_palace_Category = {
         complete_effect = {
         MAN_current_mang_yo_up = yes
         MAN_current_mang_yo_up = yes
+        MAN_change_Leviathan_stability = yes
         set_temp_variable = { money_reserves_temp = 0.3 }
             econ_money_reserves_change_raw_money = yes
         set_temp_variable = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
 			}
-        }
-        MAN_change_Leviathan_stability = yes		
+        }		
 	}
 	MAN_help_mang_yo = { #满业 - 在政策上帮扶满业
 		cost = 50
@@ -311,13 +311,13 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_nissan_merger_finish
 		}
         complete_effect = {
+        MAN_change_Leviathan_stability = yes
         MAN_current_mang_yo_down = yes
         set_temp_variable = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
 			}
-        }
-        MAN_change_Leviathan_stability = yes		
+        }		
 	}
 	MAN_help_nissan = { #日产 - 在政策上帮扶日产
 		cost = 50
@@ -396,6 +396,7 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_manchu_gang_int_flag
 		}
         complete_effect = {
+        MAN_Manchu_gang_relation_down = yes
         }		
 	}
 	MAN_slander_with_shoe_box = { #满洲帮 - 诋毁协和会在东京的声誉
@@ -406,6 +407,7 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_manchu_gang_int_flag
 		}
         complete_effect = {
+        MAN_Concordia_relation_up = yes
         }		
 	}
 	MAN_talk_with_Shiina = { #满洲帮 - 和椎名悦三郎谈谈
@@ -458,6 +460,7 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_shoe_box_int_flag
 		}
         complete_effect = {
+        MAN_Concordia_relation_down = yes
         }		
 	}
 	MAN_slander_with_manchu_gang = { #协和会 - 诋毁满洲帮在东京的声誉
@@ -468,6 +471,7 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_shoe_box_int_flag
 		}
         complete_effect = {
+        MAN_Manchu_gang_relation_up = yes
         }		
 	}
 	MAN_talk_with_Ruan = { #协和会 - 和阮振铎谈谈

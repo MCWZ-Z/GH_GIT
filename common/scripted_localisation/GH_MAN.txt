@@ -102,20 +102,17 @@ defined_text = {
 	name = Get_GH_MAN_current_GAD_status
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_GAD_status = 1 }
+			check_variable = { GH_MAN_current_GAD_status < 6 }
 		}
 		localization_key = GH_MAN_current_GAD_status_1_tt
 	}
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_GAD_status = 2 }
+			check_variable = { GH_MAN_current_GAD_status < 11 }
 		}
 		localization_key = GH_MAN_current_GAD_status_2_tt
 	}
 	text = {
-		trigger = {
-			check_variable = { GH_MAN_current_GAD_status = 3 }
-		}
 		localization_key = GH_MAN_current_GAD_status_3_tt
 	}
 }
@@ -141,20 +138,17 @@ defined_text = {
 	name = Get_GH_MAN_current_mang_yo
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_mang_yo = 1 }
+			check_variable = { GH_MAN_current_mang_yo < 6 }
 		}
 		localization_key = GH_MAN_current_mang_yo_1_tt
 	}
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_mang_yo = 2 }
+			check_variable = { GH_MAN_current_mang_yo < 11 }
 		}
 		localization_key = GH_MAN_current_mang_yo_2_tt
 	}
 	text = {
-		trigger = {
-			check_variable = { GH_MAN_current_mang_yo = 3 }
-		}
 		localization_key = GH_MAN_current_mang_yo_3_tt
 	}
 }
@@ -315,20 +309,17 @@ defined_text = {
 	name = Get_GH_MAN_current_Concordia
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_Concordia = 1 }
+			check_variable = { GH_MAN_current_Concordia < 6 }
 		}
 		localization_key = GH_MAN_current_Concordia_1_tt
 	}
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_Concordia = 2 }
+			check_variable = { GH_MAN_current_Concordia < 11 }
 		}
 		localization_key = GH_MAN_current_Concordia_2_tt
 	}
 	text = {
-		trigger = {
-			check_variable = { GH_MAN_current_Concordia = 3 }
-		}
 		localization_key = GH_MAN_current_Concordia_3_tt
 	}
 }
@@ -336,20 +327,17 @@ defined_text = {
 	name = Get_GH_MAN_Concordia_relation
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_Concordia_relation = 1 }
+			check_variable = { GH_MAN_Concordia_relation < 6 }
 		}
 		localization_key = GH_MAN_Concordia_relation_1_tt
 	}
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_Concordia_relation = 2 }
+			check_variable = { GH_MAN_Concordia_relation < 11 }
 		}
 		localization_key = GH_MAN_Concordia_relation_2_tt
 	}
 	text = {
-		trigger = {
-			check_variable = { GH_MAN_Concordia_relation = 3 }
-		}
 		localization_key = GH_MAN_Concordia_relation_3_tt
 	}
 }
@@ -378,20 +366,17 @@ defined_text = {
 	name = Get_GH_MAN_current_Manchu_gang
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_Manchu_gang = 1 }
+			check_variable = { GH_MAN_current_Manchu_gang < 6 }
 		}
 		localization_key = GH_MAN_current_Manchu_gang_1_tt
 	}
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_current_Manchu_gang = 2 }
+			check_variable = { GH_MAN_current_Manchu_gang < 11 }
 		}
 		localization_key = GH_MAN_current_Manchu_gang_2_tt
 	}
 	text = {
-		trigger = {
-			check_variable = { GH_MAN_current_Manchu_gang = 3 }
-		}
 		localization_key = GH_MAN_current_Manchu_gang_3_tt
 	}
 }
@@ -399,20 +384,17 @@ defined_text = {
 	name = Get_GH_MAN_Manchu_gang_relation
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_Manchu_gang_relation = 1 }
+			check_variable = { GH_MAN_Manchu_gang_relation < 6 }
 		}
 		localization_key = GH_MAN_Manchu_gang_relation_1_tt
 	}
 	text = {
 		trigger = {
-			check_variable = { GH_MAN_Manchu_gang_relation = 2 }
+			check_variable = { GH_MAN_Manchu_gang_relation < 11 }
 		}
 		localization_key = GH_MAN_Manchu_gang_relation_2_tt
 	}
 	text = {
-		trigger = {
-			check_variable = { GH_MAN_Manchu_gang_relation = 3 }
-		}
 		localization_key = GH_MAN_Manchu_gang_relation_3_tt
 	}
 }
@@ -506,52 +488,3 @@ defined_text = {
 		# 戳拉！
 	}
 }
-
-
-defined_text = {
-	### GAD 前一步
-	name = Get_GH_MAN_last_GAD_corrupt_temp
-	text = {
-		trigger = {
-			check_variable = { GH_MAN_last_GAD_corrupt_temp = 1 }
-		}
-		localization_key = GH_MAN_current_GAD_corrupt_1_tt
-	}
-	text = {
-		trigger = {
-			check_variable = { GH_MAN_last_GAD_corrupt_temp = 2 }
-		}
-		localization_key = GH_MAN_current_GAD_corrupt_2_tt
-	}
-	text = {
-		trigger = {
-			check_variable = { GH_MAN_last_GAD_corrupt_temp = 3 }
-		}
-		localization_key = GH_MAN_current_GAD_corrupt_3_tt
-	}
-}
-defined_text = {
-	### GAD 后一步
-	name = Get_GH_MAN_current_GAD_corrupt_temp
-	text = {
-		trigger = {
-			check_variable = { GH_MAN_current_GAD_corrupt_temp = 1 }
-		}
-		localization_key = GH_MAN_current_GAD_corrupt_1_tt
-	}
-	text = {
-		trigger = {
-			check_variable = { GH_MAN_current_GAD_corrupt_temp = 2 }
-		}
-		localization_key = GH_MAN_current_GAD_corrupt_2_tt
-	}
-	text = {
-		trigger = {
-			check_variable = { GH_MAN_current_GAD_corrupt_temp = 3 }
-		}
-		localization_key = GH_MAN_current_GAD_corrupt_3_tt
-	}
-}
-
-
-
