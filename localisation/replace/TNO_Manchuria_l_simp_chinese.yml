@@ -382,8 +382,6 @@
  
  GH_MAN_Nissan_Leviathan_DESC:0 "当前的§x日产社长§!是：§W濑木庸介§!\n\n§x日产§!现在的状态是：[Get_GH_MAN_current_Nissan]\n\n§x日产§!目前掌控着：[Get_GH_MAN_current_Nissan_control]\n\n-----------------------------\n\n§W§x日产§!现在提供的效果是：§!"
  
- MAN_current_Nissan_2to1_tt:0 "日产的现状从$GH_MAN_current_Nissan_3_tt$变成了$GH_MAN_current_Nissan_2_tt$"
- 
  GH_MAN_current_Nissan_1_tt:0 "§G权势熏天§!"
  GH_MAN_current_Nissan_2_tt:0 "§Y野心勃勃§!"
  GH_MAN_current_Nissan_3_tt:0 "§e寻求并购§!"
@@ -392,6 +390,18 @@
  GH_MAN_current_Nissan_control_3_tt:0 "§e未能染指§!"
  
  GH_MAN_Concordia_Leviathan_DESC:0 "当前的§S协和会长§!是：[Get_GH_MAN_Concordia_leader]\n\n§S协和会§!现在的状态是：[Get_GH_MAN_current_Concordia]\n\n§S协和会§!与§J东京§!之间的关系：[Get_GH_MAN_Concordia_relation]\n\n-----------------------------\n\n§W§S协和会§!现在提供的效果是：§!"
+ 
+ MAN_current_Concordia_3to2_tt:0 "协和会的现状从$GH_MAN_current_Concordia_3_tt$变成了$GH_MAN_current_Concordia_2_tt$"
+ MAN_current_Concordia_2to1_tt:0 "协和会的现状从$GH_MAN_current_Concordia_2_tt$变成了$GH_MAN_current_Concordia_1_tt$"
+ 
+ MAN_current_Concordia_2to3_tt:0 "协和会的现状从$GH_MAN_current_Concordia_2_tt$变成了$GH_MAN_current_Concordia_3_tt$"
+ MAN_current_Concordia_1to2_tt:0 "协和会的现状从$GH_MAN_current_Concordia_1_tt$变成了$GH_MAN_current_Concordia_2_tt$"
+ 
+ MAN_Concordia_relation_3to2_tt:0 "协和会与东京之间的关系从$GH_MAN_Concordia_relation_3_tt$变成了$GH_MAN_Concordia_relation_2_tt$"
+ MAN_Concordia_relation_2to1_tt:0 "协和会与东京之间的关系从$GH_MAN_Concordia_relation_2_tt$变成了$GH_MAN_Concordia_relation_1_tt$"
+ 
+ MAN_Concordia_relation_1to2_tt:0 "协和会与东京之间的关系从$GH_MAN_Concordia_relation_1_tt$变成了$GH_MAN_Concordia_relation_2_tt$"
+ MAN_Concordia_relation_2to3_tt:0 "协和会与东京之间的关系从$GH_MAN_Concordia_relation_2_tt$变成了$GH_MAN_Concordia_relation_3_tt$"
  
  GH_MAN_Concordia_leader_1_tt:0 "§W阮振铎§!"
  GH_MAN_Concordia_leader_2_tt:0 "§W占位符§!"
@@ -405,6 +415,19 @@
  
  
  GH_MAN_Manchu_gang_Leviathan_DESC:0 "当前的§o满洲帮领袖§!是：[Get_GH_MAN_Manchu_gang_leader]\n\n§o满洲帮§!现在的状态是：[Get_GH_MAN_current_Manchu_gang]\n\n§o满洲帮§!与§J东京§!之间的关系：[Get_GH_MAN_Manchu_gang_relation]\n\n-----------------------------\n\n§W§o满洲帮§!现在提供的效果是：§!"
+ 
+ MAN_current_Manchu_gang_3to2_tt:0 "满洲帮的现状从$GH_MAN_current_Manchu_gang_3_tt$变成了$GH_MAN_current_Manchu_gang_2_tt$"
+ MAN_current_Manchu_gang_2to1_tt:0 "满洲帮的现状从$GH_MAN_current_Manchu_gang_2_tt$变成了$GH_MAN_current_Manchu_gang_1_tt$"
+ 
+ MAN_current_Manchu_gang_2to3_tt:0 "满洲帮的现状从$GH_MAN_current_Manchu_gang_2_tt$变成了$GH_MAN_current_Manchu_gang_3_tt$"
+ MAN_current_Manchu_gang_1to2_tt:0 "满洲帮的现状从$GH_MAN_current_Manchu_gang_1_tt$变成了$GH_MAN_current_Manchu_gang_2_tt$"
+ 
+ MAN_Manchu_gang_relation_3to2_tt:0 "满洲帮与东京的关系从$GH_MAN_Manchu_gang_relation_3_tt$变成了$GH_MAN_Manchu_gang_relation_2_tt$"
+ MAN_Manchu_gang_relation_2to1_tt:0 "满洲帮与东京的关系从$GH_MAN_Manchu_gang_relation_2_tt$变成了$GH_MAN_Manchu_gang_relation_1_tt$"
+ 
+ MAN_Manchu_gang_relation_2to3_tt:0 "满洲帮与东京的关系从$GH_MAN_Manchu_gang_relation_2_tt$变成了$GH_MAN_Manchu_gang_relation_3_tt$"
+ MAN_current_Manchu_gang_1to2_tt:0 "满洲帮与东京的关系从$GH_MAN_Manchu_gang_relation_1_tt$变成了$GH_MAN_Manchu_gang_relation_2_tt$"
+ 
  
  GH_MAN_Manchu_gang_leader_1_tt:0 "§W椎名悦三郎§!"
  GH_MAN_Manchu_gang_leader_2_tt:0 "§W占位符§!"
@@ -501,7 +524,9 @@
  MAN_seeking_GAD_support_desc:0 "许以好处，§g总务厅§!便会支持当前正在审议的提案。"
  MAN_talk_with_inoly:0 "和§G五岛升§!谈谈"
  MAN_need_mang_yo_money:0 "向§G满业§!索取资金"
+ MAN_need_mang_yo_money_desc:0 "这会中幅恶化§G满业§!的经营现状。同时致使§d利维坦§!的稳定度下降。"
  MAN_help_mang_yo:0 "在政策上帮扶§G满业§!"
+ MAN_help_mang_yo_desc:0 "这会略微改善§G满业§!的经营现状。"
  MAN_seeking_mang_yo_support:0 "寻求§G满业§!支持"
  MAN_seeking_mang_yo_support_desc:0 "许以好处，§G满业§!便会提高当前正在审议的提案的落实率。"
  MAN_talk_with_Setsuke:0 "和§x濑木庸介§!谈谈"

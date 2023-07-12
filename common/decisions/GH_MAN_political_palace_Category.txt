@@ -235,6 +235,8 @@ GH_MAN_political_palace_Category = {
         complete_effect = {
         MAN_current_mang_yo_up = yes
         MAN_current_mang_yo_up = yes
+        set_temp_variable = { money_reserves_temp = 0.3 }
+            econ_money_reserves_change_raw_money = yes
         set_temp_variable = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
