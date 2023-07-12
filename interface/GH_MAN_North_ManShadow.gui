@@ -48,16 +48,36 @@ guiTypes = {
             } 
 
         }
-        instantTextBoxType={
-			name = "GH_MAN_Shadow_putinto"
-			position = {x = 80 y = 350 }
-			font = "aldrich_20_outline"
-			maxWidth = 460
-			maxHeight = 32
-			text = "GH_MAN_Shadow_putinto_txt"
-			format = left
-			fixedsize = yes
-		}
+        containerWindowType = {
+            name = "GH_MAN_shadow_putinto_container"
+            position = { x = 50 y = 320 }
+            iconType = { 
+                name = "GH_MAN_shadow_putinto_bar"
+                position = { x = 5 y = 4 } 
+                alwaystransparent = yes
+                spriteType = "GFX_GH_MAN_shadow_putinto_bar"
+                pdx_tooltip = GH_MAN_Shadow_putinto_txt
+            }
+            iconType = {
+                name = "GH_MAN_shadow_putinto_empty"
+                position = { x = 5 y = 4 }
+                alwaystransparent = yes
+                spriteType = "GFX_GH_MAN_shadow_putinto_empty"
+                pdx_tooltip = GH_MAN_Shadow_putinto_txt
+                # pdx_tooltip_delayed = GH_MAN_shadowloading_empty_tooltip_delayed
+            } 
+
+        }
+        # instantTextBoxType={
+		# 	name = "GH_MAN_Shadow_putinto"
+		# 	position = {x = 80 y = 350 }
+		# 	font = "aldrich_20_outline"
+		# 	maxWidth = 460
+		# 	maxHeight = 32
+		# 	text = "GH_MAN_Shadow_putinto_txt"
+		# 	format = left
+		# 	fixedsize = yes
+		# }
 
     }
 

@@ -84,7 +84,7 @@ guiTypes = {
 		iconType = {
 			name = "Info"
 			spriteType = "GFX_Burgundy_GUI_Info_Button"
-			position = { x = 394 y = -63 }
+			position = { x = 465 y = -75 }
 			pdx_tooltip = GH_MAN_East_Asia_Defense_Council_info
 		}
 

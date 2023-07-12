@@ -21,7 +21,6 @@ GH_MAN_political_palace_Category = {
 				MAN_faction_num_temp = 5
 			}
 			MAN_change_political_palace_num = yes
-			
 		}
 	}
 	MAN_political_palace_debug = {
@@ -37,7 +36,6 @@ GH_MAN_political_palace_Category = {
 				#设置改变的数字 正数为增加 负数为减少
 			}
 			MAN_change_Leviathan_stability = yes
-			
 		}
 	}
 	MAN_political_palace_reduce_debug = {
@@ -53,11 +51,8 @@ GH_MAN_political_palace_Category = {
 				#设置改变的数字 正数为增加 负数为减少
 			}
 			MAN_change_Leviathan_stability = yes
-			
 		}
 	}
-
-
 	MAN_expand_emp_int = {
 		#展开与皇族互动的决议
 		fire_only_once = no
@@ -80,47 +75,51 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_emp_int_flag
 		}
 	}
-	MAN_Pujie_intervene = { #皇族-由溥杰出面
+	MAN_Pujie_intervene = {
+		#皇族-由溥杰出面
 		cost = 0
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_emp_int_flag
 		}
-        complete_effect = {
-            set_country_flag = GH_MAN_Pujie_on_face
-        }		
+		complete_effect = {
+			set_country_flag = GH_MAN_Pujie_on_face
+		}
 	}
-	MAN_Yuyan_intervene = { #皇族-由毓嵒出面
+	MAN_Yuyan_intervene = {
+		#皇族-由毓嵒出面
 		cost = 0
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_emp_int_flag
 		}
-        complete_effect = {
-            set_country_flag = GH_MAN_Yuyan_on_face
-        }		
+		complete_effect = {
+			set_country_flag = GH_MAN_Yuyan_on_face
+		}
 	}
-	MAN_strive_emp_rights = { #皇族-争取皇族权益
+	MAN_strive_emp_rights = {
+		#皇族-争取皇族权益
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_emp_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_seeking_emp_support = { #皇族-寻求皇族支持
+	MAN_seeking_emp_support = {
+		#皇族-寻求皇族支持
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_emp_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
 	MAN_expand_GAD_int = {
 		#展开与总务厅互动的决议
@@ -144,55 +143,58 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_GAD_int_flag
 		}
 	}
-	MAN_hit_GAD = { #总务厅 - 敲打总务厅 ###点击五次后，总务厅腐败好转一个档次
+	MAN_hit_GAD = {
+		#总务厅 - 敲打总务厅 ###点击五次后，总务厅腐败好转一个档次
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_GAD_int_flag
 		}
-
-        complete_effect = {
+		complete_effect = {
 			MAN_current_GAD_corrupt_down = yes
 			# MAN_current_GAD_corrupt_down = yes 是腐败上升一个级别
-        }		
+		}
 	}
-	MAN_talk_with_Kimura = { #总务厅 - 和木村俊夫谈谈
+	MAN_talk_with_Kimura = {
+		#总务厅 - 和木村俊夫谈谈
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_GAD_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_request_GAD_reform = { #总务厅 - 要求总务厅实行改革
+	MAN_request_GAD_reform = {
+		#总务厅 - 要求总务厅实行改革
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_GAD_int_flag
 		}
-        complete_effect = {
-        MAN_current_GAD_status_down = yes
-				#这是效率好转
-        set_temp_variable = {
+		complete_effect = {
+			MAN_current_GAD_status_down = yes
+			#这是效率好转
+			set_temp_variable = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
 			}
-        }
-        MAN_change_Leviathan_stability = yes		
+		}
+		MAN_change_Leviathan_stability = yes
 	}
-	MAN_seeking_GAD_support = { #总务厅-寻求总务厅支持
+	MAN_seeking_GAD_support = {
+		#总务厅-寻求总务厅支持
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_GAD_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
 	MAN_expand_mang_yo_int = {
 		#展开与满业互动的决议
@@ -216,61 +218,67 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_mang_yo_int_flag
 		}
 	}
-	MAN_talk_with_inoly = { #满业 - 和五岛升谈谈
+	MAN_talk_with_inoly = {
+		#满业 - 和五岛升谈谈
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_mang_yo_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_need_mang_yo_money = { #满业 - 向满业索取资金
+	MAN_need_mang_yo_money = {
+		#满业 - 向满业索取资金
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_mang_yo_int_flag
 		}
-        complete_effect = {
-        MAN_current_mang_yo_up = yes
-        MAN_current_mang_yo_up = yes
-        set_temp_variable = { money_reserves_temp = 0.3 }
-            econ_money_reserves_change_raw_money = yes
-        set_temp_variable = {
+		complete_effect = {
+			MAN_current_mang_yo_up = yes
+			MAN_current_mang_yo_up = yes
+			set_temp_variable = {
+				money_reserves_temp = 0.3
+			}
+			econ_money_reserves_change_raw_money = yes
+			set_temp_variable = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
 			}
-        }
-        MAN_change_Leviathan_stability = yes		
+		}
+		MAN_change_Leviathan_stability = yes
 	}
-	MAN_help_mang_yo = { #满业 - 在政策上帮扶满业
+	MAN_help_mang_yo = {
+		#满业 - 在政策上帮扶满业
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_mang_yo_int_flag
 		}
-        complete_effect = {
-        MAN_current_mang_yo_down = yes
-        }		
+		complete_effect = {
+			MAN_current_mang_yo_down = yes
+		}
 	}
-	MAN_seeking_mang_yo_support = { #满业 - 寻求满业支持
+	MAN_seeking_mang_yo_support = {
+		#满业 - 寻求满业支持
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_mang_yo_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
 	MAN_expand_nissan_int = {
 		#展开与日产互动的决议
 		fire_only_once = no
 		available = {
-		     has_country_flag = MAN_nissan_merger_finish
+			has_country_flag = MAN_nissan_merger_finish
 		}
 		visible = {
 			NOT = {
@@ -291,7 +299,8 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_nissan_int_flag
 		}
 	}
-	MAN_talk_with_Setsuke = { #日产 - 和濑木庸介谈谈
+	MAN_talk_with_Setsuke = {
+		#日产 - 和濑木庸介谈谈
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
@@ -299,10 +308,11 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_nissan_int_flag
 			has_country_flag = MAN_nissan_merger_finish
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_need_nissan_compromise = { #日产 - 要求日产为满业让步
+	MAN_need_nissan_compromise = {
+		#日产 - 要求日产为满业让步
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
@@ -310,16 +320,17 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_nissan_int_flag
 			has_country_flag = MAN_nissan_merger_finish
 		}
-        complete_effect = {
-        MAN_current_mang_yo_down = yes
-        set_temp_variable = {
+		complete_effect = {
+			MAN_current_mang_yo_down = yes
+			set_temp_variable = {
 				GH_MAN_Leviathan_stability_temp = -5
 				#设置改变的数字 正数为增加 负数为减少
 			}
-        }
-        MAN_change_Leviathan_stability = yes		
+		}
+		MAN_change_Leviathan_stability = yes
 	}
-	MAN_help_nissan = { #日产 - 在政策上帮扶日产
+	MAN_help_nissan = {
+		#日产 - 在政策上帮扶日产
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
@@ -327,10 +338,11 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_nissan_int_flag
 			has_country_flag = MAN_nissan_merger_finish
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_seeking_nissan_support = { #日产 - 寻求日产支持
+	MAN_seeking_nissan_support = {
+		#日产 - 寻求日产支持
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
@@ -338,14 +350,14 @@ GH_MAN_political_palace_Category = {
 			has_country_flag = MAN_show_nissan_int_flag
 			has_country_flag = MAN_nissan_merger_finish
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
 	MAN_expand_kuang_tong_army_int = {
 		#展开与关东军互动的决议
 		fire_only_once = no
 		available = {
-		    has_country_flag = MAN_kuang_tong_army_unify
+			has_country_flag = MAN_kuang_tong_army_unify
 		}
 		visible = {
 			NOT = {
@@ -388,45 +400,49 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_manchu_gang_int_flag
 		}
 	}
-	MAN_keep_good_with_tokyo_gang = { #满洲帮 - 与东京增进关系
+	MAN_keep_good_with_tokyo_gang = {
+		#满洲帮 - 与东京增进关系
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_manchu_gang_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_slander_with_shoe_box = { #满洲帮 - 诋毁协和会在东京的声誉
+	MAN_slander_with_shoe_box = {
+		#满洲帮 - 诋毁协和会在东京的声誉
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_manchu_gang_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_talk_with_Shiina = { #满洲帮 - 和椎名悦三郎谈谈
+	MAN_talk_with_Shiina = {
+		#满洲帮 - 和椎名悦三郎谈谈
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_manchu_gang_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_seeking_manchu_gang_support = { #满洲帮 - 寻求满洲帮支持
+	MAN_seeking_manchu_gang_support = {
+		#满洲帮 - 寻求满洲帮支持
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_manchu_gang_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
 	MAN_expand_shoe_box_int = {
 		#展开与协和会互动的决议
@@ -450,44 +466,48 @@ GH_MAN_political_palace_Category = {
 			clr_country_flag = MAN_show_shoe_box_int_flag
 		}
 	}
-	MAN_keep_good_with_tokyo_shoe_box = { #协和会 - 与东京增进关系
+	MAN_keep_good_with_tokyo_shoe_box = {
+		#协和会 - 与东京增进关系
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_shoe_box_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_slander_with_manchu_gang = { #协和会 - 诋毁满洲帮在东京的声誉
+	MAN_slander_with_manchu_gang = {
+		#协和会 - 诋毁满洲帮在东京的声誉
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_shoe_box_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_talk_with_Ruan = { #协和会 - 和阮振铎谈谈
+	MAN_talk_with_Ruan = {
+		#协和会 - 和阮振铎谈谈
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_shoe_box_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
-	MAN_seeking_shoe_box_support = { #协和会 - 寻求协和会支持
+	MAN_seeking_shoe_box_support = {
+		#协和会 - 寻求协和会支持
 		cost = 50
 		fire_only_once = no
 		days_re_enable = 180
 		visible = {
 			has_country_flag = MAN_show_shoe_box_int_flag
 		}
-        complete_effect = {
-        }		
+		complete_effect = {
+		}
 	}
 }
