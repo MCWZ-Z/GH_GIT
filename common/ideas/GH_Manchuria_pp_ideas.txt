@@ -43,6 +43,29 @@ ideas = {
 
 			}
 		}
+		GH_pp_MAN_current_mang_yo_1 = { #满业经营状况 - 高
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+            misc_income_modifier = 0.5
+            gdp_growth_modifier = 0.3
+            consumer_goods_use_modifier = -0.05
+			}
+		}
+		GH_pp_MAN_current_mang_yo_2 = { #满业经营状况 - 中
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_MAN_current_mang_yo_3 = { #满业经营状况 - 低
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
 		GH_pp_current_Concordia_1 = { #协和会的现状 - 高
 			allowed = { always = no } #与决议中一样
 			removal_cost = -1 #照抄，在TNO中无效
