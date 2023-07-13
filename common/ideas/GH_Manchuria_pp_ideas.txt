@@ -1,0 +1,131 @@
+ideas = {
+	#隐藏idea 用来作为全球冲突的token的
+	hidden_ideas = {
+	   GH_pp_current_GAD_status_1 = { #总务厅的现状 - 高
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_GAD_status_2 = { #总务厅的现状 - 中
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_GAD_status_3 = { #总务厅的现状 - 低
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_GAD_corrupt_1 = { #总务厅的腐败状况 - 高
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_GAD_corrupt_2 = { #总务厅的腐败状况 - 中
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_GAD_corrupt_3 = { #总务厅的腐败状况 - 低
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_Concordia_1 = { #协和会的现状 - 高
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_Concordia_2 = { #协和会的现状 - 中
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_Concordia_3 = { #协和会的现状 - 低
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_Concordia_relation_1 = { #协和会的关系 - 高
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_Concordia_relation_2 = { #协和会的关系 - 中
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_Concordia_relation_3 = { #协和会的关系 - 低
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_Manchu_gang_1 = { #满洲帮的现状 - 高
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_Manchu_gang_2 = { #满洲帮的现状 - 中
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_current_Manchu_gang_3 = { #满洲帮的现状 - 低
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_Manchu_gang_relation_1 = { #满洲帮的关系 - 高
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_Manchu_gang_relation_2 = { #满洲帮的关系 - 中
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+		GH_pp_Manchu_gang_relation_3 = { #满洲帮的关系 - 低
+			allowed = { always = no } #与决议中一样
+			removal_cost = -1 #照抄，在TNO中无效
+			modifier = { #这边的modifier是和traits中一样的
+
+			}
+		}
+	}
+}	
