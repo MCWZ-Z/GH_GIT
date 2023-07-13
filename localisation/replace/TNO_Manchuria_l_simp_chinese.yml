@@ -197,7 +197,9 @@
  GH_MAN_eventful_period:0 "多事之秋"
 
 
-
+ ##decision -debug
+ GH_MAN_Debug_Category:0 "芝士满洲debug决议"
+ MAN_yasuda_focus:0 "弹出载入§f安田危机§!国策树的事件"
 
  ##decision -1 
  GH_MAN_East_Asia_Defense_Council:0 "东亚防卫安理会"
@@ -245,6 +247,11 @@
  MAN_loans_to_MAG_desc:0 ""
  MAN_sell_equipment_to_MAG:0 "向马加丹出售制造器械"
  MAN_sell_equipment_to_MAG_desc:0 ""
+ 
+ debug_man_action_points:0 "行动力度§G上涨§!5%"
+ debug_man_action_requirement:0 "行动力度需求§x上涨§!5%"
+ debug_man_budget:0 "§w增加§!5M行动资金"
+ debug_man_far_east_lock:0 "打开§g远东斡旋§!决议"
 
 
  MAN_show_AMR_affairs_decisions:0 "展开§q阿穆尔斡旋§!选项"

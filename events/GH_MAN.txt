@@ -432,6 +432,10 @@ country_event = {
 
 	option = {
 		name = man.333.a
+		load_focus_tree = { 
+		tree = GH_Yasuda_crisis
+		keep_completed = yes 
+		}
 	}
 }
 #NEW-------------

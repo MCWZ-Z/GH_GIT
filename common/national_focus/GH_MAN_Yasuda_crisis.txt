@@ -2,10 +2,6 @@ focus_tree = {
 	id = GH_Yasuda_crisis	#安田危机
 	country = {
 		factor = 0
-		modifier = {
-			add = 5
-			tag = MAN
-		}
 	}
 	focus = {
 		id = GH_MAN_Crisis_coming		#危机已至
@@ -14,7 +10,6 @@ focus_tree = {
 		y = 0
 		cost = 1		#这是国策花费的政治点
 		allow_branch = {
-			has_country_flag = Yasuda_crisis
 		}
 		ai_will_do = {
 			factor = 10
@@ -136,7 +131,7 @@ focus_tree = {
 		cost = 1		#这是国策花费的政治点
 		prerequisite = {
 			focus = GH_MAN_Flow_center
-			focus = GH_MAN_Lessmoney_moreuse
+			focus = GH_MAN_lessmoney_moreuse
 		}
 		ai_will_do = {
 			factor = 10
@@ -486,6 +481,186 @@ focus_tree = {
 		prerequisite = {
 			focus = GH_MAN_Mobilization_of_gendarmerie
 		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			#这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_rebuild_order		#重建秩序
+		icon = GH_MAN_rebuild_order
+		x = 10
+		y = 20
+		cost = 1		#这是国策花费的政治点
+		prerequisite = {
+			focus = GH_MAN_Strengthen_police_presence
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			#这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_seek_from_sejima	#向濑岛龙三求助
+		icon = GH_MAN_seek_from_sejima
+		x = 12
+		y = 2
+		cost = 1		#这是国策花费的政治点
+		prerequisite = {
+			focus = GH_MAN_Crisis_coming
+		}
+		mutually_exclusive = {
+			focus = GH_MAN_shiina_method
+		}	
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			#这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_shiina_method	#椎名悦三郎的办法
+		icon = GH_MAN_shiina_method
+		x = 14
+		y = 2
+		cost = 1		#这是国策花费的政治点
+		mutually_exclusive = {
+			focus = GH_MAN_seek_from_sejima
+		}	
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			#这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_highly_toxic_bait	#剧毒之饵
+		icon = GH_MAN_highly_toxic_bait
+		x = 12
+		y = 4
+		cost = 1		#这是国策花费的政治点
+		prerequisite = {
+			focus = GH_MAN_seek_from_sejima
+			focus = GH_MAN_shiina_method
+		}
+		mutually_exclusive = {
+			focus = GH_MAN_personal_assistance
+		}	
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			#这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_personal_assistance	#一点私人帮助
+		icon = GH_MAN_personal_assistance
+		x = 14
+		y = 4
+		cost = 1		#这是国策花费的政治点
+		prerequisite = {
+			focus = GH_MAN_seek_from_sejima
+			focus = GH_MAN_shiina_method
+		}
+		mutually_exclusive = {
+			focus = GH_MAN_highly_toxic_bait
+		}	
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			#这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_feeding_tigers	#投身饲虎
+		icon = GH_MAN_feeding_tigers
+		x = 12
+		y = 6
+		cost = 1		#这是国策花费的政治点
+		prerequisite = {
+			focus = GH_MAN_highly_toxic_bait
+			focus = GH_MAN_personal_assistance
+		}
+		mutually_exclusive = {
+			focus = GH_MAN_red_check
+		}	
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			#这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	focus = {
+		id = GH_MAN_red_check	#
+		icon = GH_MAN_red_check
+		x = 14
+		y = 6
+		cost = 1		#这是国策花费的政治点
+		prerequisite = {
+			focus = GH_MAN_highly_toxic_bait
+			focus = GH_MAN_personal_assistance
+		}
+		mutually_exclusive = {
+			focus = GH_MAN_feeding_tigers
+		}	
 		ai_will_do = {
 			factor = 10
 		}
