@@ -1,0 +1,94 @@
+on_actions = { #
+	on_startup = {
+		effect = {
+			MAN = {
+				set_variable = {
+					GH_MAN_month_num = 0
+				}
+			}
+		}
+	}
+
+	###抵抗度 每三个月 增加 15%
+	# 每三个月稳定度-3%，
+	# 固定为每三个月添加1M到债务之中
+
+
+	on_monthly_MAN = {
+
+		effect = {
+			# 计数
+			if = {
+				limit = {
+					check_variable = {
+						GH_MAN_month_num = 2
+					}
+				}
+				set_variable = {
+					GH_MAN_month_num = 0
+				}
+			}
+			else = {
+				add_to_variable = {
+					GH_MAN_month_num = 1
+				}
+			}
+		}
+	}
+	on_monthly_MAN = {
+
+		effect = {
+			# 计数
+			if = {
+				limit = {
+					check_variable = {
+						GH_MAN_month_num = 2
+					}
+				}
+				set_variable = {
+					GH_MAN_month_num = 0
+				}
+
+				# 添加1M到债务之中
+				set_temp_variable = {
+					MAN_debt_var_temp = 0.001
+				}
+				MAN_add_to_debt = yes
+				# 根据抵抗度降低稳定度
+				add_stability = -0.2
+
+				# 提高抵抗度
+
+				if = {
+					limit = {
+						check_variable = {
+							GH_MAN_Shadow_putinto_var < 20
+						}
+					}
+					set_temp_variable = {
+						MAN_Shadow_resist_temp = 19
+					}
+				}
+				else = {
+					set_temp_variable = {
+						MAN_Shadow_resist_temp = 15
+					}
+				}
+				MAN_change_Shadow_resist_var = yes
+			}
+			else = {
+				add_to_variable = {
+					GH_MAN_month_num = 1
+				}
+			}
+		}
+	}
+
+	on_weekly_MAN = {
+		effect = {
+			# 陆军经验每周扣除5点
+			add_command_power = -5
+		}
+
+	}
+}
