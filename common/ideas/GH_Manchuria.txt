@@ -53,7 +53,7 @@ ideas = { #这是定义国家精神的文件，命名统一为GH_国名.txt
 				stability_factor = 0.15
 			}
 		}
-		MAN_GH_Peeping_Eyes_roc = { #窥视之眼-远东
+		MAN_GH_Peeping_Eyes_roc = { #窥视之眼-中国
 			name = MAN_GH_Peeping_Eyes
 			allowed = { always = no }
 			removal_cost = -1
