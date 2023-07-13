@@ -1,7 +1,3 @@
 
 BoP_Tab_GlobalConflicts_MAN = { decision_category = MAN_foreign_policy_category }
 
-## South American Cold War ##
-# BoP_Tab_SACW_[tag]
-# BoP_Tab_SACW_BRA = { decision_category =  }
-# BoP_Tab_SACW_ARG = { decision_category =  }
