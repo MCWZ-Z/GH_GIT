@@ -134,7 +134,6 @@ guiTypes = {
         }
         
         containerWindowType = {
-			####定义一个区域专门用来存放这个进度条（不定义也可以
             name = "GH_MAN_Leviathan_bill"
             position = { x = 200 y = 350 }
 			### x定义好了 y建议再行调整
