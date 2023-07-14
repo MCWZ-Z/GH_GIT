@@ -54,6 +54,21 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 	}
+	
+	spriteType = {
+		name = GFX_GH_MAN_bill_none
+		texturefile = "gfx/interface/GUI/leviathan/GFX_GH_MAN_bill_none.dds"
+	}
+	
+	spriteType = {
+		name = GFX_GH_MAN_bill_loadingbar
+		texturefile = "gfx/interface/GUI/leviathan/GFX_GH_MAN_bill_loadingbar.dds"
+	}
+	
+	spriteType = {
+		name = GFX_GH_MAN_pointer
+		texturefile = "gfx/interface/GUI/leviathan/GFX_GH_MAN_pointer.dds"
+	}
 
 
 

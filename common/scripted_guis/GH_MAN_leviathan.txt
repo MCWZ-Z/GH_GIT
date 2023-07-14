@@ -46,6 +46,17 @@ scripted_gui = {
 					clr_country_flag = GH_MAN_Leviathan_GUI_Open
 				}
 			}
+			GH_MAN_bill_click = {
+				if = {
+					limit = {
+						has_country_flag = GH_MAN_bill_can_see
+					}
+					clr_country_flag = GH_MAN_bill_can_see
+				}
+				else = {
+			        set_country_flag = GH_MAN_bill_can_see
+			    }
+			}
 		}
 		properties = {
 			GH_MAN_Leviathan_progress_bar = {

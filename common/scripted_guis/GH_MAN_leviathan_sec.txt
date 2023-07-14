@@ -7,27 +7,5 @@ scripted_gui = {
 			original_tag = MAN
 			has_country_flag = GH_MAN_bill_can_see
 		}
-		effects = {
-			GH_MAN_Leviathan_OpenButton_click = {
-				if = {
-					limit = {
-						NOT = {
-							has_country_flag = GH_MAN_leviathan_bill_GUI_Open
-						}
-					}
-					set_country_flag = GH_MAN_leviathan_bill_GUI_Open
-				}
-				else_if = {
-					limit = {
-						has_country_flag = GH_MAN_leviathan_bill_GUI_Open
-					}
-					clr_country_flag = GH_MAN_leviathan_bill_GUI_Open
-				}
-				clr_country_flag = gui_alert_visible
-			}
-		}
-		triggers = {
-			gui_alert_visible = {
-				has_country_flag = gui_alert_visible
-			}
-		}
+    }
+}    		
