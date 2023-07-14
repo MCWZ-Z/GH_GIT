@@ -132,5 +132,43 @@ guiTypes = {
                 pdx_tooltip_delayed = GFX_GH_MAN_Leviathan_progress_tooltip_delayed
             }
         }
+        
+        containerWindowType = {
+			####定义一个区域专门用来存放这个进度条（不定义也可以
+            name = "GH_MAN_Leviathan_bill"
+            position = { x = 200 y = 350 }
+			### x定义好了 y建议再行调整
+            iconType = {
+                name = "GH_MAN_bill_none"
+                # position = { x = 150 y = 150 }
+                # alwaystransparent = yes
+                spriteType = "GFX_GH_MAN_bill_none"
+				pdx_tooltip = GFX_GH_MAN_bill_none_tooltip
+                pdx_tooltip_delayed = GFX_GH_MAN_bill_none_tooltip_delayed
+            }
+            iconType = {
+                name = "GH_MAN_bill_loadingbar"
+                # position = { x = 50 y = 40 }
+                # alwaystransparent = yes
+                spriteType = "GFX_GH_MAN_bill_loadingbar"
+				pdx_tooltip = GFX_GH_MAN_bill_loadingbar_tooltip
+                pdx_tooltip_delayed = GFX_GH_MAN_bill_loadingbar_tooltip_delayed
+            }
+            iconType = {
+                name = "GH_MAN_pointer"
+                # position = { x = 50 y = 40 }
+                # alwaystransparent = yes
+                spriteType = "GFX_GH_MAN_pointer"
+				pdx_tooltip = GFX_GH_MAN_pointer_tooltip
+                pdx_tooltip_delayed = GFX_GH_MAN_pointer_tooltip_delayed
+            }
+            iconType = {
+			name = "GH_MAN_infor"
+			position = { x = 11 y = 15 }
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			pdx_tooltip = GH_MAN_leviathan_bill_info
+			# pdx_tooltip_delayed = GH_MAN_North_ManShadow_infor_tooltip_delayed
+		}
+        }
 	}
 }
